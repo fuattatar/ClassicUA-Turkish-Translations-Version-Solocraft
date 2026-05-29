@@ -422,6 +422,18 @@ local add_entry_to_tooltip = function (tooltip, entry_type, entry_id, is_buff_de
     end
 
     if entry then
+        -- TÜRKÇE FONT ZORLAMASI: Tooltip fontunu Türkçe destekleyen FRIZQT_UA.ttf ile değiştiriyoruz
+        local fontName, fontSize, fontFlags = GameTooltipTextLeft1:GetFont()
+        local tr_font = "Interface\\AddOns\\ClassicUA\\assets\\FRIZQT_UA.ttf"
+        
+        -- Tooltip satırlarının fontunu güncelliyoruz
+        for i = 1, 30 do
+            local leftLine = _G[tooltip:GetName() .. "TextLeft" .. i]
+            local rightLine = _G[tooltip:GetName() .. "TextRight" .. i]
+            if leftLine then leftLine:SetFont(tr_font, fontSize, fontFlags) end
+            if rightLine then rightLine:SetFont(tr_font, fontSize, fontFlags) end
+        end
+
         tooltip:AddLine(" ")
         tooltip:AddLine("|TInterface\\AddOns\\ClassicUA\\assets\\ua:0|t " .. capitalize(entry[1]), 1, 1, 1)
 
