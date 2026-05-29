@@ -3022,15 +3022,13 @@ Yoksa, başka bir şey için mi buradasın...?]===],
 [===[Bu bira fıçısı Jarven Thunderbrew tarafından korunuyor. O bodrumda olduğu sürece, hiçbir fıçı rahatsız edilemez.]===],
 },
 [412] = {
-[===[Rekombobülasyon Operasyonu]===],
-[===[Gnomeregan'a dönüp ışınlanmış cüceler için bir tedavi araştırmaya devam etmeliyim.
+[===[Operation Recombobulation]===],
+[===[Gnomeregan durumunun daha derinlemesine analizi sonucunda, sadece troggs\'ları ortadan kaldırmakta başarısız olmakla kalmayıp, aynı zamanda gnomish ırkının çoğunu korkunç, akılsız ve kötülük yapan leper gnomes\'lara dönüştürdüğümüz de anlaşıldı.
 
-Ancak Kharanos'ta kaldım çünkü kasaba benim evim ve onu Frostmane saldırılarına karşı savunmaya yardım etmek istedim. Buhar tanklarının bakımı ve onarımı üzerinde çalışıyordum.
-
-Bazı nedenlerden dolayı, Frostmane leş yiyicileri onarımları tamamlamak için ihtiyacım olan jiromekanik dişlileri sevdiler. Kasabanın güneydoğusundaki Frostmane Cephesi'nin her tarafındalar. O dişlileri geri almama yardım eder misin?]===],
-[===[Razzle Sprysprocket'a 8 Gyromechanic Dişli getirin.]===],
-[===[O pilotlar buhar tanklarına geri dönmek ve tekrar sahaya çıkmak için sabırsızlanıyorlar. Onları hayal kırıklığına uğratmayalım.]===],
-[===[Bu jiromekanik dişliler mükemmel! Bu iki tank pilotu savaşa geri dönme yolunda ilerliyor!]===],
+Ozzie ve ben, en son icadımız olan The Recombobulator ile bu korkunç leper etkisini tersine çevirmeyi planlıyoruz. Makine neredeyse tamamlandı ancak acil olarak bazı Restabilization Cogs ve Gyromechanic Gears\'lara ihtiyacımız var. Bizim için Gnomeregan\'ın hemen önündeki leper gnomes\'lardan bunlardan biraz ele geçir.]===],
+[===[Restabilization Cogs ve Gyromechanic Gears topla.]===],
+[===[Yeterli miktarda Restabilization Cogs ve Gyromechanic Gears elde eder etmez The Recombobulator çalışır duruma gelecektir.]===],
+[===[Bu Gyromechanic Gears ve Restabilization Cogs, Ozzie\'nin Recombobulation Device şemalarına tamamen kusursuz bir şekilde uyuyor. İç yanma pistonlarına biraz hidrolubrikant eklediğimde, crank-o-ratchet\'i ayarladığımda ve electrogum jelinin viskozitesini artırdığımda, gnomish ırkı yeni gibi sapasağlam olacak.]===],
 },
 [413] = {
 [===[Shimmer Stout]===],
@@ -3145,33 +3143,34 @@ Yine de sanırım bu, raporumu Ironforge'a da göndermem gerektiği anlamına ge
 Eğer ilgilenirsen, daha sonra senin için bazı çalışmalarım olacak.]===],
 },
 [432] = {
-[===[Kahrolası Troggs!]===],
-[===[Şu ışıkla lanetlenmiş troglar, çalışma alanımı enkaza çeviriyorlar! Şuna bak, bir varil barut daha gidiyor!
+[===[Lanet Olası Trogg'lar!]===],
+[===[Şu Işık'la lanetlenmiş trogg'lar, çalışma alanımı enkaza çeviriyorlar! Şuna bak, bir varil barut daha gidiyor!
 
-Ohhh, keşke oraya gidip her birinin küçük cılız boyunlarını sıkabilsem! Hepsini öldürmek istiyorum!
+Ohhh, keşke oraya gidip her birinin o sıska, küçük boyunlarını sıkabilsem! Hepsini öldürmek istiyorum!
 
 Bu sağlığım için iyi olamaz, tüm bu stres ve öfke... Bana ne bıraktılar? Hiçbir şey!
 
 Onları kendim öldürürdüm ama nişancılığım artık iyi değil! Taş ocağına git ve o pis heriflerden birkaçını öldür! Sana para vereceğim! Sadece canlarını yak, öldür onları!]===],
-[===[Gol'Bolar Taş Ocağı ve madeninde 8 Rockjaw Skullthumpers ve 8 Rockjaw Bonesnappers öldürün.]===],
+[===[Taş ocağındaki trogg'ları ortadan kaldır.]===],
 [===[Bu beni çok kızdırıyor! Grrr...]===],
-[===[Bu beni biraz daha iyi hissettirdi.
+[===[Pekala, bu beni biraz daha iyi hissettirdi...
 
-Ama hepsi ölene kadar mutlu olmayacağım! Hepsi ölene kadar!]===],
+Ama hepsi ölene kadar mutlu olmayacağım! Hepsi!]===],
 },
 [433] = {
 [===[Kamu Görevlisi]===],
-[===[Senato ve Kaşifler Birliği'nin bir üyesi olarak, taş ocağındaki koşulları araştırmayı kendime görev edindim. Troglar çılgına dönmüş!
+[===[Senato ve Kaşifler Birliği'nin bir üyesi olarak, topraklarımızı saran bu trogg istilasının bu kısmıyla ilgilenmeyi kendime görev edindim.
 
-Gol'Bolar taş ocağını mahvetmişler. Biz toprağın derinliklerini kazdıkça, onlar dışarı döküldüler, ekipmanlarımızı yok ettiler ve madencilerin çoğunu yerin altına hapsettiler.
+Gol'Bolar Taş Ocağı'nı gerçekten de sebepsiz yere darmadağın ettiler. Biz toprağın derinliklerini kazdıkça onlar dışarı döküldüler, ekipmanlarımızı yok ettiler ve madencileri dışarı sürdüler. Onların hepsini ortadan kaldırmaktan, buraları yeniden inşa etmekten ve ardından işe geri dönmekten başka yapacak pek bir şeyimiz yok.
 
-Onları oradan çıkarmalıyız. Bu dönüş rünlerini büyülemek için fazla mesai yapan büyücülerim var. Onları sıkışmış madencilere ulaştırabilirseniz, yüzeye güvenle dönebilirler.]===],
-[===[Gol'Bolar Taş Ocağı Madeninde Mahsur Kalan 7 Madenciye Dönüş Rünleri dağıtın.]===],
-[===[Gol'Bolar taş ocağından trogları çıkarabilirsek, bu tehditten kurtulmak için atmamız gereken pek çok adımdan ilki olacaktır.]===],
-[===[Ne büyük bir rahatlama! Bu kadar çok madenciyi kurtarabildiğine sevindim, {ім'я}. Ailelerine derhal haber verilmesini sağlayacağım.
+Eğer bu trogg'lar konusunda bana yardım edersen, ayırdığın zaman için seni memnuniyetle ödüllendireceğim.]===],
+[===[Gol'Bolar Taş Ocağı'ndaki trogg'ları ortadan kaldır.]===],
+[===[Eğer trogg'ları Gol'Bolar Taş Ocağı'ndan çıkarabilirsek, bu tehditten kurtulmak için atmamız gereken pek çok adımdan ilki olacaktır.]===],
+[===[Bu bir başlangıç. Umarım bundan yararlanabilir ve bölgeyi güvence altına almak için buraya bazı Mountaineers'ları getirebiliriz. Ardından altyapımızı geri yüklemeye başlayabilir ve madencileri işe geri döndürebiliriz.
 
-Senato, madenlerin geri kazanılmasındaki rolünüzü öğrenecek.]===],
+Yardımların için teşekkür ederim, <name>.]===],
 },
+
 [434] = {
 [===[Saldırı!]===],
 [===[Spybot'un kılığına girdikten sonra Lescovar'la konuşmak için içeri girecek. Muhafızlar geçmesine izin verirse sorun olmaz.
