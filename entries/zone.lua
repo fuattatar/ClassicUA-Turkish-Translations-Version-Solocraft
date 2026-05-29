@@ -854,7 +854,7 @@ addonTable.zone = { -- [key] = text
 ["Valley of Heroes"] = "Kahramanlar Vadisi",
 ["Valley of Kings"] = "Krallar Vadisi",
 ["Valley of Spears"] = "Mızraklar Vadisi",
-["Valley of Trials"] = "Denemeler Vadisi",
+["Valley of Trials"] = "İmtihan Vadisi",
 ["Valley of the Watchers"] = "Gözcülerin Vadisi",
 ["Valor's Rest"] = "Yiğitlik Mezarı",
 ["Valormok"] = "Valormok",
