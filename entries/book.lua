@@ -1,1119 +1,1122 @@
 local _, addonTable = ...
 addonTable.book = { -- [id] = { page1, page2 (optional), page3 (optional), ... }
 [745] = { -- Marshal McBride's Documents (4)
-[===[ЗВІТ: Кобольди
+[===[RAPOR: Koboldlar
 
-Активність кобольдів зросла на околицях Північнокрайової долини. Їхні табори, на півночі від абатства та в копальні Ехокряжу, зростають у тривожній кількості. Я відправив паладинів, воїнів та інших тутешніх, щоб допомогли мені позбавити нас від шкідників.
+Northshire Vadisi'nin sınırlarında kobold aktiviteleri arttı. Manastırın kuzeyindeki ve Echo Ridge Madeni'ndeki kamplarının sayısı endişe verici derecede büyüyor. Bizi bu zararlılardan kurtarmama yardım etmeleri için paladinleri, savaşçıları ve bölgedeki diğer kişileri görevlendirdim.
 
-Справа успішно прогресує. Звітуватиму по необхідності.]===],
-[===[ЗВІТ: Злодії
+Süreç başarıyla ilerliyor. Gerektikçe raporlamaya devam edeceğim.]===],
+[===[RAPOR: Hırsızlar
 
-Ситуація більш тривожна, ніж у випадку з кобольдами, у долині з’явилася людська банда злодіїв. Вони носять червоні бандани та називають себе братством. Такий рівень структурованої організації може призвести до проблем, як тут, так і по всьому Елвиннському лісі.
+Koboldlardan daha endişe verici bir durum var; vadide insanlardan oluşan bir hırsız çetesi türedi. Kırmızı bandanalar takıyorlar ve kendilerine bir kardeşlik diyorlar. Bu düzeyde yapılandırılmış bir örgütlenme, hem burada hem de tüm Elwynn Ormanı'nda sorunlara yol açabilir.
 
-Ми ідентифікували одного з їхніх лідерів – такого собі Ґарріка М’якоступа - і сподіваємось притягнути його до відповідальності найближчим часом.]===],
-[===[ЗВІТ: Вовки
+Liderlerinden birini teşhis ettik – Garrick Padfoot adında biri - ve yakın zamanda kendisini adalete teslim etmeyi umuyoruz.]===],
+[===[RAPOR: Kurtlar
 
-Зафіксовано збільшення кількості випадків нападу тварин у Північнокраї. Іґан вважає, що вовки були налякані в Смерколіссі та, внаслідок, мігрували сюди.
+Northshire'da hayvan saldırısı vakalarında artış kaydedildi. Eagan, kurtların Duskwood'da korktuklarını ve bu yüzden buraya göç ettiklerini düşünüyor.
 
-Хоча вовки рідко полюють на людську здобич, різке зростання їхньої популяції спричинило велику кількість інцидентів з фермерами. Також значна кількість худоби пропала безвісти.]===],
-[===[РОЗПОРЯДЖЕННЯ:
+Kurtlar nadiren insanları avlasalar da, popülasyonlarındaki ani artış çiftçilerle birçok olaya neden oldu. Ayrıca önemli miktarda büyükbaş hayvan da kayboldu.]===],
+[===[EMİR:
 
-Носій цих документів, {стать:служив:служила} Північнокраю самовіддано та винятково старанно, за це {стать:йому:їй} повинно бути присвоєно ранг «заступника» армії Штормовію. Впевнений, що {стать:він:вона} стане вельми {стать:корисним:корисною} в Ельвиннському лісі.
+Bu belgelerin taşıyıcısı, Northshire'a bencilce olmayan ve istisnai bir gayretle hizmet etmiştir; bu nedenle {стать:kendisine:kendisine} Stormwind ordusunun "Muavini" rütbesi verilmelidir. Elwynn Ormanı'nda son derece {стать:faydalı:faydalı} olacağından eminim.
 
-підписано:
-— маршал Дуглас Макбрайд,
-армія Штормовію, Північнокрай]===],
+imza:
+— Mareşal Douglas McBride,
+Stormwind Ordusu, Northshire]===],
 },
 [889] = { -- A Dusty Unsent Letter (2)
-[===[Шановному директору Крілліану,
+[===[Sevgili Müdür Crillian,
 
-Мій перший учитель, пишу вам, щоб ви могли знати, що останнім часом робив ваш учень. Прислухаючись до вашої поради, я прагнув поглибити свої знання та мудрість, подорожуючи поза воротами нашого улюбленого Штормовію. Мандрівки привели мене в багато місць, але я вирішив оселитися тут, у чудовому містечку Місяцеграю. Навколишні поля Західного краю стають найкрасивішими з наближенням жнив.]===],
-[===[Усього за кілька днів після мого візиту я взявся за навчання місцевих дітей з сусідніх ферм. Уроки пройшли настільки добре, що мер міста доручив мені керувати школою, і навіть почалося будівництво нової школи! Від Срібнохвою до Штормовію і тепер Місяцеграй — хто б міг подумати, що я побачу так багато Азероту!
+İlk öğretmenim, son zamanlarda öğrencinizin neler yaptığını bilmeniz için size yazıyorum. Tavsiyenize uyarak, sevgili Stormwind'imizin kapılarının ötesine seyahat ederek bilgi ve bilgeliğimi derinleştirmeye çalıştım. Yolculuklarım beni birçok yere götürdü ama ben buraya, harika Moonbrook kasabasına yerleşmeye karar verdim. Çevredeki Westfall tarlaları, hasat yaklaştıkça muazzam bir güzelliğe bürünüyor.]===],
+[===[Ziyaretimden sadece birkaç gün sonra, komşu çiftliklerdeki yerel çocukların eğitimiyle ilgilenmeye başladım. Dersler o kadar iyi gitti ki, kasaba belediye başkanı beni okulun yönetimiyle görevlendirdi ve hatta yeni bir okulun inşaatı başladı! Silverpine'dan Stormwind'e ve şimdi de Moonbrook'a — Azeroth'un bu kadar çok yerini göreceğimi kim düşünebilirdi!
 
-Щирі вітання,
+En içten saygılarımla,
 
-Сталван Імлокрив]===],
+Stalvan Mistmantle]===],
 },
 [910] = { -- An Undelivered Letter (2)
-[===[Шановний величний пан,
+[===[Saygıdeğer Efendim,
 
-Звістка про те, що вам потрібен репетитор для ваших дітей, дійшла до мене сюди, в Злотохрестя, де я тимчасово оселився в таверні «Гордість лева». Через невтішний стан подій у регіоні я був змушений залишити свою посаду директора школи Місяцеграя. Будь ласка, прийміть мою заяву стати вчителем для ваших дітей. При необхідності, директор Академії Крілліан може розповісти вам про мої здібності.]===],
-[===[Я поїду, щоб зустрітися з вами особисто, коли вщухнуть зимові дощі та дороги знову стануть придатними для подорожей.
+Çocuklarınız için bir özel öğretmene ihtiyacınız olduğu haberi, geçici olarak Lion's Pride Hanı'na yerleştiğim Goldshire'da bana kadar ulaştı. Bölgedeki üzücü olaylar nedeniyle Moonbrook Okulu müdürlüğü görevimden ayrılmak zorunda kaldım. Lütfen çocuklarınıza öğretmen olma başvurumu kabul edin. Gerekirse, Akademi Müdürü Crillian size yeteneklerim hakkında bilgi verebilir.]===],
+[===[Kış yağmurları dindiğinde ve yollar yeniden seyahate uygun hale geldiğinde sizinle şahsen görüşmek üzere yola çıkacağım.
 
-Допоки,
+O zamana kadar,
 
-Сталван Імлокрив зі Срібнохвою]===],
+Silverpine'lı Stalvan Mistmantle]===],
 },
 [916] = { -- A Torn Journal Page (1)
-[===[...Жиль, хлопець, здається трохи невгамовним, і його буде важко навчати. Проте старша донька Тіллоя виглядає надзвичайно розумною. Я також не міг не помітити її чарівної краси. Зараз вона на порозі жіночої зрілості. Володар, наче, призначив її весілля на наступний рік. Щось я відволікся. Цього тижня я буду супроводжувати сім’ю до їхньої літньої дачі поблизу лісозаготівельного табору Східнодолу в Ельвинні, неподалік від гір Багрянокряжжя. Сподіваюся написати більше, поки буду там.]===],
+[===[...Oğlan, Giles, biraz huzursuz görünüyor ve onu eğitmek zor olacak. Ancak en büyük kız Tilloa son derece zeki görünüyor. Ayrıca onun büyüleyici güzelliğini fark etmeden edemedim. Şu an kadınlığın eşiğinde. Efendi, görünüşe göre onun düğününü gelecek yıl için planlamış. Ne var ki dikkatim dağıldı. Bu hafta aileye, Elwynn'deki Eastvale Kereste Kampı yakınlarında, Redridge Dağları'ndan çok uzak olmayan yazlık evlerine kadar eşlik edeceğim. Oradayken daha fazla yazmayı umuyorum.]===],
 },
 [921] = { -- A Faded Journal Page (1)
-[===[...найдивніше і неконтрольоване відчуття. Я ніколи не відчував себе так, як сьогодні. Допомагаючи Жилю з його уроком історії, Тіллоя була на вулиці й доглядала за квітником. Через кілька хвилин вона зайшла всередину, поклала червону бегонію в мою відкриту долоню й посміхнулася мені так, що моє серце ніби затремтіло в грудях...]===],
+[===[...en tuhaf ve kontrol edilemeyen bir duygu. Kendimi hiç bugün hissettiğim gibi hissetmemiştim. Giles'a tarih dersinde yardım ederken, Tilloa dışarıdaydı ve çiçek bahçesiyle ilgileniyordu. Birkaç dakika sonra içeri girdi, açık avucuma kırmızı bir begonya bıraktı ve bana öyle bir gülümsedi ki, kalbim göğsümde titrer gibi oldu...]===],
 },
 [938] = { -- Muddy Journal Pages (2)
-[===[...скоріш за все, зараз вона поділяє ті ж почуття до мене. Сьогодні вранці вона навіть поклала свою руку на мою. Коли вона посміхається, її очі сяють, як блискучі діаманти. Між нами проходять невимовлені слова. Я відчуваю її у своєму калатаючому серці й розпечених жилах.]===],
-[===[...гнів і лють, про існування яких я навіть не підозрював! Як вона посміла. Коли я навчав Жиля значення чисел, переді мною з’являється Тіллоя з залицяльником, тримаючи один одного за руки на публіці! Який же він незграбний. Замість того, щоб представити мене як слід, Тіллоя просто сказала: «О, це просто мій учитель, дядько Імлокрив. Він добрий старий». Старий! При цьому слові мої щоки запали від жару. Я лише на кілька років старший, а вона зраджує...]===],
+[===[...büyük olasılıkla şu an o da bana karşı aynı duyguları besliyor. Bu sabah elini elimin üzerine bile koydu. Gülümsediğinde gözleri parlak elmaslar gibi ışıldıyor. Aramızda dile gelmeyen kelimeler geçiyor. Onu çarpan kalbimde ve kavrulan damarlarımda hissediyorum.]===],
+[===[...varlığından bile haberdar olmadığım bir öfke ve gazap! Nasıl cüret eder. Ben Giles'a sayıların anlamını öğretirken, Tilloa yanında bir taliple belirdi, herkesin gözü önünde el ele tutuşuyorlardı! Ne kadar da hantal biri. Tilloa beni düzgünce tanıtmak yerine sadece: "Oh, bu sadece öğretmenim, Stalvan Amca. Kendisi nazik bir ihtiyardır" dedi. İhtiyar! Bu kelimeyle yanaklarım sıcaktan kavruldu. Ben ondan sadece birkaç yaş büyüğüm, o ise ihanet ediyor...]===],
 },
 [939] = { -- A Bloodstained Journal Page (1)
-[===[...спіраль відчаю у безодню. Спочатку вона знущається з мене, а тепер вона заручена. Нахабна шарлатанка вдавала, що любить, тоді як насправді вона весь час хотіла завдати мені болю. Зараз у мені таїться чорна порожнеча, і вона зростає з кожною миттю пробудження. Кров, яку я проллю, блідне в порівнянні зі сльозами, які я пролив...]===],
+[===[...uçuruma doğru bir çaresizlik sarmalı. Önce benimle alay ediyor, şimdiyse nişanlanıyor. Arsız şarlatan, aslında tüm bu zaman boyunca canımı yakmak isterken beni seviyormuş gibi davrandı. Şimdi içimde siyah bir boşluk barındırıyorum ve bu boşluk her uyandığım an daha da büyüyor. Dökeceğim kan, döktüğüm gözyaşlarının yanında sönük kalacak...]===],
 },
 [957] = { -- William's Shipment (1)
-[===[Вітаю Моргане,
+[===[Selam Morgan,
 
-бізнес у Злотохресті дуже жвавий, настільки жвавий, що я не встигаю вчасно висилати твої вантажі!
+Goldshire'da işler çok hareketli, o kadar hareketli ki siparişlerini zamanında gönderemiyorum!
 
-Я доручив особі, що принесла цю записку, доставити тобі пакунок великих воскових свічок (ну ті, які кобольди люблять носити на голові).
+Bu notu getiren kişiyi, sana büyük balmumu mumlardan (hani koboldların kafalarında taşımayı sevdiklerinden) oluşan bir paket teslim etmesi için görevlendirdim.
 
-Будь ласка, викажи нашу подяку за клопоти та справедливу оплату за витрачений час.]===],
+Lütfen zahmetleri için teşekkürlerimizi sun ve harcanan zaman için adil bir ödeme yap.]===],
 },
 [1208] = { -- Maybell's Love Letter (1)
-[===[Томмі-Джо,
+[===[Tommy Joe,
 
-з кожною годиною моє серце в'яне через розлуку з тобою. О, якби ж тільки наші родичі могли відсторонитися від дурної помсти, за скоєні злодіяння один перед одним, то зрозуміли б, що єдиний справжній злочин — це ненависть. Ненависть поглинає душі, і я боюся, що в ці похмурі часи ненависть не обмежиться лише нашими родинами.
+Senden ayrı kaldığım her saat kalbim soluyor. Ah, keşke akrabalarımız birbirlerine karşı işledikleri suçlar yüzünden güttükleri bu aptalca intikamdan vazgeçebilselerdi, o zaman tek gerçek suçun nefret olduğunu anlarlardı. Nefret ruhları tüketiyor ve korkarım ki bu karanlık zamanlarda nefret sadece ailelerimizle sınırlı kalmayacak.
 
-Якби вони тільки могли це зрозуміти, то і ми могли б нарешті бути разом. Я так чекаю на цей день, і заради цього дня я живу.
+Keşke bunu anlayabilselerdi, o zaman biz de nihayet birlikte olabilirdik. Bu günü o kadar çok bekliyorum ki, bu günün uğruna yaşıyorum.
 
-Твоя кохана,
-Мейбелл]===],
+Sevgilin,
+Maybell]===],
 },
 [1252] = { -- Gramma Stonefield's Note (2)
-[===[Вітаю, Вільяме,
+[===[Selam William,
 
-минуло багато років відколи ми бачились, та я все ще довіряю тобі й твоєму братові, а також сподіваюсь, що ваша аптека й досі процвітає.
+Görüşmeyeli uzun yıllar oldu ama sana ve kardeşine hala güveniyorum, ayrıca eczanenizin hala gelişmekte olduğunu umuyorum.
 
-Я маю попросити про послугу, Вільяме. Коротко кажучи, мій онук Томмі-Джо втратив голову від кохання до Мейбелл Маклур. І хоча вони обожнюють один одного... наші сім'ї… ну, наші сім'ї ворогують протягом багатьох років.]===],
-[===[Я побоююсь, що війна між Кам'янопільськими та Маклурами вб'є квітучий роман Томмі-Джо та Мейбелл, а передусім тепер — коли безрадісні новини та чутки про війну вирують у повітрі — юність та кохання треба плекати особливо турботливо.
+Senden bir iyilik istemek zorundayım, William. Kısacası, torunum Tommy Joe, Maybell Maclure'a deliler gibi aşık oldu. Birbirlerine tapıyor olsalar da... ailelerimiz... Şey, ailelerimiz uzun yıllardır düşman.]===],
+[===[Stonefield ve Maclure aileleri arasındaki savaşın, Tommy Joe ve Maybell'in çiçek açan aşkını öldürmesinden korkuyorum; özellikle de şimdi — savaşla ilgili kasvetli haberler ve söylentiler havada uçuşurken — gençlik ve aşk özellikle özenle beslenmeli.
 
-Отже, послуга: прошу, використай свої навички та приготуй зілля чи еліксир, щоб допомогти цим молодим закоханим у їхніх пошуках одне одного.
+İyilik şu: Lütfen becerilerini kullan ve bu genç aşıkların birbirlerini bulma arayışlarına yardımcı olacak bir iksir ya da eliksir hazırla.
 
-Дякую, Вільям. І, будь ласка, коли в тебе з'явиться вільний час від роботи, завітай до мене. Згадаємо славні минулі часи.
+Teşekkürler William. Ve lütfen, işten boş zamanın olduğunda beni ziyarete gel. Eski güzel günleri yad ederiz.
 
-— Мілдред]===],
+— Mildred]===],
 },
 [1353] = { -- Shaw's Report (3)
-[===[Лорд Міцнокрив--
+[===[Lord Barov--
 
-На чолі з Едвіном ван Кліфом гільдія Каменярів складалася з найвправніших будівельників серед чоловіків. Каменярі допомогли відбудувати зруйноване місто Штормовій, зруйноване орками під час Першої війни. Ван Кліф і його торговці були неперевершеними будівельниками, і їхня робота та майстерність були очевидними в будівлях собору Світла та самої фортеці Штормовія.]===],
-[===[Однак дворяни Штормовія набрали величезного боргу, розширивши військову присутність королівства через Ельвинн і Тернисту долину. Величезна заборгованість підірвала економіку королівства та позбавила ван Кліфа та його каменярів обіцяної винагороди. Витративши роки на відбудову славетного міста, каменярі залишилися розореними й забутими корумпованими чиновниками міста.]===],
-[===[Оскільки я особисто знав Едвіна ван Кліфа все своє життя, можу сказати вам, зіткнутися з ним як з ворогом є досить складним завданням. Розумієте, він був моїм другом дитинства, і я особисто навчив його майстерності тіней, думаючи, що одного дня він можливо зробить кар'єру разом зі мною. Якщо ван Кліф очолює Повстанське братство, нехай Світло помилує наші душі.
+Edwin van Cleef liderliğindeki Taşişçileri (Stonemasons) Loncası, erkekler arasındaki en yetenekli inşaatçılardan oluşuyordu. Taşişçileri, Birinci Savaş sırasında orklar tarafından yerle bir edilen yıkık Stormwind şehrinin yeniden inşasına yardımcı oldular. Van Cleef ve zanaatkarları eşsiz inşaatçılardı; çalışmaları ve ustalıkları Işık Katedrali binalarında ve Stormwind Kalesi'nin kendisinde açıkça görülüyordu.]===],
+[===[Ancak Stormwind soyluları, krallığın askeri varlığını Elwynn ve Stranglethorn boyunca genişleterek devasa bir borç altına girdiler. Bu büyük borç yükü krallığın ekonomisini baltaladı ve van Cleef ile taşişçilerini vaat edilen ödemelerden mahrum bıraktı. Muhteşem şehri yeniden inşa etmek için yıllarını harcayan taşişçiler, şehrin yozlaşmış yetkilileri tarafından meteliksiz ve unutulmuş olarak bırakıldı.]===],
+[===[Edwin van Cleef'i hayatım boyunca şahsen tanıdığım için, onunla bir düşman olarak yüzleşmenin oldukça zor bir görev olduğunu söyleyebilirim. Anlarsınız ya, o benim çocukluk arkadaşımdı ve bir gün benimle birlikte bir kariyer yapabileceğini düşünerek ona gölgelerin ustalığını bizzat ben öğrettim. Eğer van Cleef, Defias Kardeşliği'ne liderlik ediyorsa, Işık ruhlarımıza merhamet etsin.
 
-Майстер Матіас Гич
-Гільдія вбивць Штормовію]===],
+Usta Mathias Shaw
+Stormwind Suikastçılar Loncası]===],
 },
 [1358] = { -- A Clue to Sander's Treasure (1)
-[===[Хороша робота, друзяко! Тепер тобі треба чалапати на схід. На схід в пагорби, на схід до дороги. Шукай на узбіччі дороги рештки старого димоходу. Там знайдеш стару бочку, в якій буде наступний ключ.]===],
+[===[İyi iş, dostum! Şimdi doğuya doğru yürümen gerekiyor. Tepelerden doğuya, yola doğru doğuya git. Yolun kenarında eski bir bacanın kalıntılarını ara. Orada bir sonraki ipucunu barındıran eski bir varil bulacaksın.]===],
 },
 [1361] = { -- Another Clue to Sander's Treasure (1)
-[===[А тепер поверни мармизу на північ від цієї бочки тутка. Прямо, як ворон летить, чимчикуй, доки не натрапиш на порожній глечик поруч із самотнім вітряком на прибережних бескидах. Якщо ретельно потермосиш той глечик — може, знайдеш те, що шукаєш.]===],
+[===[Şimdi yüzünü buradaki varilin kuzeyine çevir. Dosdoğru, bir kuzgun uçuşu gibi, kıyı kayalıklarındaki yalnız bir yel değirmeninin yanındaki boş bir sürahiye rastlayana kadar ilerle. Eğer o sürahiyi dikkatlice kurcalarsan — belki aradığın şeyi bulursun.]===],
 },
 [1362] = { -- Final Clue to Sander's Treasure (1)
-[===[Якщо вже тобі вдалося знайти мо' старий глечик з-під віскі, значить, ти близько до скарбу! Йди від пляшки на захід і спустися до берега. Як доберешся до води — не зупиняйся! Пливи на захід, доки не знайдеш острів, де є мо' скриня зі скарбом!]===],
+[===[Eğer eski viski sürahimi bulmayı başardıysan, hazineye yakınsın demektir! Şişeden batıya doğru git ve sahile in. Suya ulaştığında — sakın durma! Benim hazine sandığımın olduğu adayı bulana kadar batıya doğru yüz!]===],
 },
 [1381] = { -- A Mysterious Message (1)
-[===[Чорнокіготь--
+[===[Blackclaw--
 
-Море чекає на нас. Нам потрібні ваші запаси з півночі. Розберіть все: кожен залізничний костиль, кожне відро. Нам потрібен метал. Вантаж має прийти з ГБ, але сильно запізнюється. Зробіть все можливе, Чорнокіготь. Цього разу висилайте свої запаси прямо в «сарай». Обмаль часу.
+Deniz bizi bekliyor. Kuzeydeki erzaklarınıza ihtiyacımız var. Her şeyi sökün: her bir demiryolu çivisini, her bir kovayı. Metale ihtiyacımız var. Kargo DM'den gelmeliydi ama çok gecikti. Elinizden gelenin en iyisini yapın, Blackclaw. Bu sefer malzemelerinizi doğrudan "ahıra" gönderin. Zaman daralıyor.
 
---ван Кліф]===],
+--van Cleef]===],
 },
 [1407] = { -- Solomon's Plea to Westfall (1)
-[===[Лорд Міцнокрив --
+[===[Lord Gryan Stoutmantle --
 
-Містечко Приозер'я смиренно просить допомоги вашого ополчення. Поки я пишу це, ми знаходимося в облозі орків Чорнокаменю та тіньошкурих гнолів Морґанта. Я б не надсилав заявку, якби наша ситуація не була на стільки важкою. Ми чекаємо допомоги від Штормовія, але поки вона не прибуде, благаю вас про допомогу. Якщо королівство не встоїть, все людство опиниться в небезпеці.
+Lakeshire kasabası, milislerinizin yardımını acilen talep ediyor. Ben bunu yazarken, Blackrock orkları ve Morganth'ın Shadowhide gnolları tarafından kuşatılmış durumdayız. Durumumuz bu kadar vahim olmasaydı bu talebi göndermezdim. Stormwind'den yardım bekliyoruz ama o gelene kadar yardımınız için yalvarıyorum. Eğer krallık düşerse, tüm insanlık tehlikede olacak.
 
-Війт Соломон]===],
+Sulh Hakimi Solomon]===],
 },
 [1409] = { -- Solomon's Plea to Darkshire (1)
-[===[Лорд Чорнобривий --
+[===[Lord Althea Ebonlocke --
 
-Містечко Приозер'я смиренно просить допомоги у Нічної варти. Ми знаходимося в облозі орків Чорнокаменю та тіньошкурих гнолів Морґанта. Я б не надсилав заявку, якби наша ситуація не була на стільки важкою. Ми чекаємо допомоги від Штормовія, але поки вона не прибуде, благаю вас про допомогу. Якщо королівство не встоїть, все людство опиниться в небезпеці.
+Lakeshire kasabası, Gece Nöbetçileri'nden (Night Watch) mütevazı bir şekilde yardım istiyor. Blackrock orkları ve Morganth'ın Shadowhide gnolları tarafından kuşatılmış durumdayız. Durumumuz bu kadar vahim olmasaydı bu talebi göndermezdim. Stormwind'den yardım bekliyoruz ama o gelene kadar yardımınız için yalvarıyorum. Eğer krallık düşerse, tüm insanlık tehlikede olacak.
 
-Війт Соломон]===],
+Sulh Hakimi Solomon]===],
 },
 [1637] = { -- Letter to Ello (1)
-[===[Літери в цьому листі ніби мерехтять і танцюють по його поверхні. Неможливо зрозуміти суті, яку вони несуть...]===],
+[===[Bu mektuptaki harfler yüzeyinde titreşiyor ve dans ediyor gibi görünüyor. Taşıdıkları anlamı çözmek imkansız...]===],
 },
 [1971] = { -- Furlbrow's Deed (2)
-[===[Це документ на земельну ділянку в Західному краю. Він надає права власності на визначену територію, а також на всі вироблені предмети та будь-які споруди, побудовані в її межах, зазначеним нижче особам.
+[===[Bu, Westfall'daki bir arsa belgesidir. Belirlenen bölgenin mülkiyet haklarını, ayrıca sınırları içinde üretilen tüm eşyaları ve inşa edilen her türlü yapıyı aşağıda adı geçen kişilere verir.
 
-Документ підписаний:
+Belgeyi imzalayanlar:
 
-Теодор Хмуробров
-Верна Хмуробров]===],
-[===[[Слова нижче були швидко нашкрябані на звороті документа]
+Theodore Furlbrow
+Verna Furlbrow]===],
+[===[[Aşağıdaki kelimeler belgenin arkasına hızlıca karalanmış]]
 
-Ми притисли Хмуроброва й тепер маємо його акт на землю. Подумав, що це може стати в пригоді, якщо потрібна буде власна ділянка. Хмуроброви не створять нам проблем. Востаннє я їх бачив, як вони їхали з Західного краю, застрягши зі зламаним фургоном.]===],
+Furlbrow'u sıkıştırdık ve şimdi onun tapu senedine sahibiz. Kendi arazimize ihtiyacımız olursa bunun işe yarayabileceğini düşündüm. Furlbrowlar bize sorun çıkarmaz. Onları en son Westfall'dan ayrılırken, kırık bir vagonla mahsur kalmış halde gördüm.]===],
 },
 [2004] = { -- Grelin Whitebeard's Journal (5)
-[===[ДЕНЬ ПЕРШИЙ
+[===[BİRİNCİ GÜN
 
-Сьогодні ми з учнем прибули до Морозної долини. Подорож печерою пройшла здебільшого без пригод. Ми стали табором на достатній відстані від печери, де, як нам сказали, мешкають тролі.
+Bugün öğrencimle birlikte Coldridge Vadisi'ne vardık. Mağara yolculuğu çoğunlukla olaysız geçti. Bize trollerin yaşadığı söylenen mağaradan yeterli bir mesafede kamp kurduk.
 
-ДЕНЬ ДРУГИЙ
+İKİNCİ GÜN
 
-Кляте вовче виття майже не давало мені спати всю ніч.
+Lanet olası kurt uluması neredeyse bütün gece uyutmada beni.
 
-За кілька днів у мене буде новий одяг із вовчої шкури.
+Birkaç gün içinde kurt derisinden yeni giysilerim olacak.
 
-Хлопець сьогодні зв’язався з трогом, влаштував бійку та]===],
-[===[зумів узяти гору над потворним звірком, але тепер він лікує неприємний поріз на руці. Схоже, тепер мені доведеться займатися хатніми справами деякий час.
+Oğlan bugün bir trogg ile karşılaştı, kavga çıkardı ve]===],
+[===[çirkin yaratığı alt etmeyi başardı, ancak şimdi kolundaki kötü bir kesikle uğraşıyor. Görünüşe göre bir süre ev işleriyle benim ilgilenmem gerekecek.
 
-ДЕНЬ ТРЕТІЙ
+ÜÇÜNCÜ GÜN
 
-Холодно. Близько полудня випав невеликий сніг.
+Soğuk. Öğle civarı hafif bir kar yağdı.
 
-ДЕНЬ ЧЕТВЕРТИЙ
+DÖRDÜNCÜ GÜN
 
-Хлопець сьогодні повністю одужав та був у гарному настрої, тож ми вперше вирішили глянути на тих тролів. Я б сказав, що це Морозогриві, судячи з відмітин на їхній шкірі та різноманітних дрібничок, які вони носять на своєму тілі.]===],
-[===[ДЕНЬ П'ЯТИЙ
+Oğlan bugün tamamen iyileşti ve keyfi yerindeydi, bu yüzden ilk kez o trollere bir göz atmaya karar verdik. Derilerindeki işaretlere ve vücutlarında taşıdıkları çeşitli ıvır zıvırlara bakılırsa, onların Frostmane olduklarını söyleyebilirim.]===],
+[===[BEŞİNCİ GÜN
 
-Доручив хлопцеві наглядати за табором, а сам підкрався до печери й оглянув її. Кількість тролів непокоїть. Можливо, доведеться викликати горян, щоб очистити печеру від цього нашестя тролів.
+Oğlana kampa göz kulak olmasını emrettim, kendim ise mağaraya sokulup etrafı inceledim. Trollerin sayısı endişe verici. Mağarayı bu trol istilasından temizlemek için dağlıları çağırmak gerekebilir.
 
-Я розумію, що останнім часом не згадував про трогів. Вони з'являються на території в більшій кількості, але вони настільки примітивні, що особливої загрози не становлять. Правда це чи ні – час покаже.]===],
-[===[І вже майже тиждень жодної краплі елю.
+Son zamanlarda trogglardan bahsetmediğimi fark ettim. Bölgede daha büyük sayılarda ortaya çıkıyorlar, ancak o kadar ilkeliler ki özel bir tehdit oluşturmuyorlar. Doğru mu değil mi – zaman gösterecek.]===],
+[===[Ve neredeyse bir haftadır tek bir damla bile bira yok.
 
-ДЕНЬ ШОСТИЙ
+ALTINCI GÜN
 
-Знову холодно. Падає сніг. Тролі. Без елю.
+Yine soğuk. Kar yağıyor. Troller. Bira yok.
 
-ДЕНЬ СЬОМИЙ
+YEDİNCİ GÜN
 
-Сніг унизу такий білий,
-Небо вгорі таке синє,
-Вити будуть вовки вночі,
-Ні краплі бражки мені.
+Aşağıdaki kar çok beyaz,
+Yukarıdaki gökyüzü çok mavi,
+Kurtlar uluyacak geceleyin,
+Bir damla bile içki yok bana.
 
-ДЕНЬ ВОСЬМИЙ
+SEKİZİNCİ GÜN
 
-Тролі, можливо, не така велика проблема, як ми спочатку думали. Їх є певна]===],
-[===[кількість, але вони погано озброєні чи організовані. Варто показати їм силу і цього має бути більш ніж достатньо для протидії загрозі, яку вони становлять.]===],
+Troller belki de ilk başta düşündüğümüz kadar büyük bir sorun değil. Belli bir]===],
+[===[ayıdalar ama kötü silahlanmışlar ve organize değiller. Onlara gücümüzü göstermek yeterli olacaktır ve bu, oluşturdukları tehdide karşı koymak için fazlasıyla yeterli olmalıdır.]===],
 },
 [2188] = { -- A Letter to Grelin Whitebeard (1)
-[===[Ґрелін,
+[===[Grelin,
 
-В мене мало часу й купа важливих справ, і я сподіваюся, що твоє розслідування тролів не буде однією з них. Тому, я дозволяю тобі діяти від мого імені в боротьбі з тролями у будь-який спосіб, який ти вважаєш за потрібний; особливо, якщо ти зможеш знайти доцільне рішення.
+Zamanım az ve bir sürü önemli işim var, umarım trollerle ilgili araştırman bunlardan biri değildir. Bu nedenle, Coldridge'deki trollerle mücadelede uygun gördüğün her şekilde benim adıma hareket etmene izin veriyorum; özellikle de pratik bir çözüm bulabilirsen.
 
 
-Маґні Бронзобородий]===],
+Magni Bronzebeard]===],
 },
 [2223] = { -- The Collector's Schedule (3)
-[===[Нижче наведено процес та графік Повстанського братства по збору золота з шахт Ельвинна для нашого штабу в Західному краї.
+[===[Aşağıda, Defias Kardeşliği'nin Westfall'daki karargahımız için Elwynn madenlerinden altın toplama süreci ve programı yer almaktadır.
 
-Графік збору:
+Toplama Programı:
 
-неділя: 12:30
-середа: 12:30
+Pazar: 12:30
+Çarşamba: 12:30
 
-Кожного визначеного дня золото, здобуте на шахтах Ельвинну, буде збиратися на гарбузовому наділі Бреквеллів. Агент, що відповідає за ці збори, "Збирач", буде упізнаний за перснем із гравіювання. Перстень, який я йому дав.]===],
-[===[Представник зі штабу Повстанського братства зв'яжеться зі збирачем, після чого він передасть зібране золото.
+Belirlenen her günde, Elwynn madenlerinde çıkarılan altın Brackwell Balkabağı Tarlası'nda toplanacaktır. Bu toplamalardan sorumlu ajan olan "The Collector", gravürlü yüzüğünden tanınacaktır. Ona verdiğim yüzükten.]===],
+[===[Defias Kardeşliği karargahından bir temsilci toplayıcı ile iletişime geçecek ve ardından toplayıcı toplanan altını teslim edecektir.
 
-Впевніться, що процес здійснюється вдало і з максимальною обережністю. Збирач безпосередньо відповідає за передачу золота, але в кінцевому підсумку кожен член братства зобов'язаний забезпечити виконання своїх функцій добросовісно і дисципліновано.]===],
-[===[Пам'ятайте, браття, ми колись були гордими ремісниками. І ми будемо виконувати наші поточні обов'язки з тією ж сумлінністю, з якою ми завжди підходили до роботи.
+Sürecin başarılı bir şekilde ve azami dikkatle yürütüldüğünden emin olun. Toplayıcı, altının teslim edilmesinden doğrudan sorumludur, ancak nihayetinde kardeşliğin her üyesi kendi işlevlerini dürüstçe ve disiplinli bir şekilde yerine getirmekle yükümlüdür.]===],
+[===[Unutmayın kardeşler, biz bir zamanlar gururlu zanaatkarlardık. Ve mevcut görevlerimizi, işimize her zaman yaklaştığımız aynı titizlikle yerine getireceğiz.
 
-— ЕВК]===],
+— EVC]===],
 },
 [2619] = { -- Grelin's Report (2)
-[===[Звіт про стан справ з тролями племені Морозогривих в регіоні Морозної долини
+[===[Coldridge Vadisi bölgesindeki Frostmane kabilesi trollerinin durumuna ilişkin rapor
 
-Підготовано Ґреліном Білобородом, особливим посланником сенату
+Senato özel elçisi Grelin Whitebeard tarafından hazırlanmıştır
 
-За той час, що я провів, спостерігаючи за пересуванням тролів племені Морозогривих, я дійшов висновку, що вони не становлять великої загрози поселенням дворфів у цьому регіоні. Крім того, вони є загрозою, яку можна усунути з мінімальним залученням армії. Беручи до уваги підтримку горян, що вже розташовані в]===],
-[===[Морозній долині та найманців (найнятих за кошти, виділені мені сенатом), я впевнений, що проблема буде вирішена найближчим часом.
+Frostmane kabilesi trollerinin hareketlerini gözlemleyerek geçirdiğim süre boyunca, bu bölgedeki cüce yerleşimleri için büyük bir tehdit oluşturmadıkları sonucuna vardım. Dahası, ordunun asgari katılımıyla ortadan kaldırılabilecek bir tehdittirler. Zaten Coldridge Vadisi'nde bulunan]===],
+[===[dağlıların desteğini ve (senato tarafından bana ayrılan fonlarla tutulan) paralı askerleri göz önüne alırsak, sorunun yakın gelecekte çözüleceğinden eminim.
 
-Ці дії були офіційно схвалені королем Бронзобородим.]===],
+ Bu eylemler Kral Bronzebeard tarafından resmi olarak onaylanmıştır.]===],
 },
 [2628] = { -- Senir's Report (4)
-[===[Звіт про стан справ з тролями племені Морозогривих в регіоні Дун-Морог
+[===[Dun Morogh bölgesindeki Frostmane kabilesi trollerinin durumuna ilişkin rapor
 
-Тролі, розташовані в Дун-Морозі, здебільшого зосереджені в поселенні Морозогривих, гірській печері на західному кордоні. Їх достатньо, щоб викликати певне занепокоєння, однак, здається, вони не збираються покидати свою печеру. Це, без сумніву, тому, що вони не хочуть знову накликати на себе гнів дворфів і ризикувати своїм існуванням. Їхні дії можна розглядати як оборону своєї території,]===],
-[===[і я переконаний, що вони не становлять для нас реальної загрози, доки ми не порушуємо їх кордони. Ця ситуація може бути неприємною для поселень дфорфів, але, враховуючи дефіцит військових ресурсів, може бути розумним віднести винищення тролів до нижчого рівня важливості та зосередитись на загрозі, яку представляють троги та Темне Залізо.
+Dun Morogh'da bulunan troller, çoğunlukla batı sınırındaki bir dağ mağarası olan Frostmane yerleşiminde yoğunlaşmıştır. Belirli bir endişeye yol açacak kadar sayıları var, ancak mağaralarından ayrılma niyetinde görünmüyorlar. Bunun nedeni, şüphesiz, cücelerin öfkesini yeniden üzerlerine çekmek ve varlıklarını riske atmak istememeleridir. Eylemleri kendi bölgelerini savunma olarak görülebilir,]===],
+[===[ve sınırlarımızı ihlal etmediğimiz sürece bizim için gerçek bir tehdit oluşturmadıklarına ikna oldum. Bu durum cüce yerleşimleri için hoş olmayabilir, ancak askeri kaynakların kıtlığı göz önüne alındığında, trollerin yok edilmesini daha düşük bir önem seviyesine itmek ve trogglar ile Dark Iron'ın oluşturduğu tehdide odaklanmak akıllıca olabilir.
 
-В листі також міститься копія звіту мого брата Ґреліна про Ковмар
+Mektupta ayrıca kardeşim Grelin'in Anvilmar hakkındaki raporunun bir kopyası da yer almaktadır
 
-Підписано:
-Сенір Білобород]===],
-[===[Звіт про стан справ з тролями племені Морозогривих в регіоні Морозної долини
+İmza:
+Senir Whitebeard]===],
+[===[Coldridge Vadisi bölgesindeki Frostmane kabilesi trollerinin durumuna ilişkin rapor
 
-Підготовано Ґреліном Білобородом, особливим посланником сенату
+Senato özel elçisi Grelin Whitebeard tarafından hazırlanmıştır
 
-За той час, що я провів, спостерігаючи за пересуванням тролів племені Морозогривих, я дійшов висновку, що вони не становлять великої загрози поселенням дворфів у цьому регіоні. Крім того, вони є загрозою, яку можна усунути з мінімальним залученням армії. Беручи до уваги підтримку горян, що вже розташовані в]===],
-[===[Морозній долині та найманців (найнятих за кошти, виділені мені сенатом), я впевнений, що проблема буде вирішена найближчим часом.
+Frostmane kabilesi trollerinin hareketlerini gözlemleyerek geçirdiğim süre boyunca, bu bölgedeki cüce yerleşimleri için büyük bir tehdit oluşturmadıkları sonucuna verdım. Dahası, ordunun asgari katılımıyla ortadan kaldırılabilecek bir tehdittirler. Zaten Coldridge Vadisi'nde bulunan]===],
+[===[dağlıların desteğini ve (senato tarafından bana ayrılan fonlarla tutulan) paralı askerleri göz önüne alırsak, sorunun yakın gelecekte çözüleceğinden eminim.
 
-Ці дії були офіційно схвалені королем Бронзобородим.]===],
+Bu eylemler Kral Bronzebeard tarafından resmi olarak onaylanmıştır.]===],
 },
 [2637] = { -- Ironband's Progress Report (3)
-[===[Шановні колеги та шукачі правди,
+[===[Değerli meslektaşlarım ve hakikat arayanlar,
 
-Розкопки ділянки тривають, але їх уповільнює присутність трогів, про яких я повідомляв у своєму попередньому звіті. Я переконаний, що ми зможемо впоратися з ними, незважаючи на те, що деякі з них більш агресивні, ніж зазвичай.
+Alandaki kazılar devam ediyor, ancak önceki raporumda belirttiğim troggların varlığı nedeniyle yavaşlıyor. Bazılarının normalden daha agresif olmasına rağmen onlarla başa çıkabileceğimize inanıyorum.
 
-За останній час було знайдено безліч артефактів, хоча у всіх випадках, окрім одного (про який я розповім нижче), знахідки були такими ж, як і раніше - цікавими, якщо не сказати просвітницькими.]===],
-[===[Однак, був один виняток. Нещодавно знайдені ідоли з незвичайним різьбленням (короткий опис яких ви знайдете у моєму останньому звіті), схоже, мають вплив на поведінку трогів на цій ділянці. Це різьблене каміння приваблює їх, а деяких трогів навіть доводять до сказу!
+Son zamanlarda birçok eser bulundu, ancak (aşağıda bahsedeceğim) biri hariç tüm durumlarda buluntular öncekilerle aynıydı - aydınlatıcı olmasa da ilginç.]===],
+[===[Ancak bir istisna vardı. Sıradışı oymalara sahip yeni bulunan idoller (kısa bir açıklaması son raporumda yer almaktadır), sahadaki troggların davranışı üzerinde bir etkiye sahip gibi görünüyor. Bu oyulmuş taşlar onları cezbediyor ve hatta bazı troggları çıldırtıyor!
 
-Для отримання відповідей щодо цих ідолів, необхідні подальші дослідження, але я не втрачаю надії, що вони проллють світло на взаємозв'язок між трогами та титанами.]===],
-[===[Наостанок, я хотів би повторити свій запит щодо вибухового порошку. Мої запаси вкрай мізерні, що значно ускладнює успішне проведення розкопок. Мені повідомили, що очікується поповнення запасів вибухового порошку, однак я його досі не отримав.
+Bu idoller hakkında cevaplar almak için daha fazla araştırma yapılması gerekiyor, ancak trogglar ile titanlar arasındaki ilişkiye ışık tutacakları konusundaki umudumu kaybetmiyorum.
 
-Дозвольте запитати, яка причина такої затримки?
+Son olarak, patlayıcı tozu talebimi yinelemek istiyorum. Stoklarım son derece yetersiz, bu da kazıların başarılı bir şekilde yürütülmesini büyük ölçüde zorlaştırıyor. Patlayıcı tozu stoklarının yenileneceği bana bildirildi, ancak henüz teslim almadım.
 
-З повагою,
-розвідувач Дартей Залізоплет]===],
+Bu gecikmenin sebebi nedir öğrenebilir miyim?
+
+Saygılarımla,
+Kâşif Dartey Ironband]===],
 },
 [2720] = { -- Muddy Note (4)
-[===[День 1:
-06:00 - 11:00 – верхній табір
-11:00 - 11:30 – перерва, обід
-11:30 - 16:00 – каньйонний прохід
-16:00 - 19:30 – верхній табір
+[===[1. Gün:
+06:00 - 11:00 – üst kamp
+11:00 - 11:30 – ara, öğle yemeği
+11:30 - 16:00 – kanyon geçidi
+16:00 - 19:30 – üst kamp
 
-День 2:
-Той самий розклад, що й у день 1
+2. Gün:
+1. gün ile aynı program
 
-День 3:
-Той самий розклад
+3. Gün:
+Aynı program
 
-День 4:
-Той самий розклад, за одним винятком. Перед самим заходом сонця Торсен попросив мене прикривати його, коли він сповзав униз каньйонним проходом. Я припустив, що він пішов зустрітися з нашими агентами.
+4. Gün:
+Bir istisna dışında aynı program. Gün batımından hemen önce Thorsen, kanyon geçidinden aşağı kayarken onu korumamı istedi. Ajanlarımızla buluşmaya gittiğini varsaydım.
 
-Але через годину він повернувся. Це мене здивувало. Я сподівався, що він зустрінеться з нашими агентами й знову приєднається до Курцена. Щось не так.]===],
-[===[День 5:
-Сьогодні Торсен був дуже схвильований. Що б він не побачив або кого б не зустрів під час вчорашньої екскурсії, напевне, налякало його.
+Ama bir saat sonra geri döndü. Bu beni şaşırttı. Ajanlarımızla buluşup tekrar Kurzen'e katılmasını umuyordum. Bir şeyler yanlış.]===],
+[===[5. Gün:
+Bugün Thorsen çok heyecanlıydı. Dünkü gezisinde ne gördüyse ya da kiminle karşılaştıysa, muhtemelen onu korkutmuştu.
 
-Я припустив, що наші агенти розмовляли з ним, але коли я запитав Торсена, куди він пішов, поки я його прикривав, він мовчав. Він вважає, що я його друг, і він вірить, що захищає мене від небезпечної таємниці.
+Ajanlarımızın onunla konuştuğunu varsaydım, ancak Thorsen'e onu korurken nereye gittiğini sorduğumda sessiz kaldı. Benim onun arkadaşı olduğuma inanıyor ve beni tehlikeli bir sır hissetmekten koruduğuna inanıyor.
 
-Його вірність недоречна, але сильна. Коли він знову приєднається до нас, він стане цінним доповненням до сил Курцена.]===],
-[===[День 6:
-Рано вранці Торсен довго говорив із сержанткою Йогвою. Мені довелося вдавати, що я все ще сплю, і тому не ворушився й почув не все. Але я припускаю, що вони говорили про минулий похід Торсена.
+Sadakati yersiz ama güçlü. Bize tekrar katıldığında, Kurzen'in kuvvetlerine değerli bir katkı sağlayacaktır.]===],
+[===[6. Gün:
+Sabahın erken saatlerinde Thorsen, Çavuş Yoghwa ile uzun süre konuştu. Hala uyuyormuş gibi davranmak zorunda kaldım, bu yüzden kıpırdamadım ve her şeyi duyamadım. Ancak Thorsen'in geçmiş gezisi hakkında konuştuklarını varsayıyorum.
 
-Я уважно спостерігав за ним за обідом і помітив, що Йогва робить те саме. Пізніше Дорен викликав Торсена. Вони втрьох працюють разом і це їхня спільна таємниця. Дорен і Йогва повинні знати, що Торсен зустрічається з вашими агентами.
+Öğle yemeğinde onu dikkatlice izledim ve Yoghwa'nın da aynısını yaptığını fark ettim. Daha sonra Doren, Thorsen'i çağırdı. Üçü birlikte çalışıyor ve bu onların ortak sırrı. Doren ve Yoghwa, Thorsen'in ajanlarınızla görüştüğünü biliyor olmalı.
 
-Він шпигує на користь повстанців.]===],
-[===[Ми не повинні більше дозволяти Торсену збирати розвіддані й мусимо його вбити. Нашому полковнику він більше не потрібний.
+Asiler için casusluk yapıyor.]===],
+[===[Thorsen'in daha fazla istihbarat toplamasına izin vermemeliyiz ve onu öldürmeliyiz. Albayımızın artık ona ihtiyacı yok.
 
-Я покінчу з Торсеном при першій можливості. Але якщо ви отримаєте цього листа, то знатимете, що в мене ще не було такої нагоди.
+İlk fırsatta Thorsen'in işini bitireceğim. Ancak bu mektubu alırsanız, henüz böyle bir fırsatım olmadığını bileceksiniz.
 
-У такому випадку, я пропоную, щоб наступна зустріч Торсена з нашими агентами була смертельною.
+Bu durumda, Thorsen'in ajanlarımızla bir sonraki görüşmesinin ölümcül olmasını öneriyorum.
 
-Слава Курцену,
--М]===],
+Kurzen'e selam olsun,
+-M]===],
 },
 [2724] = { -- Cloth Request (1)
-[===[До Шнайдерів,
+[===[Schneider'lara,
 
-Доброго дня. Сподіваюся бізнес у районі Каналів йде добре. В нас тут, на Торговій площі, наплив відвідувачів.
+Merhaba. Kanallar bölgesindeki işlerin iyi gittiğini umuyorum. Burada, Ticaret Meydanı'nda yoğun bir ziyaretçi akışı var.
 
-Нам потрібен в'язаний одяг, оскільки запаси майже вичерпані. Будь ласка, надішліть стандартну партію, як тільки зможете.
+Örme giysilere ihtiyacımız var, çünkü stoklar neredeyse tükendi. Lütfen en kısa sürede standart bir parti gönderin.
 
-Бажаю успіху, і я сподіваюся, що ваш син Турман добре навчається,
+Başarılar dilerim ve oğlunuz Thurman'ın iyi eğitim aldığını umuyorum,
 
---Гарлан Баґлі]===],
+--Harlan Bagley]===],
 },
 [2725] = { -- Green Hills of Stranglethorn - Page 1 (1)
-[===[Зелені пагорби Тернистої долини
+[===[Stranglethorn'un Yeşil Tepeleri
 
-Наш перший день пройшов звичайно, як для будь-якого першого дня. Більшість нашого часу пішло на облаштування табору. Я знайшов ідеальне місце біля прісноводної річки. Судячи зі старого покинутого причалу поблизу, це місце колись було заселене. Що стосується самобутніх мешканців, то цю історію може розповісти лише час.]===],
+İlk günümüz her ilk gün gibi sıradan geçti. Zamanımızın çoğunu kampı kurmaya harcadık. Tatlı su nehrinin yakınında mükemmel bir yer buldum. Yakındaki eski, terk edilmiş iskeleye bakılırsa, burası bir zamanlar yerleşim yeriymiş. Özgün sakinlerine gelince, bu hikayeyi sadece zaman anlatabilir.]===],
 },
 [2728] = { -- Green Hills of Stranglethorn - Page 4 (1)
-[===[У наступні роки, після того як Штормовій зрадив гільдію Каменярів, пан Ерлґадін розлютився через роль дворян у королівстві. Він більше не бажав підтримувати позицію, яку заслужив йому батьківський родовід у Домі вельмож.
+[===[Stormwind'in Taşişçileri loncasına ihanet etmesinden sonraki yıllarda, Bay Erlgadin krallıktaki soyluların rolü yüzünden çok öfkelendi. Artık babasının soyunun soylular meclisinde kendisine kazandırdığı konumu desteklemek istemiyordu.
 
-Але я відволікся. Мета цієї історії не в тому, щоб виступати як політичний трактат чи біографія. Це опис мого досвіду полювання на велику дичину на зелених пагорбах Тернистої долини.]===],
+Ama dikkatim dağıldı. Bu hikayenin amacı siyasi bir risale ya da biyografi işlevi görmek değildir. Bu, Stranglethorn'un yeşil tepelerindeki büyük av deneyimimin bir açıklamasıdır.]===],
 },
 [2730] = { -- Green Hills of Stranglethorn - Page 6 (1)
-[===[Саме тоді, коли я збирався поставити під сумнів відсутність інтересу Айжік до денної стратегії полювання, вона потягнулася до свого сагайдака, витягла стрілу й вистрелила прямо в бідолаху Барніла. Але Айжік стріляла не в Барніла. Бо коли Барніл відійшов убік, роззявивши рота, великий річковий кроколіск сплив на поверхню зі стрілою Айжік, яка стирчала рівно між його двома великими очима.]===],
+[===[Tam Ajshik'in günlük av stratejisine olan ilgisizliğini sorgulamak üzereydim ki, sadağına uzandı, bir ok çıkardı ve doğrudan zavallı Barnil'e doğru fırlattı. Ama Ajshik Barnil'i vurmuyordu. Çünkü Barnil ağzı açık bir şekilde kenara çekildiğinde, büyük bir nehir timsahı, Ajshik'in oku tam iki büyük gözünün arasından dikilmiş halde yüzeye çıktı.]===],
 },
 [2732] = { -- Green Hills of Stranglethorn - Page 8 (1)
-[===[Під час однієї з таких помилок Ерлґадін поклав важку руку на плече Барніла. Ми з Айжік неквапливо переглянулися, припускаючи, що чоловік збирається насварити Барніла за його необережність. Однак Ерлґадін повільно показав головою в бік поваленого дерева неподалік. На нас дивилися двоє пронизливих чорних очей прямо над ротом, повним гострих як бритва ікл.]===],
+[===[Bu hatalardan biri sırasında Erlgadin, Barnil'in omzuna ağır bir el koydu. Ajshik ve ben acele etmeden birbirimize baktık, adamın Barnil'i dikkatsizliğinden dolayı azarlayacağını varsaydık. Ancak Erlgadin yavaşça yakındaki devrilmiş bir ağacı işaret etti. Keskin tıraş bıçağı gibi dişlerle dolu bir ağzın hemen üzerindeki iki delici siyah göz bize bakıyordu.]===],
 },
 [2734] = { -- Green Hills of Stranglethorn - Page 10 (1)
-[===[Вбивство звіра принесло святковий настрій всім учасникам експедиції. Барніл пригостив нас медовухою, щоб відсвяткувати. Але гуляння було недовгим. Коли ми готували тіло звіра до транспортування назад до табору, нас усіх застало зненацька жахливе гарчання. За всі свої роки я ніколи не чув нічого подібного; кров стигла в жилах.]===],
+[===[Canavarı öldürmek seferdeki tüm katılımcılara şenlikli bir hava getirdi. Barnil bunu kutlamak için bize mey ikram etti. Ancak eğlence kısa sürdü. Canavarın gövdesini kampa geri taşımak üzere hazırlarken, hepimiz korkunç bir kükremeyle irkildik. Bunca yılım boyunca hiç böyle bir şey duymamıştım; kanım dondu.]===],
 },
 [2735] = { -- Green Hills of Stranglethorn - Page 11 (1)
-[===[На скелястому урвищі вгорі, силует якого вимальовувався призахідним сонцем, я зміг розгледіти найбільшого хижого кота, якого коли-небудь бачив. Я висмалив один незграбний залп з гвинтівки, але кіт не злякався. Він гаркнув ще раз, цього разу голосніше, ніж уперше, і зник.
+[===[Yukarıdaki kayalık uçurumda, silueti batan güneşle beliren, şimdiye kadar gördüğüm en büyük yırtıcı kediyi seçebiliyordum. Tüfekten beceriksizce bir el ateş ettim ama kedi korkmadı. İlk öncekinden daha yüksek sesle bir kez daha gürledi ve gözden kayboldu.
 
-Ми зібрали речі й чванливо вирушили назад до табору.]===],
+Eşyalarımızı topladık ve gururla kampa doğru yola çıktık.]=== ] ,
 },
 [2738] = { -- Green Hills of Stranglethorn - Page 14 (1)
-[===[Цього дня ми вирушили на південь по свіжим слідам пантер. Незабаром ми дісталися ущелини, через яку був перекинутий величезний мотузковий міст. Я не міг не згадати описи Бранна про цей регіон, коли я побачив це диво інженерії. Так часто вважалося, що місцеві тролі були примітивною та незграбною расою, але зараз, дивлячись на вправність, з якою побудований цей міст, я вважаю, що трольські будівельники -- справжні майстри та зробили, здавалося б, неможливе.]===],
+[===[O gün panterlerin taze izlerini takip ederek güneye doğru yola çıktık. Çok geçmeden, üzerinden devasa bir ip köprünün gerildiği bir kanyona ulaştık. Bu mühendislik harikasını gördüğümde Brann'ın bu bölge hakkındaki açıklamalarını hatırlamadan edemedim. Yerel trollerin genellikle ilkel ve hantal bir ırk olduğu düşünülürdü, ancak şimdi bu köprünün inşa edilmesindeki ustalığa bakınca, trol inşaatçıların -- gerçek ustalar olduklarına ve görünüşte imkansızı başardıklarına inanıyorum.]===],
 },
 [2740] = { -- Green Hills of Stranglethorn - Page 16 (1)
-[===[І Айжік, і пан Ерлґадін стояли напоготові, спрямувавши рушниці в колючу поросль біля підніжжя дерев, що похитувалися. Полуденне сонце нестерпно палило нас. Повільна цівка поту текла по скроні Ерлґадіна, коли він відтягував назад шпеньок. Після клацання густа рослинність розступилася, і велика чорна пантера — прекрасний екземпляр — вискочила на рівнину.]===],
+[===[Hem Ajshik hem de Bay Erlgadin, tüfeklerini sallanan ağaçların dibindeki dikenli çalılıklara doğrultmuş, tetikte bekliyorlardı. Öğle güneşi bizi dayanılmaz bir şekilde yakıyordu. Erlgadin pimini geriye çekerken şakağından yavaşça bir ter sızdı. Tıklamadan sonra yoğun bitki örtüsü ayrıldı ve büyük bir kara panter — harika bir örnek — düzlüğe fırladı.]===],
 },
 [2742] = { -- Green Hills of Stranglethorn - Page 18 (1)
-[===[Рушницю різко штовхнуло в його руках. Дуло метнулося вбік і опинилося під рушницею Айжік. Вона обрала саме цей момент, щоб натиснути на спусковий гачок. Гвинтівка, приціл якої був незграбно спрямований у бік дерева, прогриміла з виразним гулом. З-за пологів закричала зграя птахів, розлітаючись навсібіч. Від дерева здійнявся клубок диму. Ми із захопленням спостерігали, як величезна гілка з тріском впала прямо пантері на спину, після чого та втекла.]===],
+[===[Tüfek ellerinde sertçe sarsıldı. Namlu yana savruldu ve Ajshik'in tüfeğinin altında kaldı. Ajshik tetiğe basmak için tam bu anı seçmişti. Nişangahı beceriksizce ağaca doğru yöneltilmiş olan tüfek, belirgin bir gürültüyle patladı. Ağacın arkasından bir kuş sürüsü çığlık atarak her yöne dağıldı. Ağaçtan bir duman bulutu yükseldi. Büyük bir dalın çatırtıyla panterin sırtına düşmesini ve ardından panterin kaçışını hayranlıkla izledik.]===],
 },
 [2744] = { -- Green Hills of Stranglethorn - Page 20 (1)
-[===[З першим світанком ми вирушили на південь повз руїн Ткаші. Барніл висловив занепокоєння, що ми можемо зустріти представників племені Кровоскальпих. Я нагадав Барнілу, що Кровоскальпі були більше стурбовані знищенням свого племінного ворога -- Черепотрощителів. Зайве говорити, що Барніла це анітрохи не втішило. Я, однак, мав із собою заряджену рушницю, повний пороху ранець, і трьох смертоносних мисливців, щоб полегшити будь-які побоювання щодо недружньої засідки.]===],
+[===[İlk şafakla birlikte Tkashi Harabeleri'ni geçerek güneye doğru yola çıktık. Barnil, Bloodscalp kabilesinin üyeleriyle karşılaşabileceğimiz konusundaki endişesini dile getirdi. Barnil'e, Bloodscalp'lerin kendi kabile düşmanları olan Skullsplitter'ları yok etmekle daha çok ilgilendiklerini hatırlattım. Barnil'in bundan hiç de teselli bulmadığını söylemeye gerek yok. Ancak dostça olmayan bir pusuya dair her türlü korkuyu hafifletmek için yanımda dolu bir tüfek, barut dolu bir çanta ve üç ölümcül avcı vardı.]===],
 },
 [2745] = { -- Green Hills of Stranglethorn - Page 21 (1)
-[===[Я стояв перед величезним пекельником на полі бою, армією Палаючого Легіону, що наступає з усіх боків. Некерована банда тролів здається такою ж нешкідливою, як заєць на пагорбах Дун-Морога.
+[===[Savaş alanında her taraftan ilerleyen Yakıcı Lejyon ordusunun devasa bir cehennemliğinin önünde duruyordum. Başıboş bir trol çetesi, Dun Morogh tepelerindeki bir tavşan kadar zararsız görünüyor.
 
-Руїни Ткаші ми пройшли без подій, на велике полегшення Барніла. Група продовжила рух на захід, до Великого моря, оминаючи руїни Зул'Кунди на півдні. Коли ми підіймалися на скелі відкритого моря, ми помітили нашого першого раптора.]===],
+Barnil'in büyük rahatlamasıyla Tkashi Harabeleri'ni olaysız geçtik. Grup, güneydeki Zul'Kunda Harabeleri'ni geçerek batıya, Büyük Deniz'e doğru hareketine devam etti. Açık denizin kayalıklarına tırmanırken ilk raptorumuzu fark ettik.]===],
 },
 [2748] = { -- Green Hills of Stranglethorn - Page 24 (1)
-[===[Наших наспіх прицільних пострілів вистачило, щоб Барнілу вдалося відірватися. Барніл гримко спустився з пагорба й знову приєднався до групи. Ми кинулися в джунглі; зграя лютих хижих хвостів не відставала ні на крок.
+[===[Aceleyle aldığımız nişan atışları Barnil'in kaçmayı başarması için yeterli oldu. Barnil gürültüyle tepeden aşağı indi ve gruba tekrar katıldı. Ormanın içine daldık; vahşi, yırtıcı raptor sürüsü bir adım bile geride kalmıyordu.
 
-Були мисливцями, а тепер полюють на нас.]===],
+Avcıydık, şimdiyse avlanıyoruz.]===],
 },
 [2749] = { -- Green Hills of Stranglethorn - Page 25 (1)
-[===[Я повів групу до моря, сподіваючись, що берег забезпечить притулок від рапторів. Поспішаючи, ми зайшли занадто далеко на північ, піднявшись на небезпечну висоту. Це була помилка. Моя провина. Ми зупинилися біля прямовисної скелі, раптори лише за кілька кроків позаду.]===],
+[===[Sahilin raptorlardan bir sığınak sağlayacağını umarak grubu denize doğru götürdüm. Acele ederken çok fazla kuzeye gittik ve tehlikeli bir yüksekliğe tırmandık. Bu bir hataydı. Benim hatam. Raptorlar sadece birkaç adım arkamızdayken dik bir kayalığın kenarında durduk.]===],
 },
 [2750] = { -- Green Hills of Stranglethorn - Page 26 (1)
-[===[Я повільно ступив уперед, піднявши рушницю. Я привів цих відважних мисливців на смерть. Я б помер, захищаючи їх. Хлястохвості раптори особливо жорстокі, відомі своєю невблаганною жагою до крові. Вони чисельно набагато переважали нас. Але я був би проклятий, якби дозволив їм убити мене та моїх товаришів, не проливши перед тим трохи власної крові.]===],
+[===[Tüfeğimi kaldırarak yavaşça öne doğru bir adım attım. Bu cesur avcıları ölüme götürmüştüm. Onları korurken ölürdüm. Raptorlar, amansız kan susuzluklarıyla bilinen, özellikle acımasız yaratıklardır. Sayıca bizden çok üstündüler. Ama önce kendi kanlarından biraz dökmeden beni ve yoldaşlarımı öldürmelerine izin verirsem lanet olsun bana.]===],
 },
 [2751] = { -- Green Hills of Stranglethorn - Page 27 (1)
-[===[Айжік і пан Ерлґадін підготували свою зброю, обступаючи мене з обох боків, спинами до моря. Барніл переможено зітхнув і вихопив сокиру. Хлястохвости майже наблизилися до нас. Їхній рівний крок сповільнився. Тепер вони стежили за своєю здобиччю, бо знали, що заманили нас у пастку.]===],
+[===[Ajshik ve Bay Erlgadin silahlarını hazırladılar, sırtlarını denize vererek her iki yanımı sardılar. Barnil yenilmiş bir şekilde iç geçirdi ve baltasını kaptı. Raptorlar neredeyse bize yaklaşmışlardı. Düzenli adımları yavaşladı. Şimdi avlarını izliyorlardı, çünkü bizi tuzağa düşürdüklerini biliyorlardı.]===],
 },
 [2756] = { -- Green Hills of Stranglethorn - Chapter I (8)
-[===[Наш перший день пройшов звичайно, як для будь-якого першого дня. Більшість нашого часу пішло на облаштування табору. Я знайшов ідеальне місце біля прісноводної річки. Судячи зі старого покинутого причалу поблизу, це місце колись було заселене. Що стосується самобутніх мешканців, то цю історію може розповісти лише час.]===],
-[===[Для цієї експедиції я зібрав Айжік Руак та пана С. Дж. Ерлґадіна разом із моїм надійним помічником Барнілом Кам'янокухолем. Ми з батьком Айжік пройшли багато битв, захищаючи Альянс. Бачити її дорослою – це щось особливе. Батько добре навчив її володіти зброєю. Її вміння володіти луком змушує мене замислитися, чи не тече в цих жилах ельфійська кров.]===],
-[===[Пан С. Дж. Ерлґадін походить з аристократії людей. Його батько, граф Ерлґадін, був відомий своєю щедрістю. Саме граф лобіював покращення умов праці для гільдії Каменярів під час відновлення Штормовія після Другої Великої війни.]===],
-[===[У наступні роки, після того як Штормовій зрадив гільдію Каменярів, пан Ерлґадін розлютився через роль дворян у королівстві. Він більше не бажав підтримувати позицію, яку заслужив йому батьківський родовід у Домі вельмож.
+[===[İlk günümüz her ilk gün gibi sıradan geçti. Zamanımızın çoğunu kampı kurmaya harcadık. Tatlı su nehrinin yakınında mükemmel bir yer buldum. Yakındaki eski, terk edilmiş iskeleye bakılırsa, burası bir zamanlar yerleşim yeriymiş. Özgün sakinlerine gelince, bu hikayeyi sadece zaman anlatabilir.]===],
+[===[Bu sefer için güvenilir yardımcım Barnil Stonejug ile birlikte Ajshik Ruak ve Bay S. J. Erlgadin'i bir araya getirdim. Ajshik'in babasıyla birlikte Alliance'ı korurken birçok savaş atlattık. Onun büyüdüğünü görmek özel bir şey. Babası ona silah kullanmayı iyi öğretmiş. Yay kullanmadaki becerisi, bu damarlarda elf kanı akıp akmadığını merak etmeme neden oluyor.]===],
+[===[Bay S. J. Erlgadin insan aristokrasisinden geliyor. Babası Kont Erlgadin, cömertliğiyle tanınırdı. İkinci Büyük Savaş'tan sonra Stormwind'in yeniden inşası sırasında Taşişçileri loncası için çalışma koşullarının iyileştirilmesi yönünde kulis yapan Kont'un kendisiydi.]===],
+[===[Stormwind'in Taşişçileri loncasına ihanet etmesinden sonraki yıllarda, Bay Erlgadin krallıktaki soyluların rolü yüzünden çok öfkelendi. Artık babasının soyunun soylular meclisinde kendisine kazandırdığı konumu desteklemek istemiyordu.
 
-Але я відволікся. Мета цієї історії не в тому, щоб виступати як політичний трактат чи біографія. Це опис мого досвіду полювання на велику дичину на зелених пагорбах Тернистої долини.]===],
-[===[Ми встали з сонцем. Барніл почав готувати сніданок. Я помітив, що увага Айжік була дещо розсіяна. Денний шлях був би довгим, а наше полювання наблизило б нас до небезпеки. Відсутність зосередженості може легко призвести до лиха. Але Айжік, здавалося, не могла відвести свій погляд від Барніла, який стояв біля берега річки та вимивав свій кухонний набір.]===],
-[===[Саме тоді, коли я збирався поставити під сумнів відсутність інтересу Айжік до денної стратегії полювання, вона потягнулася до свого сагайдака, витягла стрілу й вистрелила прямо в бідолаху Барніла. Але Айжік стріляла не в Барніла. Бо коли Барніл відійшов убік, роззявивши рота, великий річковий кроколіск сплив на поверхню зі стрілою Айжік, яка стирчала рівно між його двома великими очима.]===],
-[===[Ми рушили на захід, крізь густі зарості заплутаних джунглів. Повільними, виваженими кроками ми пробиралися крізь густе листя в пошуках здобичі. Ранок минув у розчарованому мовчанні. У долині все завмерло, не було навіть вітерцю. До полудня експедиція стала неспокійною, Барніл більше не пересувався обережними кроками хижака, який вистежує здобич. Навпаки, він незграбно тупцював по стежці, часто з шумом наступаючи на сухе листя чи опале гілля.]===],
-[===[Під час однієї з таких помилок Ерлґадін поклав важку руку на плече Барніла. Ми з Айжік неквапливо переглянулися, припускаючи, що чоловік збирається насварити Барніла за його необережність. Однак Ерлґадін повільно показав головою в бік поваленого дерева неподалік. На нас дивилися двоє пронизливих чорних очей прямо над ротом, повним гострих як бритва ікл.]===],
+Ama dikkatim dağıldı. Bu hikayenin amacı siyasi bir risale ya da biyografi işlevi görmek değildir. Bu, Stranglethorn'un yeşil tepelerindeki büyük av deneyimimin bir açıklamasıdır.]===],
+[===[Güneşle birlikte kalktık. Barnil kahvaltıyı hazırlamaya başladı. Ajshik'in dikkatinin biraz dağınık olduğunu fark ettim. Günün yolu uzun olacaktı ve avımız bizi tehlikeye yaklaştıracaktı. Odaklanma eksikliği kolayca felakete yol açabilir. Ama Ajshik, nehir kenarında durup mutfak takımını yıkayan Barnil'den gözlerini alamıyor gibi görünüyordu.]===],
+[===[Tam Ajshik'in günlük av stratejisine olan ilgisizliğini sorgulamak üzereydim ki, sadağına uzandı, bir ok çıkardı ve doğrudan zavallı Barnil'e doğru fırlattı. Ama Ajshik Barnil'i vurmuyordu. Çünkü Barnil ağzı açık bir şekilde kenara çekildiğinde, büyük bir nehir timsahı, Ajshik'in oku tam iki büyük gözünün arasından dikilmiş halde yüzeye çıktı.]===],
+[===[Yoğun ve birbirine dolanmış ormanın sık çalılıkları arasından batıya doğru ilerledik. Av arayışıyla yoğun yaprakların arasından yavaş, ölçülü adımlarla ilerliyorduk. Sabah hayal kırıklığı yaratan bir sessizlikle geçti. Vadide her şey durmuştu, bir esinti bile yoktu. Öğleye doğru sefer huzursuzlaştı, Barnil artık avını takip eden bir yırtıcının temkinli adımlarıyla hareket etmiyordu. Aksine, patikada beceriksizce ilerliyor, sık sık kuru yapraklara veya düşen dallara gürültüyle basıyordu.]===],
+[===[Bu hatalardan biri sırasında Erlgadin, Barnil'in omzuna ağır bir el koydu. Ajshik ve ben acele etmeden birbirimize baktık, adamın Barnil'i dikkatsizliğinden dolayı azarlayacağını varsaydık. Ancak Erlgadin yavaşça yakındaki devrilmiş bir ağacı işaret etti. Keskin tıraş bıçağı gibi dişlerle dolu bir ağzın hemen üzerindeki iki delici siyah göz bize bakıyordu.]===],
 },
 [2757] = { -- Green Hills of Stranglethorn - Chapter II (8)
-[===[Звіром був самець тигра Тернистої долини. Перш ніж я встиг звести рушницю, Ерлґадін підняв арбалет і вистрілив у звіра. Ціль відстрибнула, але все одно, болт сильно зачепив лівий бік. Тигр зробив спробу втекти, але його рана була надто серйозною. Звір спотикався кілька трагічних секунд, поки Барніл не добив його кинутою сокирою.]===],
-[===[Вбивство звіра принесло святковий настрій всім учасникам експедиції. Барніл пригостив нас медовухою, щоб відсвяткувати. Але гуляння було недовгим. Коли ми готували тіло звіра до транспортування назад до табору, нас усіх застало зненацька жахливе гарчання. За всі свої роки я ніколи не чув нічого подібного; кров стигла в жилах.]===],
-[===[На скелястому урвищі вгорі, силует якого вимальовувався призахідним сонцем, я зміг розгледіти найбільшого хижого кота, якого коли-небудь бачив. Я висмалив один незграбний залп з гвинтівки, але кіт не злякався. Він гаркнув ще раз, цього разу голосніше, ніж уперше, і зник.
+[===[Canavar bir erkek Stranglethorn kaplanıydı. Ben tüfeğimi kaldıramadan Erlgadin arbaletini kaldırdı ve canavara ateş etti. Hedef yana sıçradı ama yine de cıvata sol tarafına sert bir şekilde çarptı. Kaplan kaçmaya çalıştı ama yarası çok ciddiydi. Canavar, Barnil fırlattığı baltayla işini bitirene kadar birkaç trajik saniye boyunca tökezledi.]===],
+[===[Canavarı öldürmek seferdeki tüm katılımcılara şenlikli bir hava getirdi. Barnil bunu kutlamak için bize mey ikram etti. Ancak eğlence kısa sürdü. Canavarın gövdesini kampa geri taşımak üzere hazırlarken, hepimiz korkunç bir kükremeyle irkildik. Bunca yılım boyunca hiç böyle bir şey duymamıştım; kanım dondu.]===],
+[===[Yukarıdaki kayalık uçurumda, silueti batan güneşle beliren, şimdiye kadar gördüğüm en büyük yırtıcı kediyi seçebiliyordum. Tüfekten beceriksizce bir el ateş ettim ama kedi korkmadı. İlk öncekinden daha yüksek sesle bir kez daha gürledi ve gözden kayboldu.
 
-Ми зібрали речі й чванливо вирушили назад до табору.]===],
-[===[Я пообіцяв експедиції, що наступного дня ми будемо полювати на пантер, оскільки їхнє хутро має значний попит у всьому Азероті. Цілком логічно, що такий попит лише зростає, адже багато вправних мисливців, капканників та торговців хутром зараз на фронті, де відважно віддають своє життя в ім’я Альянсу.]===],
-[===[Айжік і пан Ерлґадін дуже хотіли навчитися ефективно полювати з дворфійською рушницею. Вони залишили свою зброю в таборі, зброю з досить примітивною далекобійністю. Натомість ми з Барнілом спорядили їх найкращою вогнепальною зброєю Залізогарту.]===],
-[===[Цього дня ми вирушили на південь по свіжим слідам пантер. Незабаром ми дісталися ущелини, через яку був перекинутий величезний мотузковий міст. Я не міг не згадати описи Бранна про цей регіон, коли я побачив це диво інженерії. Так часто вважалося, що місцеві тролі були примітивною та незграбною расою, але зараз, дивлячись на вправність, з якою побудований цей міст, я вважаю, що трольські будівельники -- справжні майстри та зробили, здавалося б, неможливе.]===],
-[===[Незабаром Айжік вистежила пантеру на південний захід. Ми йшли тихо, зі зброєю напоготові, в очікуванні своєї здобичі. Нашу увагу одразу привернув тріск гілок із сусіднього переліска. Щось там було. Одного суворого погляду на Барніла було достатньо, щоб передати мої думки. Барніл повільно опустив рушницю. Ця здобич була не для нас, а для наших супутників-людей. Незліченна кількість пантер загинула від наших димливих рушниць. Ця здобич була б для людей.]===],
-[===[І Айжік, і пан Ерлґадін стояли напоготові, спрямувавши рушниці в колючу поросль біля підніжжя дерев, що похитувалися. Полуденне сонце нестерпно палило нас. Повільна цівка поту текла по скроні Ерлґадіна, коли він відтягував назад шпеньок. Після клацання густа рослинність розступилася, і велика чорна пантера — прекрасний екземпляр — вискочила на рівнину.]===],
+Eşyalarımızı topladık ve gururla kampa doğru yola çıktık.]===],
+[===[Kürkleri tüm Azeroth'ta büyük talep gördüğü için ertesi gün panter avlayacağımıza dair sefere söz verdim. Birçok yetenekli avcı, tuzakçı ve kürk tüccarının şu an cephede, Alliance adına cesurca canlarını verdikleri göz önüne alınırsa, bu talebin sadece artması oldukça mantıklıdır.]===],
+[===[Ajshik ve Bay Erlgadin cüce tüfeğiyle nasıl etkili bir şekilde avlanılacağını öğrenmeye çok isteklilerdi. Silahlarını kampta bırakmışlardı, oldukça ilkel menzilli silahlar. Bunun yerine Barnil ve ben onları Ironforge'un en iyi ateşli silahlarıyla donattık.]===],
+[===[O gün panterlerin taze izlerini takip ederek güneye doğru yola çıktık. Çok geçmeden, üzerinden devasa bir ip köprünün gerildiği bir kanyona ulaştık. Bu mühendislik harikasını gördüğümde Brann'ın bu bölge hakkındaki açıklamalarını hatırlamadan edemedim. Yerel trollerin genellikle ilkel ve hantal bir ırk olduğu düşünülürdü, ancak şimdi bu köprünün inşa edilmesindeki ustalığa bakınca, trol inşaatçıların -- gerçek ustalar olduklarına ve görünüşte imkansızı başardıklarına inanıyorum.]===],
+[===[Çok geçmeden Ajshik güneybatıda bir panterin izini buldu. Avımızı beklerken silahlarımız hazır, sessizce ilerliyorduk. Dikkatimiz hemen yakındaki bir çalılıktan gelen dal çatırtılarına çekildi. Orada bir şey vardı. Barnil'e atılan sert bir bakış düşüncelerimi iletmeye yetti. Barnil tüfeğini yavaşça indirdi. Bu av bizim için değil, insan yoldaşlarımız içindi. Tüten tüfeklerimizden sayısız panter can vermişti. Bu av insanlar için olacaktı.]===],
+[===[Hem Ajshik hem de Bay Erlgadin, tüfeklerini sallanan ağaçların dibindeki dikenli çalılıklara doğrultmuş, tetikte bekliyorlardı. Öğle güneşi bizi dayanılmaz bir şekilde yakıyordu. Erlgadin pimini geriye çekerken şakağından yavaşça bir ter sızdı. Tıklamadan sonra yoğun bitki örtüsü ayrıldı ve büyük bir kara panter — harika bir örnek — düzlüğe fırladı.]===],
 },
 [2758] = { -- Green Hills of Stranglethorn - Chapter III (8)
-[===[Люди тренувалися на пантері, яка бігла уздовж краю лінії дерев. Дула їхніх рушниць рухалися в ідеальному паралельному тандемі. Барніл наполегливо зиркнув на мене, але я заперечно хитнув головою. Таким полювання було для людей, а не для Барніла чи мене. Ерлґадін зробив гуркітливий постріл, не влучивши у пантеру. Очевидно, він був не готовий до сильної віддачі рушниці.]===],
-[===[Рушницю різко штовхнуло в його руках. Дуло метнулося вбік і опинилося під рушницею Айжік. Вона обрала саме цей момент, щоб натиснути на спусковий гачок. Гвинтівка, приціл якої був незграбно спрямований у бік дерева, прогриміла з виразним гулом. З-за пологів закричала зграя птахів, розлітаючись навсібіч. Від дерева здійнявся клубок диму. Ми із захопленням спостерігали, як величезна гілка з тріском впала прямо пантері на спину, після чого та втекла.]===],
-[===[Минали тижні, наші запаси шкур пантер і тигрів безмірно збільшувалися. Я вирішив, що настав час для експедиції зосередитись на новому виклику: раптори.
+[===[İnsanlar ağaç çizgisinin kenarı boyunca koşan panter üzerinde pratik yapıyorlardı. Tüfeklerinin namluları mükemmel bir paralel uyum içinde hareket ediyordu. Barnil ısrarla bana baktı ama ben olumsuz anlamda başımı salladım. Bu av Barnil ya da benim için değil, insanlar içindi. Erlgadin panteri kaçırarak gürültülü bir atış yaptı. Görünüşe göre tüfeğin güçlü geri tepmesine hazır değildi.]===],
+[===[Tüfek ellerinde sertçe sarsıldı. Namlu yana savruldu ve Ajshik'in tüfeğinin altında kaldı. Ajshik tetiğe basmak için tam bu anı seçmişti. Nişangahı beceriksizce ağaca doğru yöneltilmiş olan tüfek, belirgin bir gürültüyle patladı. Ağacın arkasından bir kuş sürüsü çığlık atarak her yöne dağıldı. Ağaçtan bir duman bulutu yükseldi. Büyük bir dalın çatırtıyla panterin sırtına düşmesini ve ardından panterin kaçışını hayranlıkla izledik.]===],
+[===[Haftalar geçtikçe panter ve kaplan kürkü stoklarımız muazzam bir şekilde arttı. Seferin yeni bir zorluğa odaklanma zamanının geldiğine karar verdim: Raptorlar.
 
-Люди, хоч і були вдячні за навчання, запропоноване Барнілом і мною, але вирішили утриматися від полювання з вогнепальною зброєю. Айжік почувалася набагато впевненішою зі своїм луком, а пан Ерлґадін ніколи не залишав табору без свого міцного арбалета.]===],
-[===[З першим світанком ми вирушили на південь повз руїн Ткаші. Барніл висловив занепокоєння, що ми можемо зустріти представників племені Кровоскальпих. Я нагадав Барнілу, що Кровоскальпі були більше стурбовані знищенням свого племінного ворога -- Черепотрощителів. Зайве говорити, що Барніла це анітрохи не втішило. Я, однак, мав із собою заряджену рушницю, повний пороху ранець, і трьох смертоносних мисливців, щоб полегшити будь-які побоювання щодо недружньої засідки.]===],
-[===[Я стояв перед величезним пекельником на полі бою, армією Палаючого Легіону, що наступає з усіх боків. Некерована банда тролів здається такою ж нешкідливою, як заєць на пагорбах Дун-Морога.
+İnsanlar, Barnil ve benim sunduğumuz eğitim için minnettar olsalar da, ateşli silahlarla avlanmaktan vazgeçmeye karar verdiler. Ajshik yayıyla kendini çok daha güvende hissediyordu ve Bay Erlgadin sağlam arbaleti olmadan asla kamptan ayrılmıyordu.]===],
+[===[İlk şafakla birlikte Tkashi Harabeleri'ni geçerek güneye doğru yola çıktık. Barnil, Bloodscalp kabilesinin üyeleriyle karşılaşabileceğimiz konusundaki endişesini dile getirdi. Barnil'e, Bloodscalp'lerin kendi kabile düşmanları olan Skullsplitter'ları yok etmekle daha çok ilgilendiklerini hatırlattım. Barnil'in bundan hiç de teselli bulmadığını söylemeye gerek yok. Ancak dostça olmayan bir pusuya dair her türlü korkuyu hafifletmek için yanımda dolu bir tüfek, barut dolu bir çanta ve üç ölümcül avcı vardı.]===],
+[===[Savaş alanında her taraftan ilerleyen Yakıcı Lejyon ordusunun devasa bir cehennemliğinin önünde duruyordum. Başıboş bir trol çetesi, Dun Morogh tepelerindeki bir tavşan kadar zararsız görünüyor.
 
-Руїни Ткаші ми пройшли без подій, на велике полегшення Барніла. Група продовжила рух на захід, до Великого моря, оминаючи руїни Зул'Кунди на півдні. Коли ми підіймалися на скелі відкритого моря, ми помітили нашого першого раптора.]===],
-[===[Звір взагалі не помітив нашої присутності. Власне, єдиним привітанням, яке він отримав від експедиції, була куля між очей. Пан Ерлґадін щиро вигукнув *ура*, а Айжік схвально кивнула в мою сторону. Я переглянув рюкзак у пошуках люльки, сподіваючись насолодитися святковим куревом. Барніл почовгав на пагорб, щоб дістатися тіла раптора. Я дивився на полеглого звіра із задоволенням, яке супроводжує мене щоразу в ці моменти.]===],
-[===[Але не довго я тішився славою вбивства. Бо коли я перевів очі на горизонт, кілька силуетів з’явилися на вершині пагорба, прямо над бідним Барнілом.
+Barnil'in büyük rahatlamasıyla Tkashi Harabeleri'ni olaysız geçtik. Grup, güneydeki Zul'Kunda Harabeleri'ni geçerek batıya, Büyük Deniz'e doğru hareketine devam etti. Açık denizin kayalıklarına tırmanırken ilk raptorumuzu fark ettik.]===],
+[===[Yaratık varlığımızın hiç farkında değildi. Aslında, seferden aldığı tek selam gözlerinin arasına yediği bir kurşun oldu. Bay Erlgadin içtenlikle *oleyy* diye bağırdı ve Ajshik onaylarcasına bana doğru başını salladı. Kutlama amaçlı bir tütün içmeyi umarak pipomu bulmak için sırt çantamı kurcaladım. Barnil raptorun gövdesine ulaşmak için tepeden yukarı doğru ilerledi. Düşen canavara, bu anlarda bana her zaman eşlik eden bir memnuniyetle baktım.]===],
+[===[Ama öldürmenin gururuyla uzun süre sevinemedim. Çünkü gözlerimi ufka çevirdiğimde, tepenin zirvesinde, tam da zavallı Barnil'in üzerinde birkaç siluet belirdi.
 
-*Тікай, Барніле!* крикнув я. Айжік, пан Ерлґадін і я випустили залп куль, стріл і болтів над Барнілом у бік рапторів. Одного звіра вдалося вбити попри збентеження.]===],
-[===[Наших наспіх прицільних пострілів вистачило, щоб Барнілу вдалося відірватися. Барніл гримко спустився з пагорба й знову приєднався до групи. Ми кинулися в джунглі; зграя лютих хижих хвостів не відставала ні на крок.
+*Kaç, Barnil!* diye bağırdım. Ajshik, Bay Erlgadin ve ben Barnil'in üzerinden raptorlara doğru bir kurşun, ok ve cıvata yağmuru yağdırdık. Yaşanan kargaşaya rağmen bir yaratık öldürmeyi başardık.]===],
+[===[Aceleyle aldığımız nişan atışları Barnil'in kaçmayı başarması için yeterli oldu. Barnil gürültüyle tepeden aşağı indi ve gruba tekrar katıldı. Ormanın içine daldık; vahşi, yırtıcı raptor sürüsü bir adım bile geride kalmıyordu.
 
-Були мисливцями, а тепер полюють на нас.]===],
+Avcıydık, şimdiyse avlanıyoruz.]===],
 },
 [2759] = { -- Green Hills of Stranglethorn - Chapter IV (5)
-[===[Я повів групу до моря, сподіваючись, що берег забезпечить притулок від рапторів. Поспішаючи, ми зайшли занадто далеко на північ, піднявшись на небезпечну висоту. Це була помилка. Моя провина. Ми зупинилися біля прямовисної скелі, раптори лише за кілька кроків позаду.]===],
-[===[Я повільно ступив уперед, піднявши рушницю. Я привів цих відважних мисливців на смерть. Я б помер, захищаючи їх. Хлястохвості раптори особливо жорстокі, відомі своєю невблаганною жагою до крові. Вони чисельно набагато переважали нас. Але я був би проклятий, якби дозволив їм убити мене та моїх товаришів, не проливши перед тим трохи власної крові.]===],
-[===[Айжік і пан Ерлґадін підготували свою зброю, обступаючи мене з обох боків, спинами до моря. Барніл переможено зітхнув і вихопив сокиру. Хлястохвости майже наблизилися до нас. Їхній рівний крок сповільнився. Тепер вони стежили за своєю здобиччю, бо знали, що заманили нас у пастку.]===],
-[===[А потім сталося дивовижне. Збоку від нас ми почули виразний і страшний рев великого білого тигра. Попри свою чисельність, раптори розвернулися й розбіглися в усіх напрямках. Ми побачили лише короткий білий спалах, коли тигр промчав повз нас і кинувся на одного з рапторів. Не потрібно було давати команду. Ми усі четверо водночас зрозуміли -- треба тікати.]===],
-[===[Ми мчали назад до табору, не сповільнюючись ані на мить. Пізніше того вечора ми тихо сиділи біля багаття, розуміючи, що наші життя врятував дивний поворот долі. Такі ризики мисливця на велику дичину. Ми бавимося з долею, до останнього. Але в решті решт, для кожного з нас настане мить, коли він зіткнеться з гострими як бритва зубами долі. Цей дворф просто радий, що ця мить не настала на зелених пагорбах Тернистої долини.]===],
+[===[Sahilin raptorlardan bir sığınak sağlayacağını umarak grubu denize doğru götürdüm. Acele ederken çok fazla kuzeye gittik ve tehlikeli bir yüksekliğe tırmandık. Bu bir hataydı. Benim hatam. Raptorlar sadece birkaç adım arkamızdayken dik bir kayalığın kenarında durduk.]===],
+[===[Tüfeğimi kaldırarak yavaşça öne doğru bir adım attım. Bu cesur avcıları ölüme götürmüştüm. Onları korurken ölürdüm. Raptorlar, amansız kan susuzluklarıyla bilinen, özellikle acımasız yaratıklardır. Sayıca bizden çok üstündüler. Ama önce kendi kanlarından biraz dökmeden beni ve yoldaşlarımı öldürmelerine izin verirsem lanet olsun bana.]===],
+[===[Ajshik ve Bay Erlgadin silahlarını hazırladılar, sırtlarını denize vererek her iki yanımı sardılar. Barnil yenilmiş bir şekilde iç geçirdi ve baltasını kaptı. Raptorlar neredeyse bize yaklaşmışlardı. Düzenli adımları yavaşladı. Şimdi avlarını izliyorlardı, çünkü bizi tuzağa düşürdüklerini biliyorlardı.]===],
+[===[Ve sonra inanılmaz bir şey oldu. Yanımızdan büyük bir beyaz kaplanın belirgin ve korkunç kükremesini duyduk. Sayılarına rağmen, raptorlar arkalarını döndüler ve her yöne kaçıştılar. Kaplan yanımızdan hızla geçip raptorlardan birine saldırırken sadece kısa bir beyaz parlama gördük. Emir vermeye gerek yoktu. Dördümüz de aynı anda anladık -- kaçmalıydık.]===],
+[===[Bir an bile yavaşlamadan kampa doğru koştuk. O akşam ilerleyen saatlerde, hayatlarımızın kaderin garip bir cilvesiyle kurtulduğunu anlayarak kamp ateşinin etrafında sessizce oturduk. Büyük bir avcının riskleri böyledir. Son ana kadar kaderle oynuyoruz. Ama en nihayetinde, her birimiz için kaderin jilet gibi keskin dişleriyle yüzleşeceği an gelecektir. Bu cüce, o anın Stranglethorn'un yeşil tepelerinde gelmediği için sadece mutlu.]===],
 },
 [2837] = { -- Thurman's Letter (6)
-[===[Дорога Іветт,
+[===[Sevgili Yvette,
 
-я доручаю цей лист нашому найшвидшому бігуну. Я молюся, щоб він зміг знайти шлях крізь війська, що оточують нас. І я молюся, щоб ти прочитала мої слова, бо вони будуть останніми, що ти почуєш від мене.
+Bu mektubu en hızlı habercimize emanet ediyorum. Bizi çevreleyen birliklerin arasından bir yol bulabilmesi için dua ediyorum. Ve senin benim sözlerimi okuman için dua ediyorum, çünkü bunlar benden duyacağın son sözler olacak.
 
-Моя єдина втіха у ці темні дні — це полегшення, яке я відчуваю, знаючи, що ти вільна від моєї долі.]===],
-[===[Я боюся, що мій батько допустив серйозну помилку, коли вирішив залишитися і захищати наш дім. Сили Скари вирують на Тірісфальському переліссі, і хоча ми добре укріплені й добре забезпечені, після зради мого брата Девліна нам не вистачає сил і чисельності, щоб протистояти постійним штурмам.
+Bu karanlık günlerdeki tek tesellim, senin benim kaderimden uzak ve özgür olduğunu bilmenin verdiği rahatlamadır.]===],
+[===[Korkarım ki babam kalıp evimizi savunmaya karar verdiğinde ciddi bir hata yaptı. Scourge güçleri Tirisfal Glades'te öfkeyle ilerliyor ve her ne kadar iyi tahkim edilmiş ve iyi tedarik edilmiş olsak da, kardeşim Devlin'in ihanetinden sonra sürekli saldırılara direnecek gücümüz ve sayımız kalmadı.
 
-Якщо ти отримаєш цей лист, Іветт, то знай, що Девлін — зрадник.]===],
-[===[Він зневірився і шукав шляху уникнення нашого нещастя, і тим самим уклав договір зі Скарою. Я не знаю, яка ціна була обіцяна йому за зраду, але я впевнений, що це було прикрашено брехнею.
+Eğer bu mektubu alırsan Yvette, bil ki Devlin bir haindir.]===],
+[===[Umutsuzluğa kapıldı ve talihsizliğimizden kaçmanın bir yolunu aradı, böylece Scourge ile bir anlaşma yaptı. İhaneti için ona ne fiyat vaat edildiğini bilmiyorum ama bunun yalanlarla süslendiğinden eminim.
 
-Якщо ти побачиш мого брата, то тікай від нього. Він — диявол. Кілька ночей назад він вбив двох наших вартових, чим дозволив невеликій групі Скари прорватися туди, де спало ще багато наших.]===],
-[===[Їхня засідка була жорстокою. Вони перебили третину з нас, перш ніж ми змогли відбитися. Зараз у нас ледве вистачає людей, щоб спостерігати за своїми кордонами. Це питання часу, поки наша стомлена охорона впаде й Скара піде у наступ.
+Eğer kardeşimi görürsen ondan kaç. O bir iblis. Birkaç gece önce iki nöbetçimizi öldürdü ve küçük bir Scourge grubunun birçoğumuzun hala uyuduğu yere sızmasına izin verdi.]===],
+[===[Pusuları acımasızcaydı. Biz geri püskürtmeyi başarmadan önce üçte birimizi katlettiler. Şu an sınırlarımızı gözleyecek kadar bile adamımız zar zor var. Yorgun muhafızlarımızın düşmesi ve Scourge'un saldırıya geçmesi an meselesi.
 
-І хоч я бачив обличчя Девліна серед зневірених людей і змарнілих прибічників Скари в ту кляту ніч, він вислизнув, перш ніж я встиг його спіймати. Він може бути мертвим, а може й досі живим агентом Скари.
+O lanet gecede umutsuz insanların ve Scourge'un yıpranmış yandaşlarının arasında Devlin'in yüzünü görmüş olsam da, ben onu yakalayamadan kaçmayı başardı. Ölmüş olabilir ya da hala Scourge'un yaşayan bir ajanı olabilir.
 
-Так чи інакше, він чудовисько.]===],
-[===[Девлін попередив нас, що якщо ми спробуємо зіткнутися зі Скарою, то ми — приречені. Він це сказав, коли вони вперше увійшли на Тірісфальське перелісся, задовго до того, як наш дім оточили. Можливо, таким чином він прохав, щоб ми пішли, а, можливо, просто зловтішався.
+Öyle ya da böyle, o bir canavar.]===],
+[===[Devlin bizi, eğer Scourge ile yüzleşmeye çalışırsak mahvolacağımız konusunda uyarmıştı. Bunu Tirisfal Glades'e ilk girdiklerinde, evimiz kuşatılmadan çok önce söylemişti. Belki de bu yolla gitmemiz için yalvarıyordu ya da sadece canavarlık ediyordu.
 
-Завжди важко було зрозуміти мотиви Девліна. Він з дитинства був для нас загадкою.]===],
-[===[Але він мав рацію. Ми приречені. Сімейна лінія Аґамандів обірветься. Хоча я все ще живий, я знаю, що скоро помру.
+Devlin'in motivasyonlarını anlamak her zaman zordu. Çocukluğundan beri bizim için bir bilmeceydi.]===],
+[===[Ama haklıydı. Mahvolduk. Agamand soy çizgisi sona erecek. Hala hayatta olsam da, yakında öleceğimi biliyorum.
 
-Я не боюся і не шкодую, що залишився з родиною. Але мої останні думки будуть про тебе.
+Ailemle kaldığım için korkmuyorum ve pişman değilim. Ama son düşüncelerim seninle olacak.
 
-Живи далі, моя кохана Іветт, а я віднайду спокій,
-— Турман]===],
+Yaşamaya devam et, sevgili Yvette'im, bense huzuru bulacağım,
+— Thurman]===],
 },
 [2885] = { -- Scarlet Crusade Documents (2)
-[===[Поширюйте інформацію так, як вважаєте за потрібне.
+[===[Bilgiyi uygun gördüğünüz şekilde yayın.
 
-Тірісфальське регіональне командування
-Капітан Мелроуз
-Капітан Вачон
-Капітан Перрін
+Tirisfal Bölge Komutanlığı
+Kaptan Melrose
+Kaptan Vachon
+Kaptan Perrin
 
-Директиви за наказом верховного повелителя.
+Yüce Komutan'ın emriyle direktifler.
 
-Капітане Перрін, ще більше зміцніть свою позицію біля південно-західної вежі (як зазначено). Додаткові припаси будуть надіслані пізніше. Тим часом потрібні матеріали можна пошукати на навколишніх фермах. Також слід проводити подальшу розвідку та]===],
-[===[збирати інформацію про організацію нежиті в Бріллі.
+Kaptan Perrin, güneybatı kulesindeki konumunuzu (belirtildiği gibi) daha da güçlendirin. Ek malzemeler daha sonra gönderilecektir. Bu arada gerekli malzemeler çevre çiftliklerde aranabilir. Ayrıca Brill'deki zombi örgütlenmesi hakkında daha fazla keşif yapılmalı ve]===],
+[===[bilgi toplanmalıdır.
 
-Капітане Вочон, схоже, що нежить збільшила присутність біля північної вежі. З цим опором необхідно швидко і рішуче боротися.
+Kaptan Vachon, görünüşe göre zombiler kuzey kulesi yakınlarındaki varlıklarını artırmışlar. Bu direnişle hızlı ve kararlı bir şekilde mücadele edilmelidir.
 
-Капітане Мелроуз, є занепокоєння щодо рівня організації нежиті біля кордонів Зачумлених земель. Найближчими тижнями на вашу позицію буде направлено нову групу людей.
+Kaptan Melrose, Doğu Plaguelands sınırlarındaki zombi örgütlenme düzeyine ilişkin endişeler var. Önümüzdeki haftalarda konumunuza yeni bir insan grubu gönderilecektir.
 
-Слава під Світлом]===],
+Işık altında zaferle]===],
 },
-[3017] = { -- Sevren's Orders (1)
-[===[Лорд Бетор Кригозлам,
+[3017] = { -- Sevren'Orders (1)
+[===[Lord Bethor Iceshard,
 
-Згідно з вашими вказівками, надсилаю вам агента, якого ви запитували. {стать:Він:Вона} є пред'явником цієї ноти.
+Talimatlarınız doğrultusunda, talep ettiğiniz ajanı size gönderiyorum. {стать:Kendisi:Kendisi} bu notun taşıyıcısıdır.
 
-Ця особа показала себе надійною та здатною виконувати накази, вона зарекомендувала себе проти сил Скари, і являється моїм вибором для вашої місії.
+Bu kişi güvenilir olduğunu ve emirlere uyabildiğini göstermiştir, Scourge güçlerine karşı kendini kanıtlamıştır ve misyonunuz için benim seçimimdir.
 
-Нехай Її панування буде безмежним,
--війт Севрен]===],
+Onun hükümdarlığı sınırsız olsun,
+-Sulh Hakimi Sevren]===],
 },
 [3718] = { -- Foreboding Plans (1)
-[===[Л. П. віддав наказ посилити агресію проти дурнів в Альянсі. Нижче наведено список матеріалів, необхідних для важливої місії проти Південнобережжя:
+[===[L. P., Alliance'taki aptallara karşı saldırganlığın artırılması emrini verdi. Aşağıda Southshore'a karşı önemli bir misyon için gerekli malzemelerin listesi yer almaktadır:
 
-тижнева дорожня пайка для 20 осіб
-20 чорних нічних костюмів
-20 пар нового взуття
-25 нових мечів
-30 метальних ножів
-20 чорних масок
-10 флаконів протизапального масла
-50 доз паралітичної отрути
-5 викрадених уніформ південнобережних вартових, якщо є
-100 срібних монет
+20 kişi için bir haftalık yol azığı
+20 siyah gece kıyafeti
+20 çift yeni ayakkabı
+25 yeni kılıç
+30 fırlatma bıçağı
+20 siyah maske
+10 şişe kayganlaştırıcı yağ
+50 doz felç edici zehir
+Eğer varsa, 5 adet çalınmış Southshore muhafız üniforması
+100 gümüş sikke
 
---Барон В.
-Квартирмейстер]===],
+--Baron V.
+Levazım Subayı]===],
 },
 [4429] = { -- Deepfury's Orders (1)
-[===[Недолугі дурні!
+[===[Beceriksiz aptallar!
 
-Я наказав зруйнувати обидва мости. А що ви, простодушні бандюги, робите? Ви виконуєте лише половину роботи та сповіщаєте весь Альянс про наші наміри. Дурні, кажу ж!
+Her iki köprünün de yıkılmasını emretmiştim. Siz ne yapıyorsunuz, basit haydutlar? İşin sadece yarısını yapıyor ve tüm Alliance'ı niyetlerimizden haberdar ediyorsunuz. Aptallar, diyorum size!
 
-У вас є останній шанс виправити все, що наробили. У нас є запас вибухівки на нагір’ї Араті, неподалік мосту.
+Yaptıklarınızı düzeltmek için son bir şansınız var. Arathi Dağlık Bölgesi'nde, köprünün yakınında bir patlayıcı stoğumuz var.
 
-Закінчіть справу, якщо ви цінуєте своє нікчемне життя!
+Eğer şu değersiz hayatınıza değer veriyorsanız işi bitirin!
 
---Кам Темнолют]===],
+--Kam Deepfury]===],
 },
 [4432] = { -- Sully Balloo's Letter (8)
-[===[Дун-Модр із Заболоття
+[===[Wetlands'ten Dun Modr
 
-Моя люба Сара,
+Sevgili Sara'm,
 
-Є дуже переконливі ознаки того, що за кілька днів ми перейдемо до спостереження за віадуком Тандола. Тоді я не зможу писати тобі. Мене бентежить відчуття потреби написати кілька рядків, які ти побачиш лише коли мене не стане.]===],
-[===[Наше завдання може тривати кілька днів і бути як простим і приємним, так і важкою сутичкою, що принесе мені смерть. Якщо буде потрібно загинути на полі бою за Альянс, я готовий.
+Birkaç gün içinde Thandol Viyadüğü'nün gözetimine geçeceğimize dair çok güçlü işaretler var. O zaman sana yazamayacağım. Ben gittikten sonra göreceğin birkaç satır yazma ihtiyacının verdiği his beni huzursuz ediyor.]===],
+[===[Görevimiz birkaç gün sürebilir ve basit ve keyifli olabileceği gibi, bana ölümü getirecek zorlu bir çatışma da olabilir. Eğer Alliance için savaş alanında ölmek gerekirse, hazırım.
 
-У мене немає жодних побоювань чи браку впевненості щодо цілей, заради яких я тут; і моя мужність не зупиняється й не слабшає.]===],
-[===[Я знаю, як сильно королівство Залізогарту покладається на тріумф Альянсу, і який великий борг ми маємо перед тими, хто пройшов перед нами через кров і страждання великих воєн, і я готовий, абсолютно готовий віддати все що маю, щоб допомогти зберегти цей Альянс і сплатити цей борг.]===],
-[===[Сара, моя любов до тебе безсмертна, вона, здається, зв’язує мене могутніми ланцюгами, які ніщо, крім всемогутності, не може розірвати, і моя любов до королівства накриває мене, як сильний вітер, і нестримно несе мене зі всіма цими ланцюгами на поле бою.]===],
-[===[Спогади про всі блаженні моменти, які я провів з тобою, переповнюють мене, і я відчуваю глибоку вдячність Світлу і тобі за те, що я насолоджувався цим так довго, і як важко мені відмовитися від цього і спалити дотла сподівання на майбутні роки, коли ми ще могли б жити й любити разом і бачити, як наші сини виростають до шанованих дворфів навколо нас.]===],
-[===[Я знаю, що маю небагато дрібних претензій до Божого Провидіння, але щось шепоче мені — можливо, це лунає молитва мого маленького Едгара, — щоб я повернувся до своїх близьких неушкодженим. Якщо я не повернусь, моя люба Сара, ніколи не забуду, як сильно я люблю тебе, і коли мій останній подих вислизне від мене на полі бою, я прошепочу твоє ім’я.
+Burada bulunma amaçlarım konusunda hiçbir endişem ya da güven eksikliğim yok; ve cesaretim durmuyor ya da azalmıyor.]===],
+[===[Ironforge krallığının Alliance'ın zaferine ne kadar güvendiğini ve büyük savaşların kanı ve acısı içinden bizden önce geçenlere ne kadar büyük bir borcumuz olduğunu biliyorum; bu Alliance'ı korumaya yardımcı olmak ve bu borcu ödemek için sahip olduğum her şeyi vermeye hazırım, tamamen hazırım.]===],
+[===[Sara, sana olan aşkım ölümsüzdür, beni her şeye gücü yeten o kudret dışında hiçbir şeyin kıramayacağı güçlü zincirlerle bağlıyor gibi görünüyor; krallığa olan aşkım beni güçlü bir rüzgar gibi kaplıyor ve tüm bu zincirlerle birlikte beni durdurulamaz bir şekilde savaş alanına taşıyor.]===],
+[===[Seninle geçirdiğim tüm o mutlu anların hatıraları beni dolduruyor; bundan bu kadar uzun süre keyif aldığım için Işık'a ve sana derin bir minnettarlık duyuyorum; bundan vazgeçmek ve gelecekte hala birlikte yaşayabileceğimiz, sevebileceğimiz ve oğullarımızın çevremizde saygın cüceler olarak büyüdüğünü görebileceğimiz gelecek yıllara dair umutları yakıp kül etmek benim için ne kadar zor.]===],
+[===[İlahi Takdir'e karşı birkaç küçük sitemim olduğunu biliyorum, ama bir şey bana fısıldıyor — belki de küçük Edgar'ımın duasının yankısıdır — sevdiklerimin yanına yara almadan döneceğimi. Eğer dönmezsem, sevgili Sara'm, seni ne kadar çok sevdiğimi asla unutma ve savaş alanında son nefesim elimden kayıp giderken senin adını fısıldayacağım.
 
-Прости мої численні провини та біль, який я спричинив; яким легковажним, яким дурним я часто був.]===],
-[===[З яким задоволенням я б змив своїми сльозами кожну маленьку пляму на твоєму щасті й боровся б проти усього лиха цього світу, щоб захистити тебе і моїх дорогих дітей від біди.
+Pek çok hatamı ve neden olduğum acıyı affet; ne kadar düşüncesiz, ne kadar aptalca davrandım sık sık.]===],
+[===[Büyük bir memnuniyetle, mutluluğundaki her küçük lekeyi gözyaşlarımla yıkar ve seni ve sevgili çocuklarımı beladan korumak için bu dünyanın tüm kötülüklerine karşı savaşırdım.
 
-Але не можу.
+Ama yapamam.
 
-Я мушу спостерігати за тобою з підсвітньої крутоверті й ширяти біля тебе, поки ти сам на сам поборюєш шторми зі своїм дорогоцінним маленьким тягарем, і чекати з сумним терпінням, допоки ми зустрінемось, щоб більше ніколи не розлучатися.]===],
-[===[Але о Саро, якщо померлі можуть повернутися в Азерот і непоміченими літати навколо тих, кого вони люблять, я завжди буду поруч з тобою в найрадісніший день і в найтемнішу ніч, серед твоїх найщасливіших моментів і в найпохмуріші години завжди, завжди і якщо буде м'який вітерець на твоїх щоках, це буде мій подих, коли прохолодне повітря овіє твою пульсуючу скроню, це буде мій дух, що пройде повз.
+Seni Twisting Nether'dan izlemeli ve sen bu değerli küçük yükünle fırtınalarla tek başına mücadele ederken yanında süzülmeliyim; bir daha asla ayrılmamak üzere buluşana kadar hüzünlü bir sabırla beklemeliyim.]===],
+[===[Ama ah Sara, eğer ölüler Azeroth'u ziyaret edebiliyor ve sevdiklerinin etrafında fark edilmeden uçabiliyorlarsa, en neşeli gününde ve en karanlık gecende, en mutlu anlarında ve en kasvetli saatlerinde her zaman, her zaman yanında olacağım; yanağında hafif bir esinti olursa, bu benim nefesim olacak, serin hava atan şakağını okşadığında, bu geçip giden benim ruhum olacak.
 
-Сара, не оплакуй мене мертвого, краще думай, що я пішов, і чекай на мене, бо ми зустрінемося знову.
+Sara, öldüğüm için yas tutma, sadece gittiğimi düşün ve beni bekle, çünkü tekrar buluşacağız.
 
---Саллі]===],
+--Sully]===],
 },
 [4514] = { -- Sara Balloo's Plea (3)
-[===[Моєму шановному королю:
+[===[Saygıdeğer Kralıma:
 
-Не місце дружині простого солдата ставити під сумнів дії таких великих лідерів, як ви. Битви, що точаться на наших землях, ведуться за те, щоб зберегти чудове життя, яке ми знаємо й любимо, від прохолодних вод озера Лох-Модан до бурхливих засніжених вершин Дун-Морогу.]===],
-[===[Але яку ціну ми сплачуємо за ці війни, які ведемо в ім’я збереження? Після смерті якого загиблого солдата ми усвідомлюємо, що саме те життя, яке ми прагнемо врятувати, вислизає від нас на полі бою?
+Loch Modan'ın serin sularından Dun Morogh'un fırtınalı karlı zirvelerine kadar, bildiğimiz ve sevdiğimiz o harika hayatı korumak adına topraklarımızda süregelen savaşları, basit bir askerin karısının sorgulaması haddine değildir.]===],
+[===[Ancak koruma uğruna verdiğimiz bu savaşlar için ne bedel ödüyoruz? Düşen hangi askerin ölümünden sonra, kurtarmaya çalıştığımız o hayatın savaş alanında elimizden kayıp gittiğini fark ediyoruz?
 
-Під скільки мечів і сокир ми повинні кинути наше майбутнє? Під скількома футами розмоклої землі ми повинні поховати наше минуле?]===],
-[===[Не місце солдатській дружині ставити такі питання.
+Geleceğimizi kaç kılıç ve baltanın altına fırlatmalıyız? Geçmişimizi kaç fitlik ıslak toprağın altına gömmeliyiz?]===],
+[===[Bir askerin karısının böyle sorular sorması haddine değildir.
 
-Але зараз я пишу вам як удова солдата. Мій чоловік, можливо, був для вас одним солдатом у рядах тисячі. Для мене він був великим Саллі Баллу, батьком моїх дітей і моїм єдиним супутником у цьому житті.
+Ama şimdi size bir askerin dulu olarak yazıyorum. Kocam sizin için binlerce saf arasındaki bir asker olmuş olabilir. Benim için o büyük Sully Balloo'ydu, çocuklarımın babası ve bu hayattaki tek yoldaşımdı.
 
-Пробачте, якщо мої запитання до вас, о великий лідере, здаються недоречними. Але мертві не можуть спитати цього за себе...
+Size sorduğum sorular, ey büyük lider, uygunsuz görünüyorsa beni bağışlayın. Ama ölüler bunu kendileri için soramazlar...
 
-Ваша вірна піддана,
-Сара Баллу]===],
+Sadık tebaanız,
+Sara Balloo]===],
 },
 [4992] = { -- Recruitment Letter (1)
-[===[Вербувальний лист Орди
+[===[Horde Askere Alma Mektubu
 
-Ця особа продемонструвала неймовірну силу та майстерність в ім'я Орди. Таким навичкам потрібно негайно знайти роботу на Перехресті.
-
-
-
-З повагою:
+Bu kişi, Horde adına inanılmaz bir güç ve beceri göstermiştir. Bu tür yeteneklerin Crossroads'ta derhal işe koşulması gerekir.
 
 
+
+Saygılarımla:
 
 
 
 
 
-Як на мене, те що треба.
 
-— Такрін Торувач Шляхів]===],
+
+Bana göre tam aradığımız şey.
+
+— Takrin Pathseeker]===],
 },
 [4995] = { -- Signed Recruitment Letter (1)
-[===[Реєстрація військової повинності Орди
+[===[Horde Askeri Hizmet Kaydı
 
-Ця особа продемонструвала неймовірні подвиги сили та майстерності в ім'я Орди. Ці здібності треба негайно призначити до роботи на Перехресті.
-
-
-З повагою:
-
-- Карґал Битвошрам
+Bu kişi, Horde adına inanılmaz güç ve beceri mucizeleri göstermiştir. Bu yeteneklerin derhal Crossroads'taki işlere atanması gerekir.
 
 
+Saygılarımla:
 
-Виглядає непогано.
+- Kargal Battlescar
 
-- Такрін Торувач Шляхів]===],
+
+
+Fena görünmüyor.
+
+- Takrin Pathseeker]===],
 },
 [5006] = { -- Khazgorm's Journal (3)
-[===[Розкопки Баєль Модана
+[===[Bael Modan Kazıları
 
-Перша команда дослідників, відряджена Лігою дослідників, була дійсно правдива у своїх висновках. Тутешня земля сповнена артефактами, що мають абсолютну цінність для нашого народу. Не сумніваюся, що тут, під піском і каменями Баєль Модана, ми знайдемо довгоочікувані відповіді на низку питань.
+Kâşifler Loncası tarafından gönderilen ilk araştırma ekibi bulgularında gerçekten haklıydı. Buradaki topraklar, halkımız için mutlak değeri olan eserlerle dolu. Bael Modan'ın kumları ve taşları altında, bir dizi soruya uzun zamandır beklenen cevapları bulacağımızdan şüphem yok.
 
-Однак, геологія регіону вимагає застосування крайніх заходів. Багато піщаних родовищ затверділи від суворих та мінливих кліматичних умов.]===],
-[===[Утім, рішення досить просте. Використовуючи целюлозу в якості абсорбенту, ми можемо поєднати залишки нітрогліцерину з нітратом натрію, щоб виробити сильний заряд вибухової речовини, здатний пробити навіть найщільніші маси.
+Ancak bölgenin jeolojisi aşırı önlemler alınmasını gerektiriyor. Birçok kum deposu sert ve değişken iklim koşullarından dolayı katılaşmış durumda.]===],
+[===[Yine de çözüm oldukça basit. Selülozu bir emici olarak kullanarak, kalan nitrogलीसerini sodyum nitrat ile birleştirip en yoğun kütleleri bile delebilecek güçlü bir patlayıcı şarjı üretebiliriz.
 
-Робота буде шумною і руйнівною, але наш пошук має набагато більше значення, ніж комфорт місцевих жителів. Насправді нам вже довелося виганяти з регіону людо-биків, які виявилися вельми надокучливими.]===],
-[===[Той факт, що ми тут маємо справу з різними недоброзичливими елементами, змушує мене вірити, що нам знадобиться підтримка королівської армії. Не тільки розкопки потребуватимуть військової підтримки, на мою скромну думку новачка, саме розташування Баєль Модану може мати стратегічне значення для Альянсу, враховуючи мінливість світової політики в її нинішньому стані.
+İş gürültülü ve yıkıcı olacak, ancak arayışımız yerel halkın rahatından çok daha büyük bir öneme sahip. Aslında, bölgeden oldukça can sıkıcı olduğu ortaya çıkan boğa-insanları (taurenleri) zaten kovmak zorunda kaldık.]===],
+[===[Burada çeşitli düşmanca unsurlarla uğraşıyor olmamız, kraliyet ordusunun desteğine ihtiyacımız olacağına inanmama neden oluyor. Sadece kazılar askeri desteğe ihtiyaç duymayacak, benim mütevazı bir çaylak görüşüme göre, dünya politikasının mevcut durumundaki değişkenliği göz önüne alındığında, Bael Modan'ın konumu Alliance için stratejik bir öneme sahip olabilir.
 
-На жаль, я відступив від головного... Ще багато роботи на нас чекає під землею. Я витратив занадто багато часу на писання і недостатньо на розкопки...]===],
+Maalesef asıl konudan saptım... Yerin altında bizi bekleyen daha çok iş var. Yazmaya çok fazla, kazmaya ise yetersiz zaman harcadım...]===],
 },
 [5359] = { -- Lorgalis Manuscript (4)
-[===[Наш світ переповнений історією. Історією нових і старих рас. Історією воєн, тих, що давно згасли, і тих, що ще тліють.
+[===[Dünyamız tarihle dolup taşıyor. Yeni ve eski ırkların tarihiyle. Çoktan sönmüş ve hala tütmekte olan savaşların tarihiyle.
 
-Історією богів, що приходять з небес. Й історією старих богів, що дрімають під землею.
+Gökyüzünden gelen tanrıların tarihiyle. Ve yerin altında uyuyan eski tanrıların tarihiyle.
 
-Зараз я говорю само про них — Старих Богів. Про тих, хто жив і лютував в Азероті, коли світ був ще молодий.]===],
-[===[Старі Боги — це воля нашого світу. У кожній бурі лунає сміх Старого Бога. Полум'я лісової пожежі — це жар їхнього погляду. Коли Старі Боги йдуть, земля тремтить і тріскається, а слабші за них істоти кричать і рвуть власну плоть у відчаї.
+Şimdi tam olarak onlardan — Eski Tanrılardan (Old Gods) bahsediyorum. Dünya henüz gençken Azeroth'ta yaşamış ve öfke saçmış olanlardan.]===],
+[===[Eski Tanrılar dünyamızın iradesidir. Her fırtınada bir Eski Tanrı'nın kahkahası yankılanır. Orman yangınının alevi, onların bakışlarının sıcaklığıdır. Eski Tanrılar yürüdüğünde toprak titrer ve çatlar, onlardan daha zayıf varlıklar ise çaresizlik içinde çığlık atarak kendi etlerini yırtarlar.
 
-І не дарма, бо так само як вогонь не виявляє милосердя до дитячої допитливої руки, так і Старі Боги не шкодують тих, хто під ними. У кращому випадку, ми — пішаки. У гіршому — іграшки.]===],
-[===[Вони були першими володарями світу і правили силою та терором. І хоча зараз вони прикуті ланцюгами і сплять, їхні слуги все ще на волі, і ми, маленькі, жалюгідні смертні, не можемо зрівнятися з їхньою силою.
+Ve boşuna değil, çünkü ateş bir çocuğun meraklı eline merhamet göstermediği gibi, Eski Tanrılar da altındakileri esirgemez. En iyi ihtimalle piyonlarız. En kötü ihtimalle ise oyuncaklarız.]===],
+[===[Dünyanın ilk efendileriydiler ve güç ile terörle hükmettiler. Ve her ne kadar şu an zincirlenmiş ve uyuyor olsalar da, hizmetkarları hala serbesttir ve biz küçük, acınası ölümlüler onların gücüyle boy ölçüşemeyiz.
 
-Тих, хто намагається, вони пожирають. Але ті, хто знає своє місце, хто стає на коліна в благанні перед слугами Старих Богів, хто добровільно жертвує розумом і душею... лише вони знайдуть їхню милість.]===],
-[===[Аку'май, Принцеса Глибин, служить Старим Богам. Вона мешкає в Чорноводних глибинах, благословляючи тамтешні печери своєю древньою мудрістю. Принесена до глибин старшими смертними, Аку'май уособлює божественність. Вона має лише крихту могутності та люті Старих Богів, та навіть така могутність залишається вище нашого розуміння.
+Meydan okumaya çalışanları yutarlar. Ancak yerini bilenler, Eski Tanrılar'ın hizmetkarlarının önünde yalvararak diz çökenler, akıllarını ve ruhlarını gönüllü olarak feda edenler... Sadece onlar onların merhametini bulacaktır.]===],
+[===[Derinliklerin Prensesi Aku'mai, Eski Tanrılara hizmet ediyor. Blackfathom Deeps'te yaşıyor, oradaki mağaraları kadim bilgeliğiyle kutsuyor. Yaşlı ölümlüler tarafından derinliklere getirilen Aku'mai, tanrısallığı somutlaştırıyor. Eski Tanrıların gücünün ve öfkesinin sadece bir kırıntısına sahip, ancak bu güç bile bizim anlayışımızın ötesinde kalıyor.
 
-Тому їй поклоняються. Її бояться і люблять.
+Bu yüzden ona tapılıyor. Ondan korkuluyor ve o seviliyor.
 
 
---Лорґаліс]===],
+--Lorgalis]===],
 },
 [5428] = { -- An Exotic Cookbook (1)
-[===[1. Взяти одну чи вісім людина
-2. Бити людина сильно
-3. Бити людина ще
-4. Класти людина у вогонь
-5. Їсти людина]===],
+[===[1. Bir veya sekiz insan al
+2. İnsanı sertçe döv
+3. İnsanı biraz daha döv
+4. İnsanı ateşe koy
+5. İnsanı ye]===],
 },
 [5594] = { -- Letter to Jin'Zil (1)
-[===[Джин'Зіл,
+[===[Jin'Zil,
 
-минуло багато часу, але я подумав, що ти хотів би знати, що остання з Кривавоперих вбита. Не дякуй мені, бо не я, а {стать:той:та}, що {стать:приніс:принесла} тобі листа, - і є вбивцею. Якщо бажаєш, я можу передати її голову тобі, після того, як караван здійснить об'їзд по Степу. Я знаю, що ти полюбляєш такі штуки для своєї магії вуду.
+Uzun zaman oldu ama Bloodfeather'ların sonuncusunun öldürüldüğünü bilmek isteyeceğini düşündüm. Bana teşekkür etme, çünkü ben değil, sana bu mektubu {стать:getiren:getiren} kişi katildir. Eğer istersen, kervan Barrens çevresinde bir tur attıktan sonra onun kafasını sana teslim edebilirim. Vudu büyün için bu tür şeyleri sevdiğini biliyorum.
 
-Бережи себе, мій старий друже.
+Kendine iyi bak, eski dostum.
 
-— Дарсок Худкоклин]===],
+— Darsok Swiftdagger]===],
 },
 [5799] = { -- Kravel's Parts Order (1)
-[===[ЗАМОВЛЕННЯ НОМЕР: 45TK-3
-ПОКУПЕЦЬ: Крейвел Вуглеборід
+[===[SİPARİŞ NUMARASI: 45TK-3
+ALICI: Kravel Coalbeard
 
-РАХУНОК-ФАКТУРА:
+FATURA:
 
-Гідрохраповик (3)
-Підсилювальні болти (50)
-30-дюймова 20-каліброва мідна трубка (12)
-Нюхальний тютюн "Глибока лють" (1)
-Високорозрядна призма (3)]===],
+Whirligig (3)
+Güçlendirici Cıvatalar (50)
+30 inçlik 20 kalibrelik bakır boru (12)
+"Deepfury" Enfiye Tütünü (1)
+Yüksek Deşarjlı Prizma (3)]===],
 },
 [5804] = { -- Goblin Rumors (1)
-[===[Гоблін Назз Пароварченко насправді син гоблінського принца-торговця (Якого принца? Це дорога інформація).
+[===[Goblin Nazz Steampipe aslında bir goblin ticaret prensinin oğludur (Hangi prensin mi? Bu pahalı bir bilgidir).
 
-Схоже, що йому набагато більше подобається витрачати гроші своєї сім'ї, ніж заробляти їх самому. Тому він викрав невелику частину багатства з сімейного сховища і тепер переховується на Мерехтливих рівнинах.
+Görünüşe göre kendi parasını kazanmaktansa ailesinin parasını harcamayı çok daha fazla seviyor. Bu yüzden aile kasasından servetin küçük bir kısmını çaldı ve şimdi Shimmering Flats'te saklanıyor.
 
-Якщо його батько дізнається, де він, то обов'язково знайде його і поверне додому... хіба що без пальця, за нахабність.]===],
+Eğer babası nerede olduğunu öğrenirse, onu kesinlikle bulacak ve eve geri getirecektir... Küstahlığı yüzünden bir parmağı eksik olarak tabii ki.]===],
 },
 [5838] = { -- Kodo Skin Scroll (1)
-[===[Щоб вполювати Кригопащу, ти {стать:повинен:повинна} спокусити його м’ясом улюбленої здобичі.
+[===[Iceclaw'ı avlamak için, en sevdiği avın etiyle onu cezbetmek {стать:zorundasın:zorundasın}.
 
-Відправляйся в Альтерацькі гори в Азероті та вполюй на масивного гірського лева. Убий його, а потім віднеси його тушу до Охлялої печери, місця, яке вважається священним для звірячих вендиго.
+Azeroth'taki Alterac Dağları'na git ve devasa bir dağ aslanı avla. Onu öldür ve ardından leşini, vahşi vendigolar için kutsal sayılan bir yer olan Growless Mağarası'na götür.
 
-Поклади тушу на полум'я Узела, і запах горілого м'яса понесе з печери.
+Leşi Uzel'in alevine koy, yanmış et kokusu mağaradan dışarı yayılacaktır.
 
-І тоді, з часом, прийде Кригопаща.]===],
+Ve sonra, zamanla, Iceclaw gelecektir.]===],
 },
 [5917] = { -- Spy's Report (3)
-[===[– День 13
-Переміщення військ поблизу Терамора збільшилося. Велика кількість людей покинула місто та поспішно рушила на захід.
+[===[– 13. Gün
+Theramore yakınlarındaki birlik hareketliliği arttı. Çok sayıda insan şehirden ayrıldı ve aceleyle batıya doğru hareket etti.
 
-– День 14
-Більше військ залишило місто. Я слідкував за невеликою групою й спостерігав, як вони знімають уніформу після того, як відійшли від Терамора на дальність польоту стріли. Можливо, вони дезертири?
+– 14. Gün
+Şehirden daha fazla asker ayrıldı. Küçük bir grubu takip ettim ve Theramore'dan bir ok uçuşu mesafesi kadar uzaklaştıktan sonra üniformalarını çıkardıklarını gözlemledim. Belki de asker kaçaklarıdır?
 
-– День 15
-Я випадково чув, як деякі тераморські війська сьогодні говорили про охорону, яка залишила свої пости. Мабуть, мої підозри щодо дезертирів правдиві.]===],
-[===[– День 16
-Улеґ і Тарґіл повернулися зі своєї місії до доків Терамора. Вони побачили в порту новий корабель: «Знекровлений горобець». Корабель прибув із гавані Менетілів в Азероті.
+– 15. Gün
+Bugün bazı Theramore askerlerinin görev yerlerini terk eden muhafızlar hakkında konuştuklarını kulak misafiri oldum. Görünüşe göre asker kaçakları hakkındaki şüphelerim doğru.]===],
+[===[– 16. Gün
+Uleg ve Targil, Theramore rıhtımlarındaki görevlerinden döndüler. Limanda yeni bir gemi gördüler: "The Bloodied Sparrow". Gemi Azeroth'taki Menethil Limanı'ndan gelmişti.
 
-Завтра Улеґ і Тарґіл повернуться до доків і прокрадуться на борт корабля. Вони сподіваються знайти політичні документи, які розкривають відносини між Терамором та Альянсом.]===],
-[===[– День 17
-Улеґ повернувся зі свого завдання. Він зазнав невдачі й Тарґіла схопили. Я послав Улеґа передати цей звіт Назіру.
+Yarın Uleg ve Targil rıhtımlara dönecek ve gemiye gizlice sızacaklar. Theramore ile Alliance arasındaki ilişkileri ortaya koyan siyasi belgeleri bulmayı umuyorlar.]===],
+[===[– 17. Gün
+Uleg görevinden döndü. Başarısız oldu ve Targil yakalandı. Bu raporu Nazgrel'e iletmesi için Uleg'i gönderdim.
 
-Я залишусь тут. Я помітив збільшення корабельної активності біля узбережжя Терамора. Продовжуватиму стежити й особисто повідомлятиму про будь-які важливі події.]===],
+Burada kalacağım. Theramore kıyılarında gemi aktivitesinin arttığını fark ettim. İzlemeye devam edeceğim ve önemli gelişmeleri şahsen bildireceğim.]===],
 },
 [6488] = { -- Simple Tablet (1)
-[===[Здоров, мон. Передай цю скрижаль Франґу в долині Випробувань. Він зазвичай стоїть десь біля Лігва і ганяє новачків, наставляючи на шлях воїна Орди.
+[===[Selam, mon. Bu tableti Valley of Trials'taki Frang'e teslim et. Genellikle Den'in yakınlarında bir yerde durur, yeni gelenleri koşturur ve onlara Horde savaşçısının yolunu öğretir.
 
-Йому потрібні такі вправні воїни, як ти, щоб показати цим оркам, що битви виграються не лише грубою силою. Ти спритніше і розумніше за тамтешніх орків, та сильно не вихваляйся - орки цього не люблять. Вони гарні союзники та можуть тебе чомусь навчити.
+Savaşların sadece kaba kuvvetle kazanılmadığını bu orklara göstermek için senin gibi yetenekli savaşçılara ihtiyacı var. Buradaki orklardan daha çevik ve zekisin, ama çok fazla böbürlenme - orklar bundan hoşlanmaz. Onlar iyi müttefiklerdir ve sana bir şeyler öğretebilirler.
 
--Тар'сер]===],
+-Tar'ser]===],
 },
 [6842] = { -- Furen's Instructions (5)
-[===[На наступних сторінках ти знайдеш список матеріалів, необхідних для виготовлення загартованої вогнем броні. Хай щастить, {клас:к}.
+[===[Sonraki sayfalarda, ateşle temperlenmiş zırh üretimi için gerekli malzemelerin listesini bulacaksın. Başarılar dilerim, {sınıf:k}.
 
 
--Фьюрен Довгобород]===],
-[===[Обпалені павучі ікла:
+-Furen Longbeard]===],
+[===[Kavrulmuş Örümcek Dişleri:
 
-Спалахітова руда в печері Тельґена обпалила тамтешніх павуків.
+Thelgen Kayası mağarasındaki Spatalite cevheri oradaki örümcekleri kavurmuş.
 
-Отрута в їх іклах кипить та вступає в реакцію з самими іклами, утворюючи дуже міцну речовину.]===],
-[===[Обвуглені роги:
+Dişlerindeki zehir kaynıyor ve dişlerin kendisiyle reaksiyona girerek çok güçlü bir madde oluşturuyor.]===],
+[===[Kavrulmuş Boynuzlar:
 
-Так само, як і обпалені павучі ікла, обвуглені роги химер що проживають в Обвугленій долині Каміннопазуристих гір Калімдора, мають неабияку цінність.
+Tıpkı kavrulmuş örümcek dişleri gibi, Kalimdor'un Stonetalon Dağları'ndaki Charred Vale'de yaşayan chimerların kavrulmuş boynuzları da büyük bir değere sahiptir.
 
-За правильної обробки вони стають дуже стійкими до ушкоджень.]===],
-[===[Гальванізований ріг:
+Doğru işlendiklerinde hasara karşı çok dirençli hale gelirler.]=== ] ,
+[===[Galvanizli Boynuz:
 
-Міцність рідкісного гальванізованого рогу є основою всього шматка броні, яку я створю, тож його теж необхідно добути.
+Nadir bulunan galvanizli boynuzun gücü, üreteceğim tüm zırh parçasının temelidir, bu yüzden onun da elde edilmesi gerekir.
 
-Отримати його можна з рідкісної химери-матріарха в Обвугленій долині.]===],
-[===[Фіал флогістону:
+Onu Charred Vale'deki nadir bir chimera reisinden (matriarch) alabilirsin.]===],
+[===[Bir Şişe Phlogiston:
 
-На останньому етапі створення броні знадобиться надзвичайно гаряча кузня. Щоб отримати необхідний рівень тепла, мені потрібен фіал флогістону.
+Zırh yapımının son aşamasında son derece sıcak bir demirhaneye ihtiyaç duyulacaktır. Gerekli ısı seviyesini elde etmek için bir şişe phlogistona ihtiyacım var.
 
-Єдиним відомим виробником цієї речовини є легендарний свинобраз Руґуґ, і він не віддасть її без бою. Руґуґ мешкає глибоко в краалі Бритвоболотих на півдні Степів.]===],
+Bu maddenin bilinen tek üreticisi efsanevi domuzadam Rugug'dur ve onu savaşmadan vermeyecektir. Rugug, Barrens'ın güneyindeki Razorfen Kraul'un derinliklerinde yaşıyor.]===],
 },
 [6846] = { -- Defias Script (1)
-[===[План приведено у дію.
+[===[Plan devreye sokuldu.
 
-Розбийте на цьому, колись великому бастіоні віри, Варті Героїв, наш табір. Ми почнемо перекидати туди підкріплення із Західного краю, щойно тільки дізнаємося від вас, що табір належним чином підготовлений.
+Bir zamanların bu büyük inanç kalesi olan Heroes' Vigil'de kampımızı kurun. Kampın düzgün bir şekilde hazırlandığını sizden öğrenir öğrenmez Westfall'dan oraya takviye kuvvet göndermeye başlayacağız.
 
-Жителі та солдати Штормовію давно забули про це місце, тож ми зможемо успішно влаштовувати звідти набіги.
+Stormwind sakinleri ve askerleri burayı çoktan unuttular, bu yüzden oradan başarıyla baskınlar düzenleyebiliriz.
 
-Повстанці відіб'ють Штормовій!
+Defias Stormwind'i geri alacak!
 
-Чекаю вашої відповіді.]===],
+Cevabınızı bekliyorum.]===],
 },
 [6847] = { -- Dark Iron Script (1)
-[===[Цих брудних трогів так просто обдурити. Їхня ненависть до нашого виду дозволяє рухати ними, як пішаками. Вражає, як вони пішли хоч на якийсь союз, але дворфи для них найстрашніша загроза... принаймні поки що.
+[===[Bu pis troggları kandırmak çok kolay. Türümüze olan nefretleri, onları piyon gibi hareket ettirmemizi sağlıyor. Herhangi bir ittifaka girmeleri şaşırtıcı, ancak cüceler onlar için en korkunç tehdit... En azından şimdilik.
 
-Коли почнуться напади, обидві сторони ослабнуть і не встоять перед нашим натиском. Захопіть будинок на південь від озера Постеля Гельма і чекайте на подальші вказівки.
+Saldırılar başladığında, her iki taraf da zayıflayacak ve baskımıza karşı koyamayacak. Helm's Bed Gölü'nün güneyindeki evi ele geçirin ve sonraki talimatları bekleyin.
 
-Залізогарт буде наш.]===],
+Ironforge bizim olacak.]===],
 },
 [6929] = { -- Bath'rah's Parchment (4)
-[===[Нижче ти знайдеш всі необхідні компоненти для мого закляття виклику Циклоніана. Хай тобі щастить.
+[===[Aşağıda, Cyclonian'ı çağırma büyüm için gerekli tüm bileşenleri bulacaksın. Başarılar dilerim.
 
---Бат'рах Вітрогляд]===],
-[===[Життєкорінь:
+--Bath'rah the Windwatcher]===],
+[===[Liferoot (Життєкорінь):
 
-Він може зустрітись тобі в мандрах або ж його можна зібрати з сухолозих чудиськ в Бруднолипкій трясовині. Його сила необхідна мені для того, щоб приманити життєву сутність Циклоніана в наш світ.]===],
-[===[Ікла кровоскальпих тролів:
+Yolculuklarında karşısına çıkabilir ya da Dustwallow Marsh'taki kuraklık canavarlarından toplanabilir. Cyclonian'ın yaşam özünü dünyamıza çekmek için onun gücüne ihtiyacım var.]===],
+[===[Bloodscalp Troll Dişleri:
 
-Ікла кровоскальпих тролів з Тернистої долини мають унікальні властивості. Безумство Кровоскальпих зосереджено у їхніх іклах, тож, розтовкши їх в порошок, можна вивільнити ці злі сили.]===],
-[===[Сутність вигнанця:
+Stranglethorn'daki Bloodscalp trollerinin dişleri benzersiz özelliklere sahiptir. Bloodscalp'lerin çılgınlığı dişlerinde yoğunlaşmıştır, bu yüzden onları toz haline getirerek bu kötü güçleri serbest bırakabilirsiniz.]===],
+[===[Sürgün Özü (Сутність вигнанця):
 
-Цю сутність можна отримати, поєднавши три амулети стихійних вигнанців з височини Араті. Збери грозові, палаючі та бурунисті амулети з елементалів та помісти по 8 штук в мій котел.
+Bu öz, Arathi Dağlık Bölgesi'ndeki elementel sürgünlerin üç tılsımı birleştirilerek elde edilebilir. Elementallerden fırtına, alev ve dalga tılsımlarını toplayın ve kazanımın içine her birinden 8'er adet yerleştirin.
 
-З них сформується сутність вигнанця.]===],
+Onlardan sürgün özü şekillenecektir.]===],
 },
 [6996] = { -- Jordan's Weapon Notes (6)
-[===[{ім'я},
-Перш за все, я хочу ще раз подякувати тобі за все, що ти {стать:зробив:зробила} для мене і моєї дружини. Ти {стать:врятував:врятувала} її, і за це я не зможу віддячити впродовж всього життя. Якби з нею щось сталось... я не знаю, що б я робив...
+[===[{isim},
+Öncelikle, benim ve karım için {стать:yaptığın:yaptığın} her şey için sana bir kez daha teşekkür etmek istiyorum. Onu {стать:kurtardın:kurtardın} ve bunun için hayatım boyunca teşekkür etsem azdır. Eğer ona bir şey olsaydı... Ne yapardım bilmiyorum...
 
-Ось список всього, що ти маєш зібрати, щоб я зміг викувати для тебе гідну зброю. Я записав послідовно -- від простішого до складнішого, так тобі буде легше.]===],
-[===[Деревина білокам'яного дуба. В шахтах під Місяцеграєм, що в Західному краї, було багато цієї деревини до того, як їх захопили повстанці. Вона використовувалась для виробництва обладнання та інструментів через її стійкість до жару та тиску.
+İşte senin için layık bir silah dövebilmem için toplaman gereken her şeyin listesi. Kolaylık olsun diye basitten karmaşığa doğru sırayla yazdım.]===],
+[===[Whitestone Meşesi Odunu. Westfall'daki Moonbrook'un altındaki madenlerde, asiler orayı ele geçirmedi önce bu odundan bolca vardı. Isıya ve basınca karşı direnci nedeniyle ekipman ve aletlerin üretiminde kullanılırdı.
 
-Її привезли туди з-за океану. Ця рідкісна деревина достатньо міцна для виготовлення зброї для тебе. Якщо вона ще залишилась - ти знайдеш її у гоблінів-дроворізів.]===],
-[===[Очищена руда. В Телсамарі є дворф-коваль, у якого я навчався деякий час, звати Байлор Камнерук. Він вміє робити особливий сплав, який, як мені здається, чудово підійде для твоєї зброї. Я очікував прибуття чергового вантажу в Залізогарт, та поки про нього нічого не чути.
+Oraya okyanusun ötesinden getirilmişti. Bu nadir odun senin için silah yapımına yetecek kadar güçlüdür. Eğer hala kaldıysa - onu goblin oduncularında bulacaksın.]===],
+[===[Arıtılmış Cevher. Thelsamar'da bir süre yanında eğitim aldığım, adı Bailor Stonehand olan bir cüce demirci var. Senin silahın için harika olacağını düşündüğüm özel bir alaşım yapmayı biliyor. Ironforge'a bir sonraki sevkiyatın gelmesini bekliyordum ama henüz ondan bir haber yok.
 
-Знайди Байлора і перевір, чи не готове моє відправлення. Якщо не знайдеш його в Лох-Модані -- хоча б дізнайся що сталось з моїм старим вчителем.]===],
-[===[Ковальський молоток. До приходу чуми та зради Артаса я жив в містечку Поховальні Вогнища, глибоко в прекрасних лісах Срібнохвою. Ліс вже далеко не такий красивий, як колись, а фортеця, в якій мене навчали роботі зі сталлю, занепала й була захоплена злими істотами.
+Bailor'u bul ve gönderimin hazır olup olmadığını kontrol et. Onu Loch Modan'da bulamazsan -- en azından eski öğretmenime ne olduğunu öğren.]===],
+},
+[6996] = {
+[===[Demirci Çekici. Veba gelmeden ve Arthas ihanet etmeden önce, Silverpine'ın güzel ormanlarının derinliklerindeki Pyrewood Köyü kasabasında yaşıyordum. Orman artık eskisi kadar güzel değil ve bana çelikle çalışmanın öğretildiği kale çöktü ve kötü yaratıklar tarafından ele geçirildi.
 
-Коли ми з дружиною втекли з місця, що зараз називається фортецею Тінеклик, ми залишили кілька цінних речей.]===],
-[===[Серед тих речей -- ковальський молоток мого батька. В молодості я сумнівався в цьому, та батько завжди казав мені, що той молоток зачарований. І це останнє, що я почув від нього перед тим, як його згубила Скара.
+Karımla birlikte şu an Shadowfang Kalesi olarak adlandırılan yerden kaçtığımızda, birkaç değerli eşyamızı geride bıraktık.]===],
+[===[O eşyaların arasında -- babamın demirci çekici de var. Gençliğimde bundan şüphe duymuştum ama babam bana her zaman o çekicin büyülü olduğunu söylerdi. Ve bu, Scourge onu yok etmeden önce ondan duyduğum son şeydi.
 
-Принеси мій молоток, {ім'я}, він допоможе мені зосередитись на справі. Якщо він дійсно зачарований -- це допоможе нам обом.
+Çekicimi getir, {isim}, işe odaklanmama yardımcı olacak. Eğer gerçekten büyülüyse -- bu ikimize de yardımcı olacaktır.
 
-Я залишив його в стайнях на головному подвір'ї в фортеці. Якщо ці істоти не забрали його, він має все ще бути там.]===],
-[===[Самоцівіт Кора. Я чув, що самоцвіти використовуються чаклунами, щоб утримувати енергію своїх заклять, роблячи їх могутнішими. Нічний ельф, якому я колись допоміг, Тандріс Вітроткач, може розказати про нього більше, якщо скажеш, що тебе відправив я. Думаю, ми зможемо використати один з таких самоцвітів, наповнених енергією, для створення твоєї зброї.
+Onu kaledeki ana avluda bulunan ahırlarda bıraktım. Eğer o yaratıklar onu almadıysa, hala orada olmalı.]===],
+[===[Kora Mücevheri. Büyücülerin büyülerin enerjisini tutmak ve onları daha güçlü kılmak için mücevherler kullandıklarını duymuştum. Bir zamanlar yardım ettiğim bir gece elfi olan Thandris Windweaver, beni gönderdiğini söylersen sana bu konuda daha fazla şey anlatabilirsin. Silahını oluşturmak için enerjiyle dolu bu mücevherlerden birini kullanabileceğimizi düşünüyorum.
 
-Востаннє я бачив Тандріса в Аубердіні, містечку на Темнобережжі, що лежить в тінях крони Тельдрассіля -- домівки цього нічного ельфа.]===],
+Thandris'i en son Auberdine'de, Darkshore'da, bu gece elfinin evi olan Teldrassil'in tacının gölgelerinde yatan kasabada görmüştüm.]===],
 },
 [7266] = { -- Ur's Treatise on Shadow Magic (1)
-[===[Таємничі закручені символи та піктограми заповнюють сторінки цього посібника; вони за межами розуміння.]===],
+[===[Gizemli kıvrımlı semboller ve piktogramlar bu kılavuzun sayfalarını dolduruyor; bunlar anlayışın ötesindedir.]===],
 },
 [7516] = { -- Tabetha's Instructions (2)
-[===[Візьми нефрит. Вони приховані в багатьох різних місцях. Вони зустрічаються рідко, але якщо спитаєш коваля чи інженера, у них може бути один або два про запас.]===],
-[===[Візьми заряджену блискавкою тростину. Щоб таку отримати, візьми 10 тотемних палиць тролів племені В'ялошкірих з височини Араті. Принеси ці палиці до кола з каменів що поряд з колом Зовнішнього Поневолення. Розклади палиці на центральний камінь у колі та дочекайся, поки в нього вдарить блискавка. Коли це станеться, заряджена блискавкою тростина сформується.]===],
+[===[Bir yeşim taşı (jade) al. Birçok farklı yerde gizlenmişlerdir. Nadir bulunurlar, ancak bir demirciye veya mühendise sorarsan, stoklarında bir veya iki tane bulunabilir.]===],
+[===[Yıldırım yüklü bir çalı al. Bunu elde etmek için, Arathi Dağlık Bölgesi'ndeki Witherbark kabilesi trollerinin 10 totem çubuğunu al. Bu çubukları, dış bağlama çemberinin yanındaki taş çembere getir. Çubuğu çemberin merkezindeki taşın üzerine yerleştir ve ona yıldırım çarpmasını bekle. Bu gerçekleştiğinde, yıldırım yüklü çalı şekillenecektir.]===],
 },
 [7587] = { -- Thun'grim's Instructions (1)
-[===[{ім'я}, ось список матеріалів для виготовлення твого обладунку:
+[===[{isim}, işte zırhının yapımı için malzemelerin listesi:
 
-Злитки димчастого заліза вітрокосих кобольдів Вітрокосої печери, що в Каміннопазуристих горах.
+Stonetalon Dağları'ndaki Windshear Mağarası'nın rüzgarkıran koboldlarının dumanlı demir külçeleri.
 
-Молотий азурит гіллзбрадських шахтарів в Гіллзбраді.
+Hillsbrad'daki Hillsbrad madencilerinin öğütülmüş azuriti.
 
-Злитки заліза, які можна дістати у шахтарів або зробити самотужки.
+Madencilerden elde edilebilecek ya da kendi başına yapılabilecek demir külçeleri.
 
-Фіал флогістону, який можна дістати у свинобраза на ім'я Роґуґ в краалі Бритвоболотих.]===],
+Razorfen Kraul'daki Rugug adındaki domuzadamdan elde edilebilecek bir şişe phlogiston.]===],
 },
 [7908] = { -- Klaven Mortwake's Journal (5)
-[===[ТзНБ "Авантюра" <нерозбірливий текст> Здавалося б, дурні ледь не звели нанівець всю свою операцію, намагаючись стабілізувати суміш.
+[===[Venture Co. <okunaksız metin> Görünüşe göre aptallar karışımı stabilize etmeye çalışırken neredeyse tüm operasyonlarını mahvediyorlardı.
 
-<здається, кілька сторінок вирвано>]===],
-[===[Що я помітив, так це те, що побічний ефект надзвичайно смертельний. Уявіть, якщо <нерозбірливий текст> Ха-ха-ха!]===],
-[===[Я їду з глузду? Сьогодні я відрубав голову одному з моїх найбільш довірених патрульних, щоб краще поглянути на його душу. Вдивляючись у його перерізаний дихальний канал, мені спало на думку: я нічого не їв кілька днів!]===],
-[===[Матіас Гич послав хлопчика на побігеньках вбити мене. <нерозбірливий текст>
+<bazı sayfalar yırtılmış gibi görünüyor>]===],
+[===[Fark ettiğim şey, yan etkinin son derece ölümcül olduğudur. Düşünün, eğer <okunaksız metin> Ha-ha-ha!]===],
+[===[Aklımı mı kaçırıyorum? Bugün, ruhuna daha iyi bakabilmek için en güvendiğim devriyelerimden birinin kafasını uçurdum. Kesik nefes borusuna bakarken aklıma geldi: Birkaç gündür hiçbir şey yemedim!]===],
+[===[Mathias Shaw beni öldürmesi için bir ayakçı çocuk gönderdi. <okunaksız metin>
 
-Зараз він патрулює надворі. Безглуздий, неживий байдик.
+Şu an dışarıda devriye geziyor. Anlamsız, cansız bir kukla.
 
-Ха-ха-ха!]===],
-[===[ван Кліф... <нерозбірливий текст>
+Ha-ha-ha!]===],
+[===[van Cleef... <okunaksız metin>
 
-Викликав МЕНЕ?? КИМ ВІН ВВАЖАЄ СЕБЕ?? Я Клейвен Мортвейк! Комаха не буде вказувати мені що робити!
+BENİ mi çağırdı?? KENDİNİ KİM SANIYOR O?? Ben Klaven Mortwake'im! Bir böcek bana ne yapacağımı söyleyemez!
 
-<решта сторінок у книзі відсутні>]===],
+<kitaptaki geri kalan sayfalar eksik>]===],
 },
 [8046] = { -- Kearnen's Journal (3)
-[===[Охоронці цієї вежі, здається, особливо слабкі до моїх атак. Коли я оглядала задню частину вежі, мене помітив патрульний і напав. Я змогла легко розправитися з ним своєчасним ударом, а потім ударом у спину.
+[===[Bu kulenin muhafızları saldırılarıma karşı özellikle zayıf görünüyor. Kulenin arka tarafını incelerken bir devriye beni fark etti ve saldırdı. Zamanında bir darbe ve ardından arkadan bir vuruşla onunla kolayca başa çıkabildim.
 
-Я чекала, ховаючись, поки його напарник прийде розслідувати метушню. Патрульний підійшов до кущів, куди я притягнула труп, і почав обшук. Повільно, обережно я підкралася позаду нього без зайвого шуму.]===],
-[===[Коли випала нагода, я встромила кинджал йому в спину! Його легені швидко відступили під силою нападу, коли його труп гепнувся на землю з глухим стуком.
+Cesedi çektiğim çalıların arkasında saklanarak, ortağının kargaşayı incelemek için gelmesini bekledim. Devriye cesedi çektiğim çalıların yanına geldi ve aramaya başladı. Yavaşça, dikkatlice, hiç gürültü yapmadan arkasından sokuldum.]===],
+[===[Fırsat doğduğunda, hançeri sırtına sapladım! Cesedi boğuk bir gümleme ile yere düşerken, saldırının gücüyle akciğerleri hızla söndü.
 
-Це була така швидка й жорстока засідка, що бідолашний дурень навіть не встиг закричати від болю. Цікаво, що коли я вийняла лезо з його спини, з продірявленого патрульного пішов неприємний запах.]===],
-[===[Здавалося б, усе, що Клейвен замкнув у скрині, негативно впливає на мешканців вежі. Я підозрюю, що інші охоронці можуть мати подібні слабкості, і, можливо, навіть сам Клейвен став жертвою цього руйнівного впливу.
+O kadar hızlı ve acımasız bir pusuydu ki, zavallı aptal acıdan çığlık atmaya bile zaman bulamadı. İlginçtir ki, bıçağı sırtından çıkardığımda, delinen devriyeden hoş olmayan bir koku yükseldi.]=== ] ,
+[===[Görünüşe göre Klaven'ın sandığa kilitlediği her şey kulenin sakinlerini olumsuz etkiliyor. Diğer muhafızların da benzer zayıflıklara sahip olabileceğinden şüpheleniyorum, hatta belki de Klaven'ın kendisi bu yıkıcı etkinin kurbanı oldu.
 
-Агент Ембер Кеарнен
-Польова оперативниця ШБУ, R8]===],
+Ajan Amber Kearnen
+SI:7 Saha Operatörü, R8]===],
 },
 [9242] = { -- Ancient Tablet (1)
-[===[Молот Зул'Фаррака
+[===[Zul'Farrak Çekici
 
-Щоб створити молот Зул'Фаррака, потрібно спершу відправитися до Олтаря Зула та отримати священний молот від трольського хранителя.
+Zul'Farrak çekicini oluşturmak için öncelikle Altar of Zul'e gitmeli ve kutsal çekici trol koruyucusundan almalısınız.
 
-Потім, потрібно принести священний молот до вівтаря на вершині міста тролів Джінта'Алор.
+Ardından, kutsal çekici trol şehri Jintha'Alor'un zirvesindeki sunağa getirmelisiniz.
 
-Використання священного молота на вівтарі наповнить його силою та перетворить на молот Зул'Фаррака.]===],
+Kutsal çekicin sunakta kullanılması onu güçle dolduracak ve Zul'Farrak çekicine dönüştürecektir.]===],
 },
 [9279] = { -- White Punch Card (1)
-[===[СУПЕР ВАЖЛИВА ТРИЧІ ЗАШИФРОВАНА КАРТА ДАНИХ
+[===[SÜPER ÖNEMLİ ÜÇ KEZ ŞİFRELENMİŞ VERİ KARTI
 
-01010100 01101000 01110010 01100001 01101100 01101100 00100000 01100001 01101110 01100100 00100000 01001010 01100001 01101001 01101110 01100001 00100000 01110011 01101001 01110100 01110100 01101001 01101110 01100111 00100000 01101001 01101110 00100000 01100001 00100000 01110100 01110010 01100101 01100101 00101100 00100000 01001011 00101101 01001001 00101101 01010011 00101101 01010011 00101101 01001001 00101101 01001110 00101101 01000111]===],
+01010100 01101000 01110010 01100001 01101100 01101100 00100000 01100001 01101110 01100100 00100000 01001010 01100001 01101001 01101110 01100001 00100000 01110011 01101001 01110100 01110100 01101001 01101110 01100111 00100000 01101001 01101110 00100000 01100001 00100000 01110100 01110010 01100101 01100101 00101100 00100000 01001010 00101101 01001001 00101101 01010011 00101101 01010011 00101101 01001001 00101101 01001110 00101101 01000111]===],
 },
 [9280] = { -- Yellow Punch Card (1)
-[===[ЖИТТЄВО ВАЖЛИВІ ДАНІ! РІВЕНЬ БЕЗПЕКИ 5122!
+[===[HAYATİ ÖNEMLİ VERİLER! GÜVENLİK SEVİYESİ 5122!
 
-01001001 01100110 00100000 01111001 01101111 01110101 00100000 01100011 01100001 01101110 00100000 01110010 01100101 01100001 01100100 00100000 01110100 01101000 01101001 01110011 00101100 00100000 01111001 01101111 01110101 00100111 01110010 01100101 00100000 01110011 01110100 01100001 01101110 01100100 01101001 01101110 01100111 00100000 01110100 01101111 01101111 00100000 01100011 01101100 01101111 01110011 01100101]===],
+01001001 01100110 00100000 01111001 01101111 01110101 00100000 01100011 01100001 01101110 00100000 01110010 01100101 01100001 01100100 00100000 01110100 01101000 01101001 01110011 00101100 00100000 01111001 01101111 01110101 00100111 01110010 01100101 00100000 01110011 01110100 01100001 01101110 01100100 01101001 01101110 01100111 00100000 01110100 01101110 01101111 00100000 01100011 01101100 01101110 01110011 01100101]===],
 },
 [9281] = { -- Red Punch Card (1)
-[===[Рівень безпеки 10^10000. Надсекретні дані!
+[===[Güvenlik seviyesi 10^10000. Çok gizli veriler!
 
-01001000 01100101 01101100 01110000 00100001 00100000 00100000 01001001 00100111 01101101 00100000 01110100 01110010 01100001 01110000 01110000 01100101 01100100 00100000 01101001 01101110 00100000 01100001 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00100000 01110000 01110101 01101110 01100011 01101000 00100000 01100011 01100001 01110010 01100100 00100000 01100110 01100001 01100011 01110100 01101111 01110010 01111001 00100001]===],
+01001000 01100101 01101100 01110000 00100001 00100000 00100000 01001000 00100111 01101101 00100000 01110100 01110010 01100001 01110000 01110000 01100101 01100100 00100000 01101001 01101110 00100000 01100001 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00100000 01110000 01110101 01101110 01100011 01101000 00100000 01100011 01100001 01110010 01100100 00100000 01100110 01100001 01100011 01110100 01101111 01110010 01111001 00100001]===],
 },
 [9282] = { -- Blue Punch Card (1)
-[===[НЕ ДАЙТЕ цій інформації потрапити до рук ворога!
+[===[Bu bilginin düşmanın eline geçmesine İZİN VERMEYİN!
 
-01010100 01101000 01100101 00100000 01100111 01101110 01101111 01101101 01100101 00100000 01101011 01101001 01101110 01100111 00100000 01110111 01100101 01100001 01110010 01110011 00100000 01101110 01101001 01100111 01101000 01110100 00100000 01100101 01101100 01100110 00100000 01110101 01101110 01100100 01100101 01110010 01110111 01100101 01100001 01110010]===],
+01010100 01101000 01100101 00100000 01100111 01101110 01101111 01101101 01100101 00100000 01101011 01101001 01101110 01100111 00100000 01110111 01100101 01100001 01110010 01110011 00100000 01101110 01101001 01100111 0110100h 01110100 00100000 01100101 01101100 01100110 00100000 01110101 01101110 01100100 01100101 01110018 01110111 01100001 01110010]===],
 },
 [9316] = { -- Prismatic Punch Card (2)
-[===[Рівень безпеки цих даних НАСТІЛЬКИ високий, що ми чекаємо на винайдення нового числа для його опису!]===],
-[===[01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110]===],
+[===[Bu verilerin güvenlik seviyesi O KADAR yüksek ki, bunu açıklamak için yeni bir sayının icat edilmesini bekliyoruz!]===],
+[===[01001101 01100101 01110011 01110015 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110010 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110018 01111001 00100111 01110015 00100000 01110018 01100101 01100001 01100100 01111001 00100000 01100111 01101111 01110018 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101111]===],
 },
 [9329] = { -- A Short Note (1)
-[===[Булька,
+[===[Sprocket,
 
-Я з нетерпінням чекала на ваш новий винахід. Не можу дочекатися, щоб почати використовувати його для документування своїх досліджень.
+Yeni icadınızı merakla bekliyordum. Araştırmalarımı belgelemek için onu kullanmaya başlamak için sabırsızlanıyorum.
 
-Будь ласка, довірте його {стать:моєму посильному:моїй посильній}.
+Lütfen onu {стать:habercime:habercime} emanet edin.
 
 
-З повагою,
+Saygılarımla,
 
-Дарін Легковій]===],
+Darin Lightwind]===],
 },
 [9542] = { -- Simple Letter (1)
-[===[Скажи мені, {клас:к}, чи ти {стать:чув:чула} рик орків? Чи може {стать:захищав:захищала} свій дім від гнолів, які прагнуть перегризти тобі горлянку? Моторошно звучить, правда ж?
+[===[Söyle bana, {sınıf:k}, orkların kükremesini {стать:duydun mu:duydun mu}? Ya da belki boğazını kesmek isteyen gnollara karşı evini {стать:savundun mu:savundun mu}? Ürkütücü geliyor, değil mi?
 
-Що ж, тобі знадобиться моя допомога, якщо хочеш захистити своїх близьких. Ти знайдеш мене в абатстві Північнокраю. Мої знання коштують немало, але якщо ти матимеш достатньо досвіду, я зможу навчити тебе кільком навичкам, які допоможуть тобі в боротьбі з загрозами нашому королівству.
+Şey, sevdiklerini korumak istiyorsan yardımıma ihtiyacın olacak. Beni Northshire Manastırı'nda bulacaksın. Bilgim ucuz değil, ancak yeterli deneyime sahip olduğunda, krallığımıza yönelik tehditlerle mücadelede sana yardımcı olacak birkaç beceri öğretebilirim.
 
-Ллейн Бішір, тренер воїнів]===],
+Llane Beshere, Savaşçı Eğitmeni]===],
 },
 [9543] = { -- Simple Rune (1)
-[===[Клянусь бородою Магні, мені багато чому треба тебе навчити, а часу у нас обмаль, {ім'я}. Знайди мене швиденько в Ковмарі, що на півночі Морозної долини. Там ми й почнемо твоє навчання.
+[===[Magni'nin sakalı aşkına, sana öğretecek çok şeyim var ve zamanımız az, {isim}. Beni hemen Coldridge Vadisi'nin kuzeyindeki Anvilmar'da bul. Eğitimine orada başlayacağız.
 
-Є купа речей, про які ти маєш дізнатися, щоб наздогнати інших, але поки що ми зосередимось на базових речах: правильній стійці, майстерному володінні зброєю та мистецтву битви.
+Diğerlerine yetişmek için öğrenmen gereken bir sürü şey var, ancak şimdilik temel şeylere odaklanacağız: doğru duruş, usta silah kullanımı ve savaş sanatı.
 
--Тран Хорман, тренер воїнів]===],
+-Thran Khorman, Savaşçı Eğitmeni]===],
 },
 [9544] = { -- Simple Memorandum (1)
-[===[УВАГА:
-Ви повинні негайно з'явитися до Трана Хормана. Він знаходиться в будівлі A3; також відомій місцевим жителям як Ковмар. Після успішного встановлення контакту з Хорманом ви продовжите готуватися до майбутньої війни за повернення нашого дому — Гномрегану!
+[===[DİKKAT:
+Derhal Thran Khorman'a rapor vermelisiniz. Kendisi A3 binasında; yerel halk tarafından Anvilmar olarak da bilinen yerde bulunmaktadır. Khorman ile başarılı bir şekilde temas kurduktan sonra, evimiz olan Gnomeregan'ı geri almak için yaklaşan savaşa hazırlanmaya devam edeceksiniz!
 
-На досягненні цієї директиви мають бути зосереджені всі ваші зусилля. Після успішного виконання вам буде дано нове завдання.]===],
+Tüm çabalarınız bu direktifin başarılmasına odaklanmalıdır. Başarıyla tamamlandıktan sonra size yeni bir görev verilecektir.]===],
 },
 [9545] = { -- Simple Sigil (1)
-[===[Сподіваюсь, у тебе все добре, {клас:к}. Я пишу тобі тому, що нашому народові необхідні такі сильні бійці, як ти. Стільки всього сталося відтоді, як ми познайомилися з іншими расами Азероту. Ми потребуємо ще більше сильних захисників.
+[===[Umarım iyisindir, {sınıf:k}. Sana yazıyorum çünkü halkımızın senin gibi güçlü savaşçılara ihtiyacı var. Azeroth'un diğer ırklarıyla tanıştığımızdan beri o kadar çok şey oldu ki. Daha da güçlü koruyuculara ihtiyacımız var.
 
-Таких захисників, як ти. Я розкажу тобі більше при зустрічі. Ти знайдеш мене на нижніх поверхах Альдрассіля.
+Senin gibi koruyuculara. Buluştuğumuzda sana daha fazlasını anlatacağım. Beni Aldrassil'in alt katlarında bulacaksın.
 
--Алійссія, тренерка воїнів]===],
+-Alyssia, Savaşçı Eğitmeni]===],
 },
 [9546] = { -- Simple Scroll (1)
-[===[Більшість з нашого виду вважають магію найкращим джерелом сили. Але ми знаємо, що таке справжня сила, правда ж, {клас:к}? Ми знаємо, що наша зброя — це наші священні знаки, наш щит — це наша книга заклинань, а наша кольчуга — це наша мудрість.
+[===[Irkımızın çoğu büyüyü en iyi güç kaynağı olarak görür. Ama biz gerçek gücün ne olduğunu biliyoruz, değil mi, {sınıf:k}? Silahlarımızın kutsal alametlerimiz, kalkanımızın büyü kitabımız ve zırhımızın bilgeliğimiz olduğunu biliyoruz.
 
-Навіть у невмерлості ми сильні. І станемо тільки сильнішими.
+Ölümsüzlükte bile güçlüyüz. And daha da güçlü olacağız.
 
-Знайди мене в таверні Смертедзвону. Там ми й поговоримо про важливі речі.
+Beni Deathknell hanında bul. Önemli şeyler hakkında orada konuşacağız.
 
--Даннал Штерн, тренер воїнів]===],
+-Dannal Stern, Savaşçı Eğitmeni]===],
 },
 [9547] = { -- Simple Note (1)
-[===[В багатьох племенах вважається, що уміння користуватися магією чи розмовляти з нашими предками — це дар. Але ти маєш знати, {клас:к}, що ти теж {стать:обдарований:обдарована}. Деяким не вистачає сили, щоб тримати потужну зброю. Дехто не може відбити удар нападника чи витримати ушкодження від магії, але не ти. Ти {стать:сильний:сильна}. І я допоможу тобі стати {стать:сильнішим:сильнішою}. Знайди мене в таборі Нараче.
+[===[Pek çok kabilede büyüyü kullanabilme ya da atalarımızla konuşabilme yeteneği bir lütuf olarak kabul edilir. Ama bilmelisin ki, {sınıf:k}, sen de {стать:lütuflandırıldın:lütuflandırıldın}. Bazılarının güçlü bir silahı tutacak gücü yoktur. Bazıları saldıranın darbesini püskürtemez ya da büyünün hasarına dayanamaz, ama sen öyle değilsin. Sen {стать:güçlüsün:güçlüsün}. Ve ben senin {стать:daha güçlü:daha güçlü} olmana yardım edeceğim. Beni Camp Narache'ta bul.
 
--Гарутт Громовий Ріг, тренер воїнів]===],
+-Harutt Thunderhorn, Savaşçı Eğitmeni]===],
 },
 [9548] = { -- Hallowed Letter (1)
-[===[Ваш зв’язок зі світом і його зв’язок із вами є найважливішими для вашого успіху як {стать:жерця:жриці}. Мудрість і співчуття дозволять вам допомогти тим, хто має справжню потребу. Завзяття та незграбні рішення лише заважають іншим стати сильнішими або завдають шкоди.
+[===[Dünyayla olan bağınız ve onun sizinle olan bağı, bir {стать:rahip:rahibe} olarak başarınız için en önemlisidir. Bilgelik ve şefkat, gerçekten ihtiyacı olanlara yardım etmenizi sağlayacaktır. Gazap ve hantal kararlar sadece diğerlerinin güçlenmesini engeller ya da zarar verir.
 
-Коли ви почнете розуміти, що це означає, вам знадобляться нові здібності та заклинання, які вам допоможуть. Звідси починається моя роль: знайдіть мене в бібліотечному крилі Північнокрайового абатства, коли будете готові до навчання.
+Bunun ne anlama geldiğini anlamaya başladığınızda, size yardımcı olacak yeni yeteneklere ve büyülere ihtiyacınız olacak. Benim rolüm buradan başlıyor: Eğitime hazır olduğunuzda beni Northshire Manastırı'nın kütüphane kanadında bulun.
 
--жриця Анетта, тренерка жерців]===],
+-Rahibe Anetta, Rahip Eğitmeni]===],
 },
 [9553] = { -- Etched Parchment (1)
-[===[Ти в гарних руках, мон. Джен'шан знає, що ти шукаєш себе на шляху {клас:р}, і готова вчити тебе... якщо ти {стать:готовий:готова} слухати.
+[===[Güvenli ellerdesin, mon. Jen'shan senin {sınıf:r} yolunda kendini aradığını biliyor ve seni eğitmeye hazır... Eğer dinlemeye {стать:hazırsan:hazırsan}.
 
-Знайди мене в долині Випробувань. Джен'шан почне твої тренування і покаже всю силу шляху мисливців.
+Beni Valley of Trials'ta bul. Jen'shan eğitimine başlayacak ve sana avcı yolunun tüm gücünü gösterecek.
 
--Джен'шан, тренерка мисливців]===],
+-Jen'shan, Avcı Eğitmeni]===],
 },
 [9563] = { -- Consecrated Rune (1)
-[===[Одні бояться нас більше, ніж драконів. Другі заздрять нам більше, ніж найвправнішим ковалям. Треті хвалять нашу вправність в бою. Хтось вклоняється перед нашою вірою. Деякі ж просто заздрять, що ми можемо перепити будь-кого з них! Але знай, {клас:к}, ти тепер серед найкращих захисників Азерот. Священне Світло дає нам тим більше сили, чим більше ми служимо йому.
+[===[Bazıları bizden ejderhalardan daha çok korkar. Diğerleri en yetenekli demircilerden daha çok kıskanır bizi. Üçüncüleri savaştaki ustalığımızı över. Kimileri inancımızın önünde eğilir. Bazıları ise sadece her birini içkide geride bırakabileceğimiz için kıskanır bizi! Ama bil ki, {sınıf:k}, sen artık Azeroth'un en iyi koruyucuları arasındasın. Kutsal Işık, ona ne kadar çok hizmet edersek bize o kadar çok güç verir.
 
-Я розповім тобі більше, коли ти трохи освоїшся. Знайди мене в Ковмарі, що над долиною.
+Biraz alıştıktan sonra sana daha fazlasını anlatacağım. Beni vadinin yukarısındaki Anvilmar'da bul.
 
--Бромос Ґруммнер, тренер паладинів]===],
+-Bromos Grummner, Paladin Eğitmeni]===],
 },
 [9564] = { -- Etched Tablet (1)
-[===[Джен'шан рада чути, що {стать:один з її братів прибув:одна з її сестер прибула} в долину, щоб випробувати себе. Джен'шан з нетерпінням чекає!
+[===[Jen'shan, {стать:kardeşlerinden birinin:kız kardeşlerinden birinin} kendini kanıtlamak için vadiye geldiğini duymaktan mutluluk duyuyor. Jen'shan merakla bekliyor!
 
-Не мені розказувати тобі про твою силу й вправність, ти все це вже знаєш. Завдання Джен'шан -- показати тобі, як стати ще краще.
+Sana gücünü ve ustalığını anlatacak değilim, tüm bunları zaten biliyorsun. Jen'shan'ın görevi -- nasıl daha iyi olacağını göstermektir.
 
-Ти знайдеш Джен'шан в долині Випробувань. Вона добре тебе навчить. Навчить приборкувати могутніх звірів і ще дечому.
+Jen'shan'ı Valley of Trials'ta bulacaksın. Seni iyi eğitecektir. Muazzam canavarları evilleştirmeyi ve daha başka şeyleri öğretecektir.
 
--Джен'шан, тренерка мисливців]===],
+-Jen'shan, Avcı Eğitmeni]===],
 },
 [9565] = { -- Etched Note (1)
-[===[Могучі воїни захищають нашу домівку. Наші шамани направляють наш дух та показують нам минуле наших предків. А наші друїди допомагають нам зрозуміти волю Матері-Землі.
+[===[Güçlü savaşçılar evimizi koruyor. Şamanlarımız ruhumuza rehberlik ediyor ve bize atalarımızın geçmişini gösteriyor. Druidlerimiz ise Toprak Ana'nın iradesini anlamamıza yardımcı oluyor.
 
-Але ти -- {клас}, і наші мисливці об'єднують в собі обов'язки воїнів, шаманів та друїдів. Такі, як ти -- серце нашого народу. Дехто в племені буде шукати твоєї допомоги та захисту. Мій обов'язок -- впевнитись, що ти {стать:готовий:готова} до цього. Приходь до мене в табір Нараче.
+Ama sen -- {клас}sın ve avcılarımız savaşçıların, şamanların ve druidlerin görevlerini kendilerinde birleştirirler. Senin gibiler -- halkımızın kalbidir. Kabiledeki bazıları senin yardımını ve korumanı arayacaktır. Benim görevim -- senin buna {стать:hazır:hazır} olduğundan emin olmaktır. Camp Narache'ta yanıma gel.
 
--Ланка Далекостріл, тренер мисливців]===],
+-Lanka Farshot, Avcı Eğitmeni]===],
 },
 [9566] = { -- Etched Rune (1)
-[===[Приборкання звірів, майстерна стрільба, вистеження цілей -- чому ще ти хо' навчитись за своє життя? Всі ці вміння вимагають немало кмітливості та терпіння.
+[===[Canavarları evilleştirmek, usta atış yapmak, hedefleri takip etmek -- hayatın boyunca başka ne öğrenmek istersin? Tüm bu beceriler azımsanmayacak kadar zeka ve sabır gerektirir.
 
-Шлях мисливця непростий, се точно. Тобі знадобиться багато тренуватись, щоб досягти хоча б рівня наших рядових стрільців. Та тому я тут.
+Avcının yolu kolay değildir, bu kesin. Sıradan nişancılarımızın seviyesine bile ulaşmak için çok pratik yapman gerekecek. Ama bu yüzden buradayım.
 
-Знайди мене в Ковмарі, що на півночі Морозної долини. Я чекатиму.
+Beni Coldridge Vadisi'nin kuzeyindeki Anvilmar'da bul. Bekliyorum.
 
--Торґас Ґрімсон, тренер мисливців]===],
+-Torgas Grimson, Avcı Eğitmeni]===],
 },
 [9567] = { -- Etched Sigil (1)
-[===[Елуна з тобою, {ім'я}. Вітри нашепотіли мені про це і я дуже рада взяти участь в підготовці нового покоління мисливців.
+[===[Elune seninle olsun, {isim}. Rüzgarlar bunu bana fısıldadı ve yeni nesil avcıların yetiştirilmesinde yer almaktan çok mutluyum.
 
-Наскільки мені відомо, ти неподалік Альдрассілю. Я буду чекати на тебе всередині великого дерева. 
+Bildiğim kadarıyla Aldrassil'in yakınlarındasın. Seni büyük ağacın içinde bekliyor olacağım.
 
-Наші старійшини зобов'язали мене підготувати мисливців до прийдешніх випробувань. Ти -- {стать:один:одна} з них, тож раджу швидше зайти до мене. Бережи себе.
+Yaşlılarımız beni avcıları yaklaşan sınavlara hazırlamakla görevlendirdi. Sen de onlardan {стать:birisin:birisin}, bu yüzden bir an önce yanıma gelmeni öneririm. Kendine iyi bak.
 
--Аянна Вічнохід, тренерка мисливців]===],
+-Ayanna Everstride, Avcı Eğitmeni]===],
 },
 [9570] = { -- Consecrated Letter (1)
-[===[Сподіваюся, цей лист знайде тебе, {клас:к}. Я кажу це з великою гордістю, тому що не всі мають таку глибоку віру та можуть стати пліч-о-пліч з одними з найкращих захисників Азерот.
+[===[Umarım bu mektup seni bulur, {sınıf:k}. Bunu büyük bir gururla söylüyorum, çünkü herkes bu kadar derin bir inanca sahip olamaz ve Azeroth'un en iyi koruyucularından bazılarıyla yan yana duramaz.
 
-Пам'ятай, що твій головний обов’язок — боротися з тими, хто прагне завдати шкоди нашому світу та принести зло в наші домівки.
+Unutma ki senin en büyük görevin -- dünyamıza zarar vermek ve evlerimize kötülük getirmek isteyenlerle savaşmaktır.
 
-Мене призначили твоїм наставником на час твого перебування тут. Як будеш {стать:готовий:готова} — шукай мене в Північнокрайовому абатстві.
+Burada kaldığın süre boyunca senin akıl hocan olarak görevlendirildim. {стать:Hazır:Hazır} olduğunda -- beni Northshire Manastırı'nda ara.
 
--брат Семмюел, тренер паладинів]===],
+-Rahip Samuel, Paladin Eğitmeni]===],
 },
 [9580] = { -- Verdant Sigil (1)
-[===[Коли до мене дійшла звістка про тебе, я відразу відправив тобі цю сигілу. Друїди Кенарія завжди раді поповненню своїх рядів. Навіть духи стають сильніше, коли нас більше. Знайди мене на вершині Альдрассілю, коли будеш {стать:готовий:готова}. Я буду твоїм наставником на час твого перебування в Тінистій долині.
+[===[Senden haber aldığımda hemen bu mührü sana gönderdim. Cenarion druidleri saflarına yeni katılanları görmekten her zaman mutluluk duyar. Biz çoğaldıkça ruhlar bile daha güçlü hale gelir. {стать:Hazır:Hazır} olduğunda beni Aldrassil'in zirvesinde bul. Shadowglen'de kaldığın süre boyunca senin akıl hocan olacağım.
 
--Мардант Міцнодуб, тренер друїдів]===],
+-Mardant Stronghoof, Druid Eğitmeni]===],
 },
 [9581] = { -- Verdant Note (1)
-[===[Минулої ночі до мене прийшли духи. Вони попередили мене про те, що ти прийдеш і що я маю допомогти тобі. Нам треба багато про що поговорити: про природу, духів, Матір-Землю та навіть про нічних ельфів. Та спершу ми маємо зустрітись. Приходь, і дізнаєшся більше про все, що на тебе чекає попереду.
+[===[Dün gece ruhlar bana geldi. Senin geleceğin ve sana yardım etmem gerektiği konusunda beni uyardılar. Konuşacak çok şeyimiz var: doğa, ruhlar, Toprak Ana ve hatta gece elfleri hakkında. Ama önce buluşmalıyız. Gel ve önünde seni bekleyen her şey hakkında daha fazlasını öğren.
 
-Нехай тебе направляє мудрість. Я чекатиму на тебе.
+Bilgelik sana rehberlik etsin. Seni bekliyor olacağım.
 
--Ґарт Мрякогін, тренер друїдів]===],
+-Gart Mistrunner, Druid Eğitmeni]===],
 },
 [10022] = { -- Proof of Deed (1)
-[===[Цей доказ правоти призначений для підтвердження того, що {ім'я} {стать:вбив:вбила} Марґол Люту, лихо Випаленої ущелини.
+[===[Bu belge, {isim} adlı kişinin Searing Gorge'un belası Margo the Slayer'ı {стать:öldürdüğünü:öldürdüğünü} doğrulamak amacıyla hazırlanmıştır.
 
-Залізогартський музей визнає це досягнення та дякує {стать:власнику:власниці} за щедрий внесок.
+Ironforge Müzesi bu başarıyı tanır ve cömert katkılarından dolayı {стать:sahibine:sahibine} teşekkür eder.
 
--Головний куратор Торій Камнеглад]===],
+-Baş Küratör Thorgas Stonecarver]===],
 },
 [11125] = { -- Grape Manifest (1)
-[===[Брате Нілсе,
+[===[Niles Kardeş,
 
-мій виноград врятовано! {Ім'я}, {стать:той, хто приніс:та, що принесла} тобі цього листа, не {стать:злякався:злякалася} мого, наповненого злодіями виноградника, і {стать:зібрав:зібрала} врожай, який я не змогла. Хоч повстанці й досі вештаються вздовж річки, майже весь мій урожай був врятовано.
+Üzümlerim kurtuldu! Bu mektubu sana getiren {isim}, hırsızlarla dolu bağından {стать:korkmadı:korkmadı} ve benim toplayamadığım ürünü {стать:topladı:topladı}. Asiler hala nehir boyunca dolanıyor olsalar da, hasadımın neredeyse tamamı kurtarıldı.
 
-Тож сміливо можеш заставляти полички виноградом у своїй крамниці.
+Bu yüzden dükkanındaki rafları üzümlerle doldurmaktan çekinme.
 
-Нехай, Світло захистить нас,
-— Міллі Осворт]===],
+Işık bizi korusun,
+— Millie Osworth]===],
 },
 [11886] = { -- Urgent Message (1)
-[===[Термінове повідомлення для спостерігача скель Довгорогого
+[===[Longhorn Kaya Gözlemcisi için acil mesaj
 
-Великий загін кентаврів із табору І'ток напав на один із наших караванів постачання. Усіх учасників каравану було втрачено з усіма припасам, які вони везли. Це була смілива, безпрецедентна атака кентаврів, і я боюся, що вона далеко не остання.]===],
+Camp E'thok'tan büyük bir centaur müfrezesi tedarik kervanlarımızdan birine saldırdı. Kervandaki herkes taşıdıkları tüm malzemelerle birlikte kaybedildi. Bu, benzeri görülmemiş cesur bir centaur saldırısıydı ve korkarım ki son olmayacak.]===],
 },
 [12562] = { -- Important Blackrock Documents (1)
-[===[Змійталак,
+[===[General Angerforge,
 
-Я отримав прямий наказ від твого володаря, Нефаріана, покарати тебе так, як вважатиму за потрібне, якщо хтось із чужинців проникне до цитаделі.
+Efendin Nefarian'dan, kaleye yabancılardan herhangi biri sızarsa seni uygun gördüğüm şekilde cezalandırmam için doğrudan emir aldım.
 
-Не забувай, хто тут командує, ящірко.
+Burada kimin patron olduğunu unutma, kertenkele.
 
-Син Чорнорука: володар клинка і битви. Єдиний істинний воєводжь.
+Blackhand'in Oğlu: kılıcın ve savaşın efendisi. Tek gerçek savaş şefi.
 
--Ренд]===],
+-Rend]===],
 },
 [12635] = { -- Simple Parchment (1)
-[===[Тром-ка, {клас:к}. Мене не цікавлять твої подвиги - це справи минулого. Коли ти востаннє {стать:вбивав:вбивала} людину? Певне, що давно. Ти слабшаєш, втрачаєш хватку без діла.
+[===[From-ka, {sınıf:k}. Başarıların beni ilgilendirmiyor - onlar geçmişin işleri. En son ne zaman bir insanı {стать:öldürdün:öldürdün}? Muhtemelen uzun zaman önce. Boş durmaktan zayıflıyor, kontrolünü kaybediyorsun.
 
-Мені тут потрібна ще одна пара рук, а тобі, що б там про тебе не казали, потрібні мої тренування. Як усвідомиш це - приходь до мене, я буду під навісом біля Лігва.
+Burada bir çift ele daha ihtiyacım var, senin ise ne derlerse desinler benim eğitime ihtiyacın var. Bunu anladığında -- yanıma gel, Den'in yanındaki gölgeliğin altında olacağım.
 
--Франґ, тренер воїнів]===],
+-Frang, Savaşçı Eğitmeni]===],
 },
 [12765] = { -- Secret Note #1 (1)
-[===[Аґашам,
+[===[Agasham,
 
-Наші плани треба тримати в секреті за будь-яку ціну! Це буде катастрофа, якщо інші племена тауренів дізнаються про нашу приналежність.
+Planlarımız ne pahasına olursa olsun gizli tutulmalıdır! Diğer tauren kabilelerinin bizim ortaklığımızı öğrenmesi bir felaket olur.
 
-Підписано,
+İmza,
 
-Провісник Ільм]===],
+Haberci Ulm]===],
 },
 [12766] = { -- Secret Note #2 (1)
-[===[Аґашам,
+[===[Agasham,
 
-Працюючи разом, наші сили будуть могутнішими за всі племена тауренів разом узяті! Проте ми вимагаємо вашої повної покірності. Пам’ятайте, ваші люди отримають винагороду лише після здійснення наших планів!
+Birlikte çalışarak kuvvetlerimiz tüm tauren kabilelerinin toplamından daha güçlü olacak! Ancak sizden tam bir itaat talep ediyoruz. Unutmayın, halkınız ödülünü ancak planlarımız gerçekleştikten sonra alacak!
 
-Підписано,
+İmza,
 
-Провісник Рекс]===],
+Haberci Rex]===],
 },
-[12768] = { -- Secret Note #3 (1)
-[===[Аґашам,
+[12765] = {
+[===[Agasham,
 
-Наші агенти з Лордерона незабаром зустрінуться з вашими представниками. Ми повідомимо вам, щойно знайдемо відповідне місце для нашого саміту.
+Lordaeron'daki ajanlarımız yakında temsilcilerinizle buluşacak. Zirvemiz için uygun bir yer bulur bulmaz sizi bilgilendireceğiz.
 
-Підписано,
+İmza,
 
-Провісник Ґрак]===],
+Haberci Grak]===],
 },
 [15790] = { -- Studies in Spirit Speaking (1)
 [===[OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO]===],
 },
 [15998] = { -- Lewis' Note (1)
-[===[Озрік,
+[===[Osric,
 
-Нижче наведено список броні, яка нам потрібна:
+İhtiyacımız olan zırhların listesi aşağıdadır:
 
-10 кольчужних сорочок
-20 шоломів
-30 латок для броні
-15 пар кольчужних чоботів
+10 zincir zırh gömlek
+20 miğfer
+30 zırh yaması
+15 çift zincir zırh bot
 
-Ми, як завжди, в боргу перед тобою. І якщо Західний край колись звільниться від злодіїв, які не дають йому спокою, відчуття провини в моєму серці зменшиться, якщо я зможу запросити тебе до мого родинного дому на смачний обід, приготований з дарів нашої родючої землі.
+Her zamanki gibi sana borçluyuz. Ve eğer Westfall bir gün ona huzur vermeyen hırsızlardan kurtulursa, verimli topraklarımızın nimetlerinden hazırlanmış lezzetli bir öğle yemeği için seni aile evime davet edebilirsem kalbimdeki suçluluk duygusu azalacaktır.
 
--Льюїс
-Квартирмейстер, Сторожовий пагорб]===],
+-Lewis
+Levazım Subayı, Sentinel Hill]===],
 },
 [16307] = { -- Gryshka's Letter (1)
-[===[Дорогий Зарґ,
+[===[Sevgili Zarg,
 
-Стейки, які ти надіслав, чудові. Добре мармуровані, товсто нарізані й залиті кнурячим жиром. Вони саме такі як я люблю. Пізніше, коли я їстиму їх, буду згадувати тебе, догризаючи останні шматочки кісток і хрящів. Я закрию очі та побачу твої сильні руки в шрамах, які рубають і ріжуть...
+Gönderdiğin biftekler harika. Güzelce mermerleşmiş, kalın dilimlenmiş ve domuz yağıyla kaplanmış. Tam sevdiğim gibiler. Daha sonra onları yerken, kemik ve kıkırdakların son parçalarını kemirirken seni hatırlayacağım. Gözlerimi kapatıp senin doğrayan ve kesen o güçlü, yara izli kollarını göreceğim...
 
-Хах! Це нагадало мені про той нещасний випадок, коли ти втратив палець... О, Зарґ! Думаючи про той день, я регочу, як маленька дівчинка.
+Hah! Bu bana parmağını kaybettiğin o talihsiz kazayı hatırlattı... Oh, Zarg! O günü düşünerek küçük bir kız gibi kahkahalarla gülüyorum.
 
-Ти такий милий, коли стікаєш кров'ю!
+Kanlar içindeyken çok tatlısın!
 
--Гришка]===],
+-Gryshka]===],
 },
 [18708] = { -- Petrified Bark (5)
-[===[Симона Спокусниця:
+[===[Simone the Seductress:
 
-Ти застанеш Симону за оскверненням кратера Ун'Ґоро. Не дай себе обдурити її маскуванням. Наближайся до неї з обережністю і виклич її на бій.]===],
-[===[Клінфран Схиблений:
+Simone'u Un'Goro Krateri'ni kirletirken bulacaksın. Onun kılık değiştirmesine aldanma. Ona dikkatle yaklaş ve onu düelloya davet et.]===],
+[===[Klinfran the Mad:
 
-Клінфран блукає Палаючим степом. Наближайся до нього з обережністю і змусь його показати своє справжнє обличчя.]===],
-[===[Соленор Душогуб:
+Klinfran Burning Steppes'te dolaşıyor. Ona dikkatle yaklaş ve gerçek yüzünü göstermesini sağla.]===],
+[===[Solenor the Slayer:
 
-У посушливих землях Сілітусу нишпорить лиходій, Соленор Душогуб. Він диявольськи хитрий і дуже небезпечний. Підберися до нього і змусь його перетворитися.]===],
-[===[Арторій Губитель:
+Silithus'un kurak topraklarında bir hain sinsice dolaşıyor, Solenor the Slayer. Şeytani derecede zeki ve çok tehlikelidir. Ona yaklaş ve dönüşmesini sağla.]===],
+[===[Artorius the Doomed:
 
-Арторій псує та нищить все, до чого торкається у Зимоключі. Знайди його і вбий.]===],
-[===[Зауваж, {клас:к}, з цими демонами треба битись на їхніх умовах. Якщо вони відчують, що не можуть тебе здолати — вони втечуть.
+Artorius Winterspring'de dokunduğu her şeyi bozuyor ve yok ediyor. Onu bul ve öldür.]===],
+[===[Unutma, {sınıf:k}, bu iblislerle kendi şartlarında savaşmalısın. Seni yenemeyeceklerini hissederlerse -- kaçacaklardır.
 
-БИЙСЯ З НИМИ НАОДИНЦІ.]===],
+ONLARLA TEK BAŞINA SAVAŞ.]===],
 },
 [22944] = { -- A Crumpled Missive (1)
-[===[Геліана,
+[===[Heliana,
 
-Я, Варґус, ще живий, наперекір твоїм бажанням. Я ненавиджу тинятися сільською місцевістю в цих безглуздих обладунках.
+Ben, Vargus, arzularının aksine hala hayattayım. Bu saçma zırhların içinde kırsalda dolanmaktan nefret ediyorum.
 
-За нашими останніми наказами ми прямуємо до Андоралу за зерном чи якоюсь подібною нісенітницею. Чому я маю піклуватися про продовольчі склади в Андоралі? Вся ця ідея перебування в армії є безглуздою.
+Son emirlerimize göre tahıl veya benzeri bir saçmalık için Andorhal'a doğru ilerliyoruz. Andorhal'daki yiyecek depoları neden umurumda olsun ki? Orduda bulunma fikrinin tamamı anlamsız.
 
-Будьте певні, тітонько Геліано, я повернуся за вашою спадщиною; навіть якщо я стану тяжко пораненим і залишуся без їжі, чисте злостування буде рухати мене вперед.
+Emin ol, Heliana Teyze, mirasını almak için geri döneceğim; ağır yaralansam ve yiyeceksiz kalsam bile, saf kötü niyet beni ileriye taşıyacaktır.
 
-Варґус]===],
+Vargus]===],
 },
 [22945] = { -- A Careworn Note (1)
-[===[Люба Амелія,
+[===[Sevgili Amelia,
 
-Сьогодні ввечері я бачив речі, які будуть переслідувати мене вічно.
+Bu akşam beni sonsuza dek peşimi bırakmayacak şeyler gördüm.
 
-Стратгольм охоплений полум'ям... і ми за це несемо відповідальність.
+Stratholme alevler içinde... Ve bundan biz sorumluyuz.
 
-Сьогодні ввечері наш принц повів нас вулицями міста; він наказав нам вдиратися в домівки городян і... вбивати їх уві сні. Вони були заражені, стверджував лорд Артас, і мали бути вбиті, перш ніж вони вбили б нас.
+Bu akşam prensimiz bize şehrin sokaklarında liderlik etti; vatandaşların evlerine girmemizi ve... Onları uykularında öldürmemizi emretti. Enfekte olmuşlardı, diye iddia etti Lord Arthas, ve bizi öldürmeden önce öldürülmeliydiler.
 
-Це була різанина. Сотні тихо загинули від мечів тих, хто присягнувся захищати їх. Я не міг більше терпіти цього; я втік.
+Bu bir katliamdı. Yüzlerce kişi, onları korumaya yemin edenlerin kılıçlarıyla sessizce can verdi. Buna daha fazla dayanamadım; kaçtım.
 
-Це дезертирство, але я не міг чинити тих звірств. У кожній оселі я не міг не бачити твого обличчя чи обличчя наших дітей на жертвах, коли вони вмирали. Якщо протистояти цьому означає бути зрадником, то так тому і бути.
+Bu bir asker kaçaklığı, ama bu vahşeti yapamazdım. Her evde, ölürlerken kurbanların üzerinde senin yüzünü ya da çocuklarımızın yüzünü görmeden edemedim. Eğer buna karşı çıkmak hain olmak demekse, öyle olsun.
 
-Сподіваюся вчасно дістатися до вас, але дороги небезпечні. Даруй нашим дітям мою любов у час моєї відсутності.
+Sana zamanında ulaşmayı umuyorum ama yollar tehlikeli. Yokluğumda çocuklarıma sevgimi ilet.
 
-Джеймс]===],
+James]===],
 },
 [22946] = { -- A Ragged Page (1)
-[===[Самла,
+[===[Samla,
 
-Поки ми слідуємо за нашим лордом Артасом на північ, завжди на північ, мені стає важко на серці. Хоча колись він сяяв Світлом, тепер я відчуваю затьмарення духу молодого паладина. Його завзяття затьмарене задумливістю над якимсь кошмаром у його душі, який я не можу передбачити...
+Lordumuz Arthas'ı kuzeye, her zaman kuzeye doğru takip ederken kalbim ağırlaşıyor. Bir zamanlar Işıkla parlıyor olsa da, şimdi genç paladinin ruhunun karardığını hissediyorum. Gazabı, ruhundaki öngöremediğim bir kabusun üzerinde kara kara düşünmesiyle gölgeleniyor...
 
-Незабаром ми вийдемо на сушу серед замерзлих відходів. Хоча багато з його людей хворіють від холоду та битв із гнилими звірами, Артас каже нам, що те, що він шукає в льоду, змінить хід битви. Але його слова мене не втішили, бо після того, як він їх сказав... похмура посмішка на його скривлених губах застудила мене сильніше, ніж будь-яка хуртовина.
+Yakında donmuş atıkların ortasında karaya çıkacağız. İnsanlarının çoğu soğuktan ve çürümüş canavarlarla yapılan savaşlardan dolayı hasta olsa da, Arthas bize buzun içinde aradığı şeyin savaşın gidişatını değiştireceğini söylüyor. Ama sözleri beni teselli etmedi, çünkü onları söyledikten sonra... Onun bükülmüş dudaklarındaki kasvetli gülümseme beni her fırtınadan daha çok üşüttü.
 
-Молися за нас, Самла, і молись за наш світ,
+Bizim için dua et Samla, ve dünyamız için dua et,
 
-Торгал]===],
+Torgal]===],
 },
 }

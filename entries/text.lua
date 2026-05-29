@@ -2,19 +2,20 @@ local _, addonTable = ...
 addonTable.text = { -- [key] = text
 
 -- quest frame
-["Description"] = "Опис",
-["Quest Objectives"] = "Доручення",
+["Description"] = "Açıklama",
+["Quest Objectives"] = "Görev Hedefleri",
 
 -- talent tree tooltip
-["Next rank"] = "Наступний ранг",
+["Next rank"] = "Sonraki aşama",
 
 -- zone text
-["Alliance Territory"] = "Територія Альянсу",
-["Horde Territory"] = "Територія Орди",
-["Contested Territory"] = "Спірна територія",
-["(Sanctuary)"] = "(Прихисток)",
-["(Combat Zone)"] = "(Бойова зона)",
-["PvP Area"] = "PvP зона",
+["Alliance Territory"] = "Alliance Bölgesi",
+["Horde Territory"] = "Horde Bölgesi",
+["Contested Territory"] = "Çekişmeli Bölge",
+["(Sanctuary)"] = "(Güvenli Bölge)",
+["(Combat Zone)"] = "(Savaş Bölgesi)",
+["PvP Area"] = "PvP Alanı",
+
 
 -- addon info texts
 
