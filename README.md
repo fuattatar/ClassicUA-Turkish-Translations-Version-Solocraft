@@ -1,46 +1,40 @@
-# ClassicUA
+# ClassicUA - Türkçe WoW Görev Çeviri Addonu (v1.14)
 
-**World of Warcraft: Classic Ukrainization Addon**
+World of Warcraft Classic **1.14.x** versiyonu dünyasındaki görevleri Türkçe'ye çeviren bir arayüz eklentisidir (addon). Azeroth maceralarını kendi dilinizde deneyimleyin!
 
-[![Crowdin](https://badges.crowdin.net/classicua/localized.svg)](https://crowdin.com/project/classicua)
+> ⚠️ **Versiyon Uyumluluğu:** Bu eklenti **WoW Classic 1.14 ** sürümleri için optimize edilmiştir. 
 
-## Причетні
+---
 
-* Annakonda — переклад нпц і предметів, переклад завдань Ельвиннського лісу та Степів, переклад листів (книжок)
-* Annielis — переклад завдань Ясенедолу
-* Bellany — переклад завдань шаманів та воїнів
-* Cyrax — переклад і вичитування заклять
-* Danpar — ідея проекту, пошук перекладачів, організація перекладу завдань, переклад персонажів і предметів, переклад завдань Дуротару, Мулґору, Альтерацької долини
-* Daria — переклад завдань прірви Лютого Полум'я, Безплідних країв, Заболоття
-* Imakantie — переклад завдань шаманів та Заболоття
-* It_is_me1987 — шрифти
-* Jakanis — переклад завдань Дун-Морога, Лох-Модану, Заболоття, Штормовою, Залізогарту, Орґріммару, Багрянокряжжя, Темнобережжя, Степів, Громового Бескиду, Дарнасу, воїнів, паладинів, друїдів, мисливців, шаманів, вичитування завдань і книжок
-* JeffyOLOLO — виправлення помилок коду аддону
-* JohnTau — вичитування завдань
-* Jolgeirr — переклад завдань Срібнохвойного пралісу, Плачучих печер
-* Julia_Logwin — переклад завдань передгір'я Гіллзбраду
-* Marinets — переклад завдань Смерколісся, магів, чорнокнижників
-* MathLina — переклад завдань Тисячі Шипів, вичитування завдань і книжок
-* MrRay — переклад завдань Місячної галявини
-* Orney — переклад завдань Тельдрассіля, вичитування завдань, переклад заклять
-* Osterro — переклад персонажів, переклад завдань Багрянокряжжя
-* Raketa — переклад завдань Тірісфальського перелісся, Альтерацьких гір, височини Араті та Підмістя
-* Regis — переклад персонажів
-* Saksagan — вичитування завдань
-* Shadowfank — переклад завдань Каміннопазуристих гір, Чорноскельних надр, Чорноскельного шпиля, Грізного Молоту, Маравдуна, Школоманса, храму Атал'Гаккар, Зул'Фарраку
-* Skye — програмування аддону
-* Temcher0 — переклад завдань Ульдаману
-* Terramoor — переклад завдань друїдів
-* Tetisheri — організація перекладу заклять, переклад заклять і професій, вичитування заклять і завдань, термінологія (словник), логотип
-* Tsubylko — переклад персонажів і предметів
-* Velvet_Hazard — переклад завдань Тисячі Шипів, жерців та розбійників
-* Zrada — переклад заклять і предметів, переклад завдань Західного краю, болота Скорбот, Дун-Морога
-* Zyxer — виправлення помилок коду аддону
+## 🚀 Özellikler
 
-## Посилання
+* **Görev Metinleri:** Görev verenlerin konuşmaları, görev hedefleri ve tamamlanma metinleri tamamen Türkçe.
 
-* [Словник термінів](https://greenya.github.io/ClassicUA/terms/)
-* [Проект на CurseForge](https://www.curseforge.com/wow/addons/classicua)
-* [Проект на Crowdin](https://crowdin.com/project/classicua)
-* [Проект на GitHub](https://github.com/greenya/ClassicUA)
-"# ClassicUA-Turkish-Translations" 
+
+
+
+## 📸 Ekran Görüntüleri (Screenshots)
+
+
+
+## 🐛 Hata Bildirimi ve Katkıda Bulunma
+
+Çeviride bir hata, yazım yanlışı veya 1.14 yamasıyla gelen eksik bir metin mi fark ettiniz? Katkıda bulunmaktan çekinmeyin!
+
+1. Bu projeyi **Fork** edin.
+2. Yeni bir özellik veya düzeltme için bir branch oluşturun (`git checkout -b yeniozellik/duzeltme`).
+3. Değişikliklerinizi commitleyin (`git commit -m '1.14 hatalı görev çevirisi düzeltildi'`).
+4. Branch'inizi push edin (`git push origin yeniozellik/duzeltme`).
+5. Bir **Pull Request** açın.
+
+Alternatif olarak, hataları **Issues** sekmesinden ekran görüntüsüyle birlikte bildirebilirsiniz.
+
+---
+
+## ⚖️ Lisans (License)
+
+Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
+
+---
+
+
