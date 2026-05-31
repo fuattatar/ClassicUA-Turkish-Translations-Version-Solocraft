@@ -1922,14 +1922,17 @@ Tabutun içinde pençeli parmakların titreşen sıyrıklarını ve çürümüş
 
 Tabutu açıp Mumyalayıcının kalbini geri alacak mısın?]===],
 },
+
 [255] = {
 [===[Paralı Askerler]===],
-[===[Vahşi yaşamı avlamak bir süre sonra eskiyor. Ben daha büyük avlarla ilgileniyorum... Aslında çok daha büyükleriyle. Kesin olarak Ogreler.
+[===[Kendi savunmamız için bize bir avuç asker ayrılacağını Ironforge'dan duymak iki ay sürdü, gelmeleri ise bir iki ay daha alacak! Kasabamızın korumasız kalması yetmezmiş gibi, kazı alanı ve baraj da —evet, baraj!— saldırılara açık durumda.
 
-Buradaki cüceler kuzeydoğudaki Mo'grosh Kalesi ile oldukça ilgililer, ancak bu konuda fazla bir şey yapacak insan gücüne sahip değiller. Eğer ava katılmak isterseniz, lütfen bulduğunuz devleri öldürmekten çekinmeyin. Bana eylemle ilgili haber getirin, ben de Sulh Hakimi ile yaptığım anlaşmaya göre ödülü paylaştırayım.]===],
-[===[Mo'grosh kampından Kelt Thomasin 4 Mo'grosh Ogresi, 4 Mo'grosh Brütüsü ve 4 Mo'grosh İnfazcısı öldürmen için seni tuttu.]===],
+Görünüşe göre başka seçeneğim kalmadı. Paralı askerler tutmam gerekecek.
+
+Peki ya sen? Güvenilir birine benziyorsun. Bir grup ogres, gölün kuzeydoğusunda kamp kurdu. Belki de kasabamıza yönelik bu tehdidi ortadan kaldıracak kişi sen olursun?]===],
+[===[Gölün kuzeydoğusundaki ogres tehdidini ortadan kaldır.]===],
 [===[Şansın yaver gitti mi?]===],
-[===[Ah, bu mükemmel bir haber! Çabalarınız ben ve Thelsamar halkı tarafından büyük takdir görüyor. Daha da iyisi, eğer ogre sorununu çözebilirsek, odağımızı şu Işık yakan troglara kaydırabileceğiz.]===],
+[===[Ah, bu mükemmel bir haber! Çabaların ben ve Thelsamar halkı tarafından büyük takdir görüyor. Daha da iyisi, eğer ogres sorununu çözebilirsek, odağımızı şu Işık-yakan troggs'lara kaydırabileceğiz.]===],
 },
 [256] = {
 [===[ARANIYOR: Chok'sul]===],
