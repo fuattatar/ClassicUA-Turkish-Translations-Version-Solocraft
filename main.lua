@@ -62,7 +62,8 @@ local options = nil
 local default_options = {
     debug = false,
     quest_text_size = 13,
-    book_text_size = 15
+    book_text_size = 15,
+    book_debug = false
 }
 
 local prepare_options = function ()
@@ -1157,7 +1158,17 @@ local prepare_options_frame = function ()
     f:SetScript("OnClick", function (self)
         options.debug = self:GetChecked()
     end)
-
+    
+    -- options.book_debug 
+    f = CreateFrame("CheckButton", nil, options_frame, "InterfaceOptionsCheckButtonTemplate")
+    options_frame.book_debug_frame = f
+    f:SetPoint("TOPLEFT", 280, -118) -- Diğer seçeneğin altına hizalandı
+    f.Text:SetText("Book Debug Mode")
+    f.tooltipText = "Enables English chat logs to show the ID of the book you just opened."
+    f:SetScript("OnClick", function (self)
+        options.book_debug = self:GetChecked()
+    end)
+    
     -- info tabs
 
     f = CreateFrame("Frame", nil, options_frame, "BackdropTemplate")
@@ -1216,10 +1227,11 @@ local prepare_options_frame = function ()
     options_frame.refresh = function ()
         local f = options_frame
         f.quest_text_size_frame:SetValue(options.quest_text_size)
-        f.quest_text_size_frame.Text:SetText("Розмір тексту завдання: " .. options.quest_text_size)
+        f.quest_text_size_frame.Text:SetText("Quest text size:" .. options.quest_text_size)
         f.book_text_size_frame:SetValue(options.book_text_size)
-        f.book_text_size_frame.Text:SetText("Розмір тексту книжки: " .. options.book_text_size)
+        f.book_text_size_frame.Text:SetText("Book text size: " .. options.book_text_size)
         f.debug_frame:SetChecked(options.debug)
+        f.book_debug_frame:SetChecked(options.book_debug)
     end
 
     InterfaceOptions_AddCategory(options_frame)
@@ -1287,6 +1299,14 @@ event_frame:SetScript("OnEvent", function (self, event, ...)
         end
 
     elseif event == "ITEM_TEXT_READY" then
+        if options and options.book_debug then
+            if book_item_id then
+                print("|cffffee00[Book Debug]|r Opened Book ID: " .. tostring(book_item_id))
+            else
+                print("|cffff0000[Book Debug]|r Book ID could not be detected! (Hover over the item in your inventory first)")
+            end
+        end
+
         show_book()
 
     elseif event == "ITEM_TEXT_CLOSED" then

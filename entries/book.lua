@@ -1119,7 +1119,7 @@ Bizim için dua et Samla, ve dünyamız için dua et,
 
 Torgal]===],
 },
-[1323] = { -- The General's Response
+[1294] = { -- The General's Response
 [===[Saygıdeğer Yargıç Solomon:
 
 Ölüler için seninle birlikte yas tutuyorum. Durumdan Kral'ın haberdar edilmesini bizzat sağlayacağım ve Lakeshire'a destek kuvvet getirebilmek en büyük umudum. Hazretleri son zamanlarda ortalıkta pek görünmüyor ve oldukça tuhaf davranıyor. Bunu seninle güvene dayalı olarak paylaşıyorum.
