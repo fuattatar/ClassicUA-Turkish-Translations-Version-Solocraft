@@ -1618,5 +1618,7 @@ addonTable.item = { -- [id] = { -- title, optional keys: desc, equip, hit, use, 
 [12776] = { "Hraug", "İblis Eğitmeni" }, -- Hraug <Demon Trainer>
 [12782] = { "Kaptan O'Neal", "Silah Levazım Sorumlusu" }, -- Captain O'Neal <Weapons Quartermaster>
 [12816] = { "Xen'Zilla" }, -- Xen'Zilla
+[19334] = { "Ehlileştirilemez Kılıç" }, -- The Untamed Blade
+[6186] = { "Trogg Doğrayıcı" }, -- Trogg Slicer
 
 }
