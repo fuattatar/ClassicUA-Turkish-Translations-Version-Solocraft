@@ -116,14 +116,14 @@ Neyin peşinde olduklarını bilmiyorum ama iyi bir şey olmadığına eminim! B
 },
 [19] = {
 [===[Tharil'zun]===],
-[===[Blackrock Kaçkınları ve Hainler burası ile Taş Gözetleme Kalesi arasında pusu kuruyorlar. Kaçakların lideri Tharil'zun adında bir ork. Bu orku istiyoruz. Bana Tharil'zun'un kellesini getirin!]===],
+[===[Blackrock Kaçkınları ve Hainler burası ile Taşnöbeti Kalesi arasında pusu kuruyorlar. Kaçakların lideri Tharil'zun adında bir ork. Bu orku istiyoruz. Bana Tharil'zun'un kellesini getirin!]===],
 [===[Tharil'zun'un Kafasını Redridge'deki Mareşal Marris'e getir.]===],
 [===[Blackrock'tan gelen Ork baskısı hâlâ gergin. Ama en azından bizi Tharil'zun'dan kurtardın mı?]===],
 [===[Tharil'zun acımasız, kurnaz bir orktu. Aferin, eminim kolay yenilmemiştir. İşte ödülün, {ім'я}.]===],
 },
 [20] = {
 [===[Blackrock Tehdidi]===],
-[===[Blackrock orkları Yanan Bozkırlardan gelip kuzeydeki Stonewatch Kalesini ele geçirdiler. Oradan Lakeshire'ın kuzeyindeki bölgeleri yağmalıyor ve vatandaşlarını kasabada sığır gibi hapsediyorlar.
+[===[Blackrock orkları Yanan Bozkırlardan gelip kuzeydeki Taşnöbeti Kalesini ele geçirdiler. Oradan Lakeshire'ın kuzeyindeki bölgeleri yağmalıyor ve vatandaşlarını kasabada sığır gibi hapsediyorlar.
 
 Lakeshire'ı bu tehditten kurtarmaya yardım et. Bu Blackrock orklarını öldürün ve kanıt olarak bana on tane Savaş Yıpranmış Baltası getirin.
 
@@ -1385,7 +1385,7 @@ Orada daha şanslı olabilirsin gibi görünüyor. Kardeşimi arayabilirseniz, m
 },
 [169] = {
 [===[Aranıyor: Gath'Ilzogg]===],
-[===[Aranıyor! Gath'Ilzogg, Stonewatch Keep'e yapılan Blackrock saldırılarının ve Lakeshire kasabasına yapılan baskınların lideri.
+[===[Aranıyor! Gath'Ilzogg, Taşnöbeti Kalesine yapılan Blackrock saldırılarının ve Lakeshire kasabasına yapılan baskınların lideri.
 
 Gath'Ilzogg son derece tehlikeli. Yakın zamanda fethedilen kalede saklandığı ve Blackrock klanının insanlığa karşı işleyeceği yeni suçları planladığı bildiriliyor. Ork istilası ne pahasına olursa olsun bastırılmalı. Gath'Ilzogg'un kellesini Yargıç Solomon'a teslim edebilecek her cesur ruha büyük bir ödül verilecektir.]===],
 [===[Gath'Ilzogg'u öldürün ve ödül için kellesini Lakeshire'daki Yargıç Solomon'a götürün.]===],
@@ -1835,9 +1835,9 @@ Ve eğer henüz yapmadıysanız, Lakeshire'daki Marshal Marris ve Magistrate Sol
 },
 [248] = {
 [===[Daha İleriye Bakmak]===],
-[===[Ilgalar Kulesi'ni izliyordum ve Morganth'ın Taş Gözetleme Kalesi'ndeki Orklarla çatışma içinde olduğunu tespit ettim. Aralarındaki çekişmenin sebebini bilmiyorum ama bu gizemi çözmemde bana yardımcı olabilirsin.
+[===[Ilgalar Kulesi'ni izliyordum ve Morganth'ın Taşnöbeti Kalesi'ndeki Orklarla çatışma içinde olduğunu tespit ettim. Aralarındaki çekişmenin sebebini bilmiyorum ama bu gizemi çözmemde bana yardımcı olabilirsin.
 
-Bir Azora Glifi daha alın, sonra Taş Gözetleme Kalesinin yanındaki sağlam gözetleme kulesinin tepesine gidin.
+Bir Azora Glifi daha alın, sonra Taşnöbeti Kalesinin yanındaki sağlam gözetleme kulesinin tepesine gidin.
 
 Glifi yerleştirmek için uygun bir nesne bulun. Bir sandık ya da kavanoz - glifin fark edilmeyeceği bir yer - amacıma uygun olacaktır.]===],
 [===[Redridge Dağlarındaki Stonewatch Keep'in yanındaki sağlam gözetleme kulesine tırman.
