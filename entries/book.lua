@@ -1137,5 +1137,12 @@ General Marcus Jonathan
 Kingdom of Stormwind]===],
 },
 
+[1410] = { -- Ebonlocke's Response to Solomon
+[===[Saygıdeğer Yargıç:
+
+Gece Nöbeti'nin şu anda Karanlıkdiyar'daki görev yerinden ayrılamayacağını size üzülerek bildirmek isterim. Belki de Stormwind'in artık bu bölgeye askeri destek sağlamadığından haberdar değildiniz. Gece Nöbeti, Stormwind'in yokluğunda Karanlıkdiyar'ı savunmak amacıyla tamamen orman halkı tarafından kurulmuş ve eğitilmiştir. Nöbet olmasaydı, kasaba düşerdi. Zor durumunuzda size şans dilerim.
+
+--Lord Ello Ebonlocke]===],
+},
 
 }

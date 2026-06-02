@@ -152,7 +152,7 @@ addonTable.zone = { -- [key] = text
 ["Darkbriar Lodge"] = "Darkbriar Kulübesi",
 ["Darkcloud Pinnacle"] = "Karabulut Zirvesi",
 ["Darkmist Cavern"] = "Karanlıksis Mağarası",
-["Darkshire"] = "Darkshire",
+["Darkshire"] = "Karanlıkdiyar",
 ["Darkshore"] = "Darkshore",
 ["Darkwhisper Gorge"] = "Karanlıkfısıltı Kanyonu",
 ["Darnassus"] = "Darnassus",
