@@ -42,7 +42,7 @@ end
 local function esc(x) -- https://stackoverflow.com/questions/9790688/escaping-strings-for-gsub
     return x:gsub('%%', '%%%%')
             :gsub('^%^', '%%^')
-            :gsub('%$$', '%%$')
+            :gsub('%$', '%%$')
             :gsub('%(', '%%(')
             :gsub('%)', '%%)')
             :gsub('%.', '%%.')
@@ -683,6 +683,92 @@ end
 local quest_title_font = "Interface\\AddOns\\ClassicUA\\assets\\Morpheus_UA.ttf"
 local quest_text_font = "Interface\\AddOns\\ClassicUA\\assets\\FRIZQT_UA.ttf"
 
+-- Quest ID görünümü ve panoya kopyalama için tıklanabilir görünmez buton alanı oluşturur
+-- Quest ID görünümü ve panoya kopyalama için tıklanabilir görünmez buton alanı oluşturur
+local create_quest_id_button = function(frame)
+    local btn = CreateFrame("Button", nil, frame)
+    btn:SetSize(80, 20)
+    btn:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -30, -18)
+    
+    local text = btn:CreateFontString(nil, "OVERLAY")
+    text:SetFont(quest_text_font, 11, "OUTLINE")
+    text:SetTextColor(0.7, 0.7, 0.7, 0.8) -- Hafif silik gri tonu
+    text:SetAllPoints(btn)
+    text:SetJustifyH("RIGHT")
+    btn.text = text
+
+    btn:SetScript("OnEnter", function(self)
+        if self.questID then
+            text:SetTextColor(1, 0.82, 0, 1) -- Üzerine gelince sarı yap
+            GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
+            GameTooltip:SetText("Quest ID: " .. self.questID)
+            GameTooltip:AddLine("Tıklayarak kopyalama kutusunu açabilirsiniz.", 0, 1, 0)
+            GameTooltip:Show()
+        end
+    end)
+
+    btn:SetScript("OnLeave", function(self)
+        text:SetTextColor(0.7, 0.7, 0.7, 0.8)
+        GameTooltip:Hide()
+    end)
+
+    btn:SetScript("OnClick", function(self)
+        if self.questID then
+            -- Eğer daha önce oluşturulmadıysa statik bir kopyalama penceresi oluştur
+            if not ClassicUA_CopyFrame then
+                local f = CreateFrame("Frame", "ClassicUA_CopyFrame", UIParent, "BackdropTemplate")
+                f:SetSize(200, 60)
+                f:SetPoint("CENTER", 0, 100)
+                f:SetFrameStrata("TOOLTIP")
+                
+                -- Arka plan ve kenarlık ayarları
+                f:SetBackdrop({
+                    bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
+                    edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
+                    tile = true, tileSize = 32, edgeSize = 16,
+                    insets = { left = 4, right = 4, top = 4, bottom = 4 }
+                })
+                
+                -- Bilgilendirme yazısı
+                local lbl = f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+                lbl:SetPoint("TOP", 0, -10)
+                lbl:SetText("Ctrl+C ile ID'yi kopyalayın:")
+                
+                -- Giriş/Kopyalama kutusu
+                local eb = CreateFrame("EditBox", nil, f)
+                eb:SetSize(160, 20)
+                eb:SetPoint("BOTTOM", 0, 12)
+                eb:SetFontObject("GameFontHighlight")
+                eb:SetJustifyH("CENTER")
+                eb:SetMaxLetters(10)
+                eb:SetAutoFocus(true)
+                
+                -- Input arka planı
+                local bg = eb:CreateTexture(nil, "BACKGROUND")
+                bg:SetTexture("Interface\\ChatFrame\\ChatFrameBackground")
+                bg:SetColorTexture(0, 0, 0, 0.6)
+                bg:SetAllPoints(eb)
+
+                -- Esc tuşuna basınca veya odak kaybolunca kapansın
+                eb:SetScript("OnEscapePressed", function(self) f:Hide() end)
+                eb:SetScript("OnEditFocusLost", function(self) f:Hide() end)
+                -- Ctrl+C yapıldıktan sonra otomatik kapanması için kolaylık
+                eb:SetScript("OnChar", function(self) f:Hide() end)
+
+                f.editBox = eb
+            end
+
+            -- ID'yi kutunun içine yaz, odağı ver ve metni tamamen seçili (highlighted) hale getir
+            ClassicUA_CopyFrame.editBox:SetText(tostring(self.questID))
+            ClassicUA_CopyFrame:Show()
+            ClassicUA_CopyFrame.editBox:SetFocus()
+            ClassicUA_CopyFrame.editBox:HighlightText()
+        end
+    end)
+
+    frame.idButton = btn
+end
+
 local quest_frames = {}
 local get_quest_frame = function (name)
     if quest_frames[name] then
@@ -705,6 +791,7 @@ local get_quest_frame = function (name)
         more_text = { quest_text_font, options.quest_text_size }
     })
 
+    create_quest_id_button(frame) -- Pencereye Quest ID buton katmanını ekle
     frame:Show()
 
     quest_frames[name] = frame
@@ -712,8 +799,17 @@ local get_quest_frame = function (name)
 end
 
 -- frame must have properties: title, text, more_title, more_text
-local set_quest_content = function (frame, title, text, more_title, more_text)
+local set_quest_content = function (frame, title, text, more_title, more_text, questID)
     local h = 16
+
+    -- QuestID verisi geldiyse butonu aktifleştir ve ID'yi yaz
+    if questID and frame.idButton then
+        frame.idButton.questID = questID
+        frame.idButton.text:SetText("ID: " .. questID)
+        frame.idButton:Show()
+    elseif frame.idButton then
+        frame.idButton:Hide()
+    end
 
     frame.title:SetPoint("TOPLEFT", frame.content, 12, -h)
     frame.title:SetText(title)
@@ -749,9 +845,10 @@ end
 
 QuestFrameDetailPanel:HookScript("OnShow", function (event)
     local frame = get_quest_frame("detail")
-    local entry = get_entry("quest", GetQuestID())
+    local qid = GetQuestID()
+    local entry = get_entry("quest", qid)
     if entry then
-        set_quest_content(frame, entry[1], entry[2], get_text("Quest Objectives"), entry[3])
+        set_quest_content(frame, entry[1], entry[2], get_text("Quest Objectives"), entry[3], qid)
         frame:Show()
     else
         frame:Hide()
@@ -765,9 +862,10 @@ end)
 
 QuestFrameProgressPanel:HookScript("OnShow", function (event)
     local frame = get_quest_frame("progress")
-    local entry = get_entry("quest", GetQuestID())
+    local qid = GetQuestID()
+    local entry = get_entry("quest", qid)
     if entry then
-        set_quest_content(frame, entry[1], entry[4])
+        set_quest_content(frame, entry[1], entry[4], nil, nil, qid)
         frame:Show()
     else
         frame:Hide()
@@ -781,9 +879,10 @@ end)
 
 QuestFrameRewardPanel:HookScript("OnShow", function (event)
     local frame = get_quest_frame("reward")
-    local entry = get_entry("quest", GetQuestID())
+    local qid = GetQuestID()
+    local entry = get_entry("quest", qid)
     if entry then
-        set_quest_content(frame, entry[1], entry[5])
+        set_quest_content(frame, entry[1], entry[5], nil, nil, qid)
         frame:Show()
     else
         frame:Hide()
@@ -823,6 +922,7 @@ local get_questlog_frame = function ()
         more_text = { quest_text_font, options.quest_text_size }
     })
 
+    create_quest_id_button(frame) -- Log penceresine de buton katmanını ekle
     frame:Show()
 
     questlog_frame = frame
@@ -840,7 +940,7 @@ hooksecurefunc("SelectQuestLogEntry", function ()
         local id = select(8, GetQuestLogTitle(selection))
         local entry = get_entry("quest", id)
         if entry then
-            set_quest_content(frame, entry[1], entry[3], get_text("Description"), entry[2])
+            set_quest_content(frame, entry[1], entry[3], get_text("Description"), entry[2], id)
             frame:Show()
         else
             frame:Hide()
@@ -1077,7 +1177,7 @@ local prepare_options_frame = function ()
         .. "— книжок: " .. stats.book .. "\n"
         .. "— локацій: " .. stats.zone .. "\n"
         .. "— персонажів: " .. stats.npc .. "\n"
-        .. "— предметів: " .. stats.item .. "\n"
+        .. "— предметов: " .. stats.item .. "\n"
         .. "— об'єктів: " .. stats.object .. "\n"
         .. "— заклять: " .. stats.spell
     )
@@ -1194,6 +1294,7 @@ local prepare_options_frame = function ()
         f.tab_text_key = tab_data[2]
         f:SetHighlightTexture("Interface\\PaperDollInfoFrame\\UI-Character-Tab-Highlight", "ADD")
         f:SetSize(100, 32)
+        f:SetPoint("TOPLEFT", 112 + tab_index * f:GetWidth(), -200)
         f:SetPoint("TOPLEFT", 112 + tab_index * f:GetWidth(), -200)
         f:SetText(f.tab_title)
         f:SetScript("OnClick", function(self)

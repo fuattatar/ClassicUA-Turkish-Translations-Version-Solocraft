@@ -123,6 +123,13 @@ Lakeshire kasabası, milislerinizin yardımını acilen talep ediyor. Ben bunu y
 
 Sulh Hakimi Solomon]===],
 },
+[1408] = { -- Stoutmantle's Response to Solomon (1)
+[===[Saygıdeğer Sulh Hakimi--
+
+Tüm Westfall kaybınız için yas tutuyor, ancak biz de burada, Westfall'da kendi savaşımızla boğuşuyoruz. Çiftçiler hırsızlar ve mekanik golemler tarafından topraklarından sürüldü. Stormwind askerlerini geri çekerek halkı savunmasız bıraktı. Stormwind'in bizi terk etmesinin ardından, bu topraklardan geriye kalanları kurtarmak için Halk Milisleri'ni (People's Militia) topladım. Milisleri Redridge'e götürmek, Westfall için kesin bir yıkım anlamına gelecektir.
+
+Saygılarımla, Gryan Stoutmantle]===],
+},
 [1409] = { -- Solomon's Plea to Darkshire (1)
 [===[Lord Althea Ebonlocke --
 
