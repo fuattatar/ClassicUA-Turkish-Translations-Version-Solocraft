@@ -679,7 +679,7 @@ Prenses'i karpuz tarlamızın ortasında bulacaksın. Yakalayın onu!]===],
 Şimdi, bunlardan herhangi biri size uyuyor mu?]===],
 },
 [89] = {
-[===[Sonsuz Köprü]===],
+[===[Durgunsu Köprüsü]===],
 [===[Son ork istilası sırasında mermi, kılıç ve zırh yapmak için demirimizi eritmek zorunda kaldık. Yeni bir malzeme sevkiyatı için Stormwind'e haber gönderdik ancak bir grup Kızılkaya gnoll'u kervanı kaçırdı ve Lakeshire'ın arkasındaki tepelere doğru kaçtı.
 
 Şimdi bu köprüyü yeniden inşa etmek için malzeme sıkıntısı çekiyoruz. Bana 5 demir kargı ve 5 demir perçin getirebilirsen, {ім'я} seni ödüllendireceğimden emin olabilirsin.
@@ -992,7 +992,7 @@ Alet çantamı geri al, {ім'я} ve ben de senin zamanına değmesini sağlayac
 [===[Mükemmel kurtarma, {ім'я}! Bu aletleri bir daha göreceğimi hiç düşünmezdim.]===],
 },
 [126] = {
-[===[Tepelerde Uluyan]===],
+[===[Tepelerdeki Uluma]===],
 [===[{ім'я} Gnoll'lar hala dışarıda. Lakeshire'ın yukarısındaki tepelerde avlanırken bağırışlarını duyabiliyorum. Ve bir çığlık diğerlerinden daha yüksek - Yowler, liderleri.
 
 Yowler'ı öldürün ve sürüsünü dağıtın! Bana kanıt olarak pençesini getirin.
