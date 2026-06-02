@@ -372,7 +372,7 @@ addonTable.zone = { -- [key] = text
 ["Lake Mennar"] = "Mennar Gölü",
 ["Lake Mereldar"] = "Mereldar Gölü",
 ["Lake Nazferiti"] = "Nazferiti Gölü",
-["Lakeridge Highway"] = "Gölkenarı Otoyolu",
+["Lakeridge Highway"] = "Gölkenarı Geçidi",
 ["Lakeshire"] = "Gölbölgesi",
 ["Lakeshire Town Hall"] = "Gölbölgesi Belediye Binası",
 ["Lakkari Tar Pits"] = "Lakkari Katran Çukurları",

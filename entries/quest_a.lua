@@ -956,7 +956,7 @@ Gidebilirsin, {клас}!]===],
 Şimdi izin verirseniz, bu yazışmayı biraz gizemli buluyorum. Krallığımızda yanlış giden bir şeyler var. Korkarım bu bir çatışmanın başlangıcı, sonu değil.]===],
 },
 [122] = {
-[===[Göbek Altı Terazileri]===],
+[===[Karınaltı Pulları]===],
 [===[Argus'un Goldshire'dan bana gönderdiği ayakkabıların parasını ödemek için siyah ejderha yavrularının karın altı pullarına ihtiyacım var. Eğer benim için 6 tane bulabilirsen, Argus'a ödemeyi birazıyla yapabilirim... ve senin için bir şeyler yapmaya yetecek kadar param kalır.
 
 Kara ejderha yavruları genellikle Lakeshire'ın güneyinde uçarlar, ancak dolaşmayı severler. Gözünüzü dört açmanız ve onları gördüğünüzde avlamanız gerekebilir.]===],
