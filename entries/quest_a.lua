@@ -2731,11 +2731,13 @@ Oh... orada ne var? Ferahlatıcı bir içeceğe benziyor.]===],
 Teşekkürler, {ім'я}. Lütfen bunu kitabı iade ettiğiniz için ödeme olarak kabul edin!]===],
 },
 [343] = {
-[===[Metanetten bahsetmişken]===],
-[===[Ruhun Metaneti üzerine bir konuşma yapacağım ve metalürji üzerine özel bir kitaptan pasajlar okumak istiyorum - \]===],
-[===[Stormwind Kalesindeki Kraliyet Kütüphanesine gidin ve Milton Sheaf ile konuşun. Kardeş Kristoff'un konuşması için ihtiyaç duyduğu metalürji kitabını sizin için bulabilir.]===],
+[===[Metanetten Bahsetmişken]===],
+[===[Ruhun Metaneti üzerine bir konuşma yapacağım ve metalürji üzerine özel bir kitaptan - "Demirin Gerilimleri" - pasajlar okumak istiyorum. Bu kitabın bir kopyası Stormwind Kalesi içerisindeki Kraliyet Kütüphanesi'nde bulunuyor olmalı. Onu benim için getirebilir misin? Eğer getirirsen, Işık'ın kutsamaları seninle olsun!
+
+Kraliyet Kütüphanesi çok büyüktür ancak baş kütüphaneci Milton Sheaf, her bir rafı kendi oğlu gibi bilir. Onunla konuş, kitabı senin için getirecektir.]===],
+[===[Stormwind Kalesi'ndeki Kraliyet Kütüphanesi'ne gidin ve Milton Sheaf ile konuşun. Brother Kristoff'un konuşması için ihtiyaç duyduğu metalürji kitabını sizin için bulabilir.]===],
 [===[]===],
-[===[Metalurji mi? Ah evet, bu konuda pek çok kitabımız var ve Kardeş Kristoff'a konuşmasında yardımcı olmaktan mutluluk duyarız! Şimdi... iyi kardeşin özellikle hangi kitaba ihtiyacı vardı?]===],
+[===[Metalürji mi? Ah evet, bu konuda pek çok kitabımız var ve Brother Kristoff'a konuşmasında yardımcı olmaktan mutluluk duyarız! Şimdi... iyi kardeşin özellikle hangi kitaba ihtiyacı vardı?]===],
 },
 [344] = {
 [===[Kardeş Paxton]===],
