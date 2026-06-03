@@ -469,7 +469,7 @@ addonTable.zone = { -- [key] = text
 ["Palemane Rock"] = "Palemane Kayası",
 ["Pestilent Scar"] = "Vebalı Yarık",
 ["Petitioner's Chamber"] = "Dilekçe Odası",
-["Pig and Whistle Tavern"] = "Pig and Whistle Hanı",
+["Pig and Whistle Tavern"] = "Domuz ve Düdük Hanı",
 ["Plaguelands"] = "Veba Toprakları",
 ["Plaguewood"] = "Veba Ormanı",
 ["Plaguewood Tower"] = "Veba Ormanı Kulesi",
