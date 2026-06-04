@@ -746,14 +746,14 @@ Sana minnettarım, genç {ім'я}. Şimdi benimle bu Glif aracılığıyla konu
 },
 [95] = {
 [===[Sven'in İntikamı]===],
-[===[Güneydoğudaki çiftliklerden birinde çalışıyordum... ta ki Deadwind Geçidinden gelen Karanlık Süvariler çiftliğime inip ben yokken ailemi katledene kadar!
+[===[Güneydoğudaki çiftliklerden birinde çalışıyordum... ta ki ben uzaktayken Deadwind Geçidi'nden gelen Karanlık Süvariler çiftliğime baskın yapıp ailemi katledene kadar!
 
-Döndüğümde ahırımın yakınında gizlenen karanlık bir figür gördüm, bir şey gömüyordu. Onu yakalayamadan kaçtı ve ben de Karanlık Süvarilerin peşinde olduğum için oyalanamadım. Bu yüzden neyin saklı olduğunu asla keşfedemedim.
+Geri döndüğümde ahırımın yakınında gizlenen ve bir şeyler gömen gölgeli bir figür gördüm. Onu yakalayamadan kaçtı, ben de Karanlık Süvarilerin hemen peşinde olduğum için orada oyalanamadım. Bu yüzden neyin saklandığını asla öğrenemedim.
 
-Eğer o gölgeli figürün gömdüğü şeyi bulabilirsen, minnettar olurum. Saklandığım yer ahırımın yanındaki eski kütüğün arkası.]===],
+Eğer o gölgeli figürün gömdüğü şeyi bulabilirsen minnettar olurum. Saklama yeri ahırımın yanındaki eski kütüğün arkasında.]===],
 [===[Sven'in Çiftliği'ne gidin ve eski kütüğün arkasında neyin gömülü olduğunu bulun.]===],
 [===[]===],
-[===[Burada bir toprak yığını var, sanki birinin bir şeyi saklamaya ihtiyacı varmış gibi aceleyle yığılmış... bunu yapmak için fazla zamanı yokmuş gibi.]===],
+[===[Burada, sanki birinin bir şeyi saklamaya ihtiyacı varmış da bunu yapmak için pek vakti yokmuş gibi aceleyle yığılmış bir toprak yığını var.]===],
 },
 [97] = {
 [===[Stalvan Efsanesi]===],
