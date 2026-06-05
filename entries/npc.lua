@@ -3289,4 +3289,7 @@ addonTable.npc = { -- [id] = { title, description (optional) }
 [17119] = { "Ithania" }, -- Ithania
 [28907] = { "Prens Valanar" }, -- Prince Valanar
 
+[1111]= { "Sinsi Kan Emici" }, -- Leech Stalker
+[4040]= { "Mağara Pusucusu" }, -- Cave Stalker
+
 }

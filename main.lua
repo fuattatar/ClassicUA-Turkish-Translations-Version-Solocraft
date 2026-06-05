@@ -63,12 +63,19 @@ local default_options = {
     debug = false,
     quest_text_size = 13,
     book_text_size = 15,
-    book_debug = false
+    book_debug = false,
+    npc_debug = false,
+    item_debug = false
 }
 
 local prepare_options = function ()
     ClassicUA_Options = ClassicUA_Options or copy_table({}, default_options)
     options = ClassicUA_Options
+    
+    if options.debug == nil then options.debug = false end
+    if options.book_debug == nil then options.book_debug = false end
+    if options.npc_debug == nil then options.npc_debug = false end
+    if options.item_debug == nil then options.item_debug = false end
 end
 
 local reset_options = function ()
@@ -184,7 +191,6 @@ local prepare_quests = function (is_alliance)
 end
 
 local prepare_codes = function (name, race, class, is_male)
-    -- print("preparing codes for: " .. name .. " / " .. race .. " / " .. class .. " / " .. (is_male and "male" or "famale"))
     local at = addonTable
     local sex = is_male and 1 or 2
     local cases = { "н", "р", "д", "з", "о", "м", "к" }
@@ -225,13 +231,10 @@ local prepare_codes = function (name, race, class, is_male)
 
     -- sex
 
-    -- only "стать" is needed, but we make possible to use any letter casing
-    -- (even if it has nothing to do with the letter case of the result, as text gets shown as is)
     codes["{стать:(.-):(.-)}"] = function (a, b) return is_male and a or b end
     codes["{Стать:(.-):(.-)}"] = function (a, b) return is_male and a or b end
     codes["{СТАТЬ:(.-):(.-)}"] = function (a, b) return is_male and a or b end
 
-    -- print_table(codes, "codes")
     at.codes = codes
 end
 
@@ -309,23 +312,19 @@ local get_entry = function (entry_type, entry_id)
     return false
 end
 
--- todo: add another loop to try different "'s", e.g. "XXX's" and "XXXs'" are considered to be equal
 local get_entry_text = function (entry_key)
     local at = addonTable
 
     if entry_key then
         for i = 1, 2 do
             if i == 2 then
-                -- if failed to find original entry_key, try one more time with/out starting "The "
                 if entry_key:find("^The ") then
-                    -- remove starting "The "
                     if #entry_key > 5 then
                         entry_key = entry_key:sub(5)
                     else
                         break
                     end
                 else
-                    -- add starting "The "
                     entry_key = "The " .. entry_key
                 end
             end
@@ -423,11 +422,9 @@ local add_entry_to_tooltip = function (tooltip, entry_type, entry_id, is_buff_de
     end
 
     if entry then
-        -- TÜRKÇE FONT ZORLAMASI: Tooltip fontunu Türkçe destekleyen FRIZQT_UA.ttf ile değiştiriyoruz
         local fontName, fontSize, fontFlags = GameTooltipTextLeft1:GetFont()
         local tr_font = "Interface\\AddOns\\ClassicUA\\assets\\FRIZQT_UA.ttf"
         
-        -- Tooltip satırlarının fontunu güncelliyoruz
         for i = 1, 30 do
             local leftLine = _G[tooltip:GetName() .. "TextLeft" .. i]
             local rightLine = _G[tooltip:GetName() .. "TextRight" .. i]
@@ -472,7 +469,7 @@ local add_talent_entry_to_tooltip = function (tooltip, tab_index, talent_index, 
     local rank_to_show = math.max(rank, 1)
     local next_rank_to_show = math.min(rank + 1, max_rank)
 
-    if not talent[rank_to_show] or not talent[next_rank_to_show] then -- this can never be true (otherwise, bug in talent_tree)
+    if not talent[rank_to_show] or not talent[next_rank_to_show] then
         return
     end
 
@@ -514,11 +511,15 @@ local add_talent_entry_to_tooltip = function (tooltip, tab_index, talent_index, 
 end
 
 local tooltip_set_item = function (self)
-    local _, link = self:GetItem()
+    local name, link = self:GetItem()
     if link then
         local _, _, id = link:find("Hitem:(%d+):")
         if id then
             add_entry_to_tooltip(self, "item", id)
+            
+            if options and options.item_debug then
+                print("|cff00ff22[Item Debug]|r Hovered: " .. link .. " | ID: |cffff0000" .. tostring(id) .. "|r")
+            end
         end
     end
 end
@@ -555,8 +556,7 @@ end
 
 hooksecurefunc(GameTooltip, "SetTalent", function (self, tab_index, talent_index)
     local rank, max_rank, is_active = select(5, GetTalentInfo(tab_index, talent_index))
-    if not is_active then -- skip active talent (they get shown as spell)
-        -- print("talent", tab_index, talent_index, "rank", rank, max_rank)
+    if not is_active then
         add_talent_entry_to_tooltip(self, tab_index, talent_index, rank, max_rank)
     end
 end)
@@ -620,7 +620,6 @@ local setup_frame_background_and_border = function (frame)
     })
 end
 
--- areas: { area1 = { font, size }, ... }
 local setup_frame_scrollbar_and_content = function (frame, areas, scrollframe_width_override)
     local scrollframe = CreateFrame("ScrollFrame", nil, frame)
     scrollframe:SetPoint("TOPLEFT", 8, -9)
@@ -683,8 +682,6 @@ end
 local quest_title_font = "Interface\\AddOns\\ClassicUA\\assets\\Morpheus_UA.ttf"
 local quest_text_font = "Interface\\AddOns\\ClassicUA\\assets\\FRIZQT_UA.ttf"
 
--- Quest ID görünümü ve panoya kopyalama için tıklanabilir görünmez buton alanı oluşturur
--- Quest ID görünümü ve panoya kopyalama için tıklanabilir görünmez buton alanı oluşturur
 local create_quest_id_button = function(frame)
     local btn = CreateFrame("Button", nil, frame)
     btn:SetSize(80, 20)
@@ -692,14 +689,14 @@ local create_quest_id_button = function(frame)
     
     local text = btn:CreateFontString(nil, "OVERLAY")
     text:SetFont(quest_text_font, 11, "OUTLINE")
-    text:SetTextColor(0.7, 0.7, 0.7, 0.8) -- Hafif silik gri tonu
+    text:SetTextColor(0.7, 0.7, 0.7, 0.8)
     text:SetAllPoints(btn)
     text:SetJustifyH("RIGHT")
     btn.text = text
 
     btn:SetScript("OnEnter", function(self)
         if self.questID then
-            text:SetTextColor(1, 0.82, 0, 1) -- Üzerine gelince sarı yap
+            text:SetTextColor(1, 0.82, 0, 1)
             GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
             GameTooltip:SetText("Quest ID: " .. self.questID)
             GameTooltip:AddLine("Tıklayarak kopyalama kutusunu açabilirsiniz.", 0, 1, 0)
@@ -714,14 +711,12 @@ local create_quest_id_button = function(frame)
 
     btn:SetScript("OnClick", function(self)
         if self.questID then
-            -- Eğer daha önce oluşturulmadıysa statik bir kopyalama penceresi oluştur
             if not ClassicUA_CopyFrame then
                 local f = CreateFrame("Frame", "ClassicUA_CopyFrame", UIParent, "BackdropTemplate")
                 f:SetSize(200, 60)
                 f:SetPoint("CENTER", 0, 100)
                 f:SetFrameStrata("TOOLTIP")
                 
-                -- Arka plan ve kenarlık ayarları
                 f:SetBackdrop({
                     bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
                     edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
@@ -729,12 +724,10 @@ local create_quest_id_button = function(frame)
                     insets = { left = 4, right = 4, top = 4, bottom = 4 }
                 })
                 
-                -- Bilgilendirme yazısı
                 local lbl = f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
                 lbl:SetPoint("TOP", 0, -10)
                 lbl:SetText("Ctrl+C ile ID'yi kopyalayın:")
                 
-                -- Giriş/Kopyalama kutusu
                 local eb = CreateFrame("EditBox", nil, f)
                 eb:SetSize(160, 20)
                 eb:SetPoint("BOTTOM", 0, 12)
@@ -743,22 +736,18 @@ local create_quest_id_button = function(frame)
                 eb:SetMaxLetters(10)
                 eb:SetAutoFocus(true)
                 
-                -- Input arka planı
                 local bg = eb:CreateTexture(nil, "BACKGROUND")
                 bg:SetTexture("Interface\\ChatFrame\\ChatFrameBackground")
                 bg:SetColorTexture(0, 0, 0, 0.6)
                 bg:SetAllPoints(eb)
 
-                -- Esc tuşuna basınca veya odak kaybolunca kapansın
                 eb:SetScript("OnEscapePressed", function(self) f:Hide() end)
                 eb:SetScript("OnEditFocusLost", function(self) f:Hide() end)
-                -- Ctrl+C yapıldıktan sonra otomatik kapanması için kolaylık
                 eb:SetScript("OnChar", function(self) f:Hide() end)
 
                 f.editBox = eb
             end
 
-            -- ID'yi kutunun içine yaz, odağı ver ve metni tamamen seçili (highlighted) hale getir
             ClassicUA_CopyFrame.editBox:SetText(tostring(self.questID))
             ClassicUA_CopyFrame:Show()
             ClassicUA_CopyFrame.editBox:SetFocus()
@@ -791,18 +780,16 @@ local get_quest_frame = function (name)
         more_text = { quest_text_font, options.quest_text_size }
     })
 
-    create_quest_id_button(frame) -- Pencereye Quest ID buton katmanını ekle
+    create_quest_id_button(frame)
     frame:Show()
 
     quest_frames[name] = frame
     return quest_frames[name]
 end
 
--- frame must have properties: title, text, more_title, more_text
 local set_quest_content = function (frame, title, text, more_title, more_text, questID)
     local h = 16
 
-    -- QuestID verisi geldiyse butonu aktifleştir ve ID'yi yaz
     if questID and frame.idButton then
         frame.idButton.questID = questID
         frame.idButton.text:SetText("ID: " .. questID)
@@ -832,12 +819,8 @@ local set_quest_content = function (frame, title, text, more_title, more_text, q
         frame.more_text:SetText(more_text)
         h = h + frame.more_text:GetHeight() + 12
     else
-        if frame.more_title then
-            frame.more_title:SetText("")
-        end
-        if frame.more_text then
-            frame.more_text:SetText("")
-        end
+        if frame.more_title then frame.more_title:SetText("") end
+        if frame.more_text then frame.more_text:SetText("") end
     end
 
     setup_frame_scrollbar_values(frame, h)
@@ -922,7 +905,7 @@ local get_questlog_frame = function ()
         more_text = { quest_text_font, options.quest_text_size }
     })
 
-    create_quest_id_button(frame) -- Log penceresine de buton katmanını ekle
+    create_quest_id_button(frame)
     frame:Show()
 
     questlog_frame = frame
@@ -930,7 +913,7 @@ local get_questlog_frame = function ()
 end
 
 hooksecurefunc("SelectQuestLogEntry", function ()
-    if not addonTable.quest_f then -- need to test quest_f, as prepare_quests() might not be called just yet
+    if not addonTable.quest_f then
         return
     end
 
@@ -1015,7 +998,6 @@ end
 -- -------------------------
 
 local zone_text_lookup = {
-    -- { FontString object, lookup function }
     { ZoneTextString, get_entry_text },
     { SubZoneTextString, get_entry_text },
     { MinimapZoneText, get_entry_text },
@@ -1203,7 +1185,7 @@ local prepare_options_frame = function ()
         end
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
         GameTooltip:SetText(
-            "Перезавантажити інтерфейс гри. Деякі зміни в налаштуваннях будуть помітні лише після такої операції."
+            "Перезавантажити інтерфейс гри. Деякі зміни в налаштуваннях будуть помітні лише efter такої операції."
             .. memory_usage_text,
             nil, nil, nil, nil, true
         )
@@ -1226,7 +1208,7 @@ local prepare_options_frame = function ()
     f.Low:SetText("10")
     f.High:SetText("20")
     f:SetScript("OnValueChanged", function (self, value)
-        self.Text:SetText("Розмір тексту завдання: " .. value)
+        self.Text:SetText("Розмір textu завдання: " .. value)
         options.quest_text_size = value
     end)
 
@@ -1244,12 +1226,15 @@ local prepare_options_frame = function ()
     f.Low:SetText("10")
     f.High:SetText("20")
     f:SetScript("OnValueChanged", function (self, value)
-        self.Text:SetText("Розмір тексту книжки: " .. value)
+        self.Text:SetText("Розмір textu книжки: " .. value)
         options.book_text_size = value
     end)
 
-    -- options.debug
+    -- --------------------------------------------------
+    -- [ KOLON 1 (X: 280) ]
+    -- --------------------------------------------------
 
+    -- options.debug (Режим розробки)
     f = CreateFrame("CheckButton", nil, options_frame, "InterfaceOptionsCheckButtonTemplate")
     options_frame.debug_frame = f
     f:SetPoint("TOPLEFT", 280, -78)
@@ -1259,14 +1244,38 @@ local prepare_options_frame = function ()
         options.debug = self:GetChecked()
     end)
     
-    -- options.book_debug 
+    -- options.book_debug (Book Debug Mode)
     f = CreateFrame("CheckButton", nil, options_frame, "InterfaceOptionsCheckButtonTemplate")
     options_frame.book_debug_frame = f
-    f:SetPoint("TOPLEFT", 280, -118) -- Diğer seçeneğin altına hizalandı
+    f:SetPoint("TOPLEFT", 280, -118)
     f.Text:SetText("Book Debug Mode")
     f.tooltipText = "Enables English chat logs to show the ID of the book you just opened."
     f:SetScript("OnClick", function (self)
         options.book_debug = self:GetChecked()
+    end)
+    
+    -- --------------------------------------------------
+    -- [ KOLON 2 (X: 450) - YENİ DÜZEN ]
+    -- --------------------------------------------------
+    
+    -- options.npc_debug (NPC Debug Mode)
+    f = CreateFrame("CheckButton", nil, options_frame, "InterfaceOptionsCheckButtonTemplate")
+    options_frame.npc_debug_frame = f
+    f:SetPoint("TOPLEFT", 450, -78) -- X koordinatı 450'ye çekilerek sağa alındı
+    f.Text:SetText("NPC Debug Mode")
+    f.tooltipText = "Enables English chat logs to show the ID of the target NPC/Creature."
+    f:SetScript("OnClick", function (self)
+        options.npc_debug = self:GetChecked()
+    end)
+
+    -- options.item_debug (Item Debug Mode)
+    f = CreateFrame("CheckButton", nil, options_frame, "InterfaceOptionsCheckButtonTemplate")
+    options_frame.item_debug_frame = f
+    f:SetPoint("TOPLEFT", 450, -118) -- NPC Debug'ın altına gelecek şekilde sağ kolona eklendi
+    f.Text:SetText("Item Debug Mode")
+    f.tooltipText = "Enables English chat logs to show the ID of the item under your mouse cursor."
+    f:SetScript("OnClick", function (self)
+        options.item_debug = self:GetChecked()
     end)
     
     -- info tabs
@@ -1283,7 +1292,6 @@ local prepare_options_frame = function ()
 
     options_frame.info_tab_buttons = {}
     for tab_index, tab_data in ipairs({
-        -- { tab title, tab content text key }
         { "Оновлення", "addon_changelog" },
         { "Причетні", "addon_contributors" },
     }) do
@@ -1294,7 +1302,6 @@ local prepare_options_frame = function ()
         f.tab_text_key = tab_data[2]
         f:SetHighlightTexture("Interface\\PaperDollInfoFrame\\UI-Character-Tab-Highlight", "ADD")
         f:SetSize(100, 32)
-        f:SetPoint("TOPLEFT", 112 + tab_index * f:GetWidth(), -200)
         f:SetPoint("TOPLEFT", 112 + tab_index * f:GetWidth(), -200)
         f:SetText(f.tab_title)
         f:SetScript("OnClick", function(self)
@@ -1313,7 +1320,6 @@ local prepare_options_frame = function ()
             self:LockHighlight()
         end)
 
-        -- preselect 1st tab
         if tab_index == 1 then
             set_quest_content(options_frame.info_tab_frame, f.tab_title, get_text(f.tab_text_key))
             options_frame.info_tab_frame.current_tab_index = 1
@@ -1328,21 +1334,19 @@ local prepare_options_frame = function ()
     options_frame.refresh = function ()
         local f = options_frame
         f.quest_text_size_frame:SetValue(options.quest_text_size)
-        f.quest_text_size_frame.Text:SetText("Quest text size:" .. options.quest_text_size)
+        f.quest_text_size_frame.Text:SetText("Quest text size: " .. options.quest_text_size)
         f.book_text_size_frame:SetValue(options.book_text_size)
         f.book_text_size_frame.Text:SetText("Book text size: " .. options.book_text_size)
         f.debug_frame:SetChecked(options.debug)
         f.book_debug_frame:SetChecked(options.book_debug)
+        f.npc_debug_frame:SetChecked(options.npc_debug)
+        f.item_debug_frame:SetChecked(options.item_debug)
     end
 
     InterfaceOptions_AddCategory(options_frame)
 
-    -- add slash command to open the options
-
     _G.SLASH_CLASSICUA_SETTINGS1 = "/ua"
     SlashCmdList.CLASSICUA_SETTINGS = function ()
-        -- we do double call here because when first loaded, single call only opens 1st tab;
-        -- seems like some old issue https://www.wowinterface.com/forums/showthread.php?t=56922
         InterfaceOptionsFrame_OpenToCategory(options_frame)
         InterfaceOptionsFrame_OpenToCategory(options_frame)
     end
@@ -1365,16 +1369,18 @@ event_frame:RegisterEvent("ZONE_CHANGED_INDOORS")
 event_frame:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 
 event_frame:SetScript("OnEvent", function (self, event, ...)
-    -- print(event, ...)
     if event == "ADDON_LOADED" then
-        self:UnregisterEvent("ADDON_LOADED")
-        prepare_options()
-        prepare_options_frame()
-        print(
-            "|TInterface\\AddOns\\ClassicUA\\assets\\ua:0|t"
-            .. " ClassicUA v" .. GetAddOnMetadata("ClassicUA", "Version")
-            .. " — |cffffbb22" .. _G.SLASH_CLASSICUA_SETTINGS1 .. "|r"
-        )
+        local addonName = ...
+        if addonName == "ClassicUA" then
+            self:UnregisterEvent("ADDON_LOADED")
+            prepare_options()
+            prepare_options_frame()
+            print(
+                "|TInterface\\AddOns\\ClassicUA\\assets\\ua:0|t"
+                .. " ClassicUA v" .. GetAddOnMetadata("ClassicUA", "Version")
+                .. " — |cffffbb22" .. _G.SLASH_CLASSICUA_SETTINGS1 .. "|r"
+            )
+        end
 
     elseif event == "PLAYER_LOGIN" then
         local name = UnitName("player")
@@ -1383,16 +1389,26 @@ event_frame:SetScript("OnEvent", function (self, event, ...)
         local sex = UnitSex("player")
         local faction = UnitFactionGroup("player")
 
-        -- print("PLAYER_LOGIN", name, race, class, sex, faction)
         prepare_talent_tree(class)
         prepare_quests(faction == "Alliance")
-        prepare_codes(name, race, class, sex == 2) -- 2 for male
+        prepare_codes(name, race, class, sex == 2)
         prepare_zones()
         prepare_zone_text()
         prepare_world_map()
 
     elseif event == "PLAYER_TARGET_CHANGED" then
         update_target_frame_text()
+
+        if options and options.npc_debug then
+            local guid = UnitGUID("target")
+            if guid then
+                local kind, _, _, _, _, id, _ = strsplit("-", guid)
+                if kind == "Creature" and id then
+                    local npc_name = UnitName("target") or "Unknown"
+                    print("|cff00ffea[NPC Debug]|r Target: |cffffd200" .. npc_name .. "|r | ID: |cffff0000" .. tostring(id) .. "|r")
+                end
+            end
+        end
 
     elseif event == "ITEM_TEXT_BEGIN" then
         if tooltip_entry_type == "item" then
