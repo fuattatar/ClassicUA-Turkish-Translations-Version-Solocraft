@@ -3373,15 +3373,15 @@ Nadir bulunan bir cevher hakkında söylentiler duydu ve onun için bu cevheri a
 [===[Merhaba {ім'я}. Benim görevim için buradasınız, değil mi? Senin gibi macera için yanıp tutuşan genç bir $R görmek çok güzel!]===],
 },
 [468] = {
-[===[Mountaineer Rockgar'a rapor verin]===],
-[===[Mountaineer Rockgar, Dun Algaz ve Sulak Alanlara doğru bir görev için gönüllüler arıyor.
+	[===[Dağcı Rockgar'a Rapor Ver]===],
+	[===[Dağcı Rockgar, Dun Algaz ve Bataklıklar'a doğru yapılacak bir görev için gönüllüler arıyor.
 
-Eğer kuzeydeki vıcık vıcık topraklarda botlarını ıslatmak istiyorsan, Dun Algaz'da Rockgar ile konuş. Dun Algaz yolun kuzeyinde, nöbetçi kulesinin ötesinde.]===],
-[===[Dağcı Rockgar ile konuş.]===],
-[===[]===],
-[===[Merhaba, {клас}! Keşif görevi için buradasınız, değil mi? Çok iyi!
+Eğer kuzeydeki o vıcık vıcık topraklarda botlarını ıslatmak istiyorsan, Dun Algaz'daki Rockgar ile konuş. Dun Algaz yolun kuzeyinde, gözcü kulesinin hemen ötesindedir.]===],
+	[===[Dağcı Rockgar ile konuş.]===],
+	[===[]===],
+	[===[Merhaba! Keşif görevi için buradasın, değil mi? Çok güzel!
 
-Umarım teçhizatınız iyi durumdadır, çünkü bu \]===],
+Umarım teçhizatın iyi durumdadır, çünkü bu "keşif" görevi biraz daha karmaşık bir hal aldı...]===],
 },
 [469] = {
 [===[Günlük Teslimat]===],

@@ -883,7 +883,7 @@ addonTable.zone = { -- [key] = text
 ["Western Strand"] = "Batı Kıyısı",
 ["Westfall"] = "Westfall",
 ["Westfall Lighthouse"] = "Westfall Deniz Feneri",
-["Wetlands"] = "Wetlands",
+["Wetlands"] = "Sulak Alanlar",
 ["Whelgar's Excavation Site"] = "Whelgar Kazı Alanı",
 ["Whispering Gardens"] = "Fısıldayan Bahçeler",
 ["Whispering Shore"] = "Fısıldayan Kıyı",
