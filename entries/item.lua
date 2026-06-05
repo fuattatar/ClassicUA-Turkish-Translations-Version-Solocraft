@@ -1621,6 +1621,8 @@ addonTable.item = { -- [id] = { -- title, optional keys: desc, equip, hit, use, 
 [19334] = { "Ehlileştirilemez Kılıç" }, -- The Untamed Blade
 [6186] = { "Trogg Doğrayıcı" }, -- Trogg Slicer
 
+[5193] = { "Kardeşlik Pelerini" }, -- Cape of the Brotherhood
 [5194] = { "Ustabaşı Baltası" }, -- Taskmaster Axe
+
 
 }
