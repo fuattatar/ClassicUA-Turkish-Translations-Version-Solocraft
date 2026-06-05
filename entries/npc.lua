@@ -606,12 +606,12 @@ addonTable.npc = { -- [id] = { title, description (optional) }
 [1021] = { "Alaca Çığlıkçı" }, -- Mottled Screecher
 [1022] = { "Alaca Tırnaklı" }, -- Mottled Scytheclaw
 [1023] = { "Alaca Testerediş" }, -- Mottled Razormaw
-[1024] = { "Bluegill Murloc'u" }, -- Bluegill Murloc
-[1025] = { "Bluegill Su birikintisihoplatanı" }, -- Bluegill Puddlejumper
-[1026] = { "Bluegill Toplayıcısı" }, -- Bluegill Forager
-[1027] = { "Bluegill Savaşçısı" }, -- Bluegill Warrior
-[1028] = { "Bluegill Çamursakini" }, -- Bluegill Muckdweller
-[1029] = { "Bluegill Kahini" }, -- Bluegill Oracle
+[1024] = { "Mavisolungaç Murloc'u" }, -- Bluegill Murloc
+[1025] = { "Mavisolungaç Su birikintisihoplatanı" }, -- Bluegill Puddlejumper
+[1026] = { "Mavisolungaç Toplayıcısı" }, -- Bluegill Forager
+[1027] = { "Mavisolungaç Savaşçısı" }, -- Bluegill Warrior
+[1028] = { "Mavisolungaç Çamursakini" }, -- Bluegill Muckdweller
+[1029] = { "Mavisolungaç Kahini" }, -- Bluegill Oracle
 [1030] = { "Siyah Balçık" }, -- Black Slime
 [1031] = { "Kızıl Salyangoz" }, -- Crimson Ooze
 [1032] = { "Siyah Salyangoz" }, -- Black Ooze
@@ -739,7 +739,7 @@ addonTable.npc = { -- [id] = { title, description (optional) }
 [1388] = { "Vagash" }, -- Vagash
 [1416] = { "Grimand Elmore" }, -- Grimand Elmore
 [1417] = { "Genç Sulakalan Timsahı" }, -- Young Wetlands Crocolisk
-[1418] = { "Bluegill Yağmacısı" }, -- Bluegill Raider
+[1418] = { "Mavisolungaç Yağmacısı" }, -- Bluegill Raider
 [1426] = { "Nehirpençesi Madencisi" }, -- Nehirpençesi Miner
 [1427] = { "Harlan Bagley" }, -- Harlan Bagley
 [1428] = { "Rema Schneider" }, -- Rema Schneider

@@ -2187,10 +2187,10 @@ Mosshide'ları ateş yakmak için kullandıkları kaba çakmak taşlarından kur
 [===[Derinlerden Gelen Pençeler]===],
 [===[Murloclar derin sulardan sürünerek çıkıyor ve sahil şeridinde köylerini inşa ediyorlar. Balıkçılarımızı ve tüccarlarımızı taciz ediyorlar ve durdurulmalılar.
 
-Bu murloklardan biri olan Gobbler, diğer bluegill murloklarıyla birlikte gizlenerek yol boyunca tüccarları taciz ediyor ve her zaman yakındaki murlok kulübelerinin güvenliğine geri çekiliyor. Tüccarlarımız tehlikede ve onları korumak için para ödeyeceğiz.
+Bu murloklardan biri olan Gobbler, diğer mavisolungaç murloklarıyla birlikte gizlenerek yol boyunca tüccarları taciz ediyor ve her zaman yakındaki murlok kulübelerinin güvenliğine geri çekiliyor. Tüccarlarımız tehlikede ve onları korumak için para ödeyeceğiz.
 
 Gobbler buranın kuzeyindeki nehir girişinde dolaşıyor. Onu bulun, akrabalarını öldürün ve bana kellesini getirin.]===],
-[===[12 Bluegill Murloc öldür.
+[===[12 Mavisolungaç Murloc öldür.
 
 Gobbler'ı öldür ve kellesini al.
 

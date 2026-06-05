@@ -79,7 +79,7 @@ addonTable.zone = { -- [key] = text
 ["Bloodvenom Post"] = "Bloodvenom Karakolu",
 ["Bloodvenom River"] = "Bloodvenom Nehri",
 ["Bluefen"] = "Mavi Bataklık",
-["Bluegill Marsh"] = "Bluegill Bataklığı",
+["Bluegill Marsh"] = "Mavisolungaç Bataklığı",
 ["Bolgan's Hole"] = "Bolgan'ın Deliği",
 ["Bones of Grakkarond"] = "Grakkarond'un Kemikleri",
 ["Booty Bay"] = "Booty Bay",
