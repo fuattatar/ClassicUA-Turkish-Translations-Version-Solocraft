@@ -2157,7 +2157,7 @@ Kimyasal reaksiyon dört bileşenin karıştırılmasıyla etkisiz hale getirile
 [===[Bu topraklar senin çabalarınla sakinleşti ve bunun için sana bir lütuf bahşedeceğim.]===],
 },
 [276] = {
-[===[Tramping Paws]===],
+[===[Ağır Pençeler]===],
 [===[Mosshide Gnoll'ları Sulak Topraklar'da uzun yıllar barış içinde yaşadı ama artık sayıları artıyor. Ayakları çimenlerin çalılarını ve çiçeklerini dümdüz ediyor ve iğrenç baltaları ateşlerini yakmak için çok fazla odun kesiyor.
 
 Artık toprakla dengede değiller. Sulak Alanların hayatta kalması için Gnoll'lar azaltılmalı.
